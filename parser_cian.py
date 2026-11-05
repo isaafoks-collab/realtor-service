@@ -110,7 +110,7 @@ def main():
                     lid = str(it["id"])
                     if lid not in seen:
                         seen.add(lid)
-                        listings[lid] = {"city": name, "raw": it.get("raw") or {}}
+                        listings[lid] = {"city": name, "raw": it}
                         new += 1
                     if (owners_only and from_api) or (lid in owner_ids):
                         owners[lid] = name

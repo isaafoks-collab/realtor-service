@@ -1,0 +1,35 @@
+# Города и тарифы проекта «Прямо»
+cities:
+  - name: Москва
+    cian_region_id: 1
+    tariff_group: moscow
+    enabled: true
+  - name: Санкт-Петербург
+    cian_region_id: 2
+    tariff_group: big
+    enabled: false
+  - name: Екатеринбург
+    cian_region_id: 4777
+    tariff_group: big
+    enabled: false
+  - name: Казань
+    cian_region_id: 4659
+    tariff_group: small
+    enabled: false
+  - name: Новосибирск
+    cian_region_id: 4821
+    tariff_group: small
+    enabled: false
+  - name: Краснодар
+    cian_region_id: 4820
+    tariff_group: small
+    enabled: false
+
+tariffs:
+  moscow: 990
+  big: 690
+  small: 490
+  report: 590
+  lead_single: 600
+  lead_month: 2990
+  package: 1490

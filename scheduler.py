@@ -9,7 +9,7 @@ def run(script):
     print("[%s] >> %s" % (datetime.now().strftime("%H:%M:%S"), script))
     try:
         r = subprocess.run([sys.executable, script], timeout=1800,
-                           capture_output=True, text=True, encoding="utf-8")
+                           capture_output=True, text=True, errors="replace")
         tail = (r.stdout or "").strip().splitlines()
         for line in tail[-3:]:
             print("   ", line)

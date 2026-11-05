@@ -3,3 +3,5 @@
 access_log.txt
 __pycache__/
 .env
+
+start.bat

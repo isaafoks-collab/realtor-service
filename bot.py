@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-"""Бот «Прямо» v3.0 — выбор города, типа, комнатности, цены; метки риска и этажа."""
+"""Бот «Прямо» v3.1 — выбор города, типа, комнатности, цены; метки риска и этажа."""
 import os, sqlite3
 import telebot
 from telebot import types
@@ -12,7 +12,7 @@ bot = telebot.TeleBot(TOKEN)
 state = {}
 
 CONSENT = ("Прежде чем продолжить: мы обрабатываем ваши данные по 152-ФЗ. "
-           "Оферта и политика — по ссылкам в меню. Продолжая, вы соглашаетес%ь.")
+           "Оферта и политика — по ссылкам в меню. Продолжая, вы соглашаетесь.")
 
 
 def cols():
@@ -73,7 +73,7 @@ def tarify(m):
 @bot.message_handler(commands=["faq"])
 def faq(m):
     bot.send_message(m.chat.id,
-        "FAQ:\n— Откуда данные? ЦИАН, ежедневный сбор.\n"
+        "FAQ:\n— Откуда данные? ЦИАН и Яндекс, ежедневный сбор.\n"
         "— Законно? Да, открытые объявления + 152-ФЗ согласия.\n"
         "— Почему не агенты? Фильтр чистит агентские объявления, спорные помечает.\n"
         "— Не дозвонился по лиду? Вернём деньги.\n"
@@ -107,11 +107,12 @@ def send_podbor(m):
     if not has_access(m.from_user.id):
         limit, hint = 3, "\n\nПолная подборка — по вечному доступу: /доступ КОД"
     else:
-        limit, hint = 100, ""
+        limit, hint = 30, ""
     st = state.get(m.chat.id, {})
     c = cols()
-    sel = "SELECT url, city, price, rooms, area, price_dropped, floor FROM listings WHERE is_owner=1"
-    sel += ", agent_risk" if "agent_risk" in c else ", 0"
+    risk_col = "agent_risk" if "agent_risk" in c else "0"
+    sel = ("SELECT url, city, price, rooms, area, price_dropped, floor, %s "
+           "FROM listings WHERE is_owner=1 AND price IS NOT NULL" % risk_col)
     args = []
     if st.get("city"):
         sel += " AND city=?"
@@ -133,10 +134,12 @@ def send_podbor(m):
     conn.close()
     city_label = st.get("city") or "все города"
     if not rows:
-        bot.send_message(m.chat.id, "По фильтрам «%s» ничего нет. Ослабьте фильтры (например, «любое» по комнатности) или смените город." % city_label,
-                         reply_markup=main_kb(st.get("city")))
+        bot.send_message(m.chat.id,
+            "По фильтрам «%s» ничего нет. Ослабьте фильтры (например, «любое» "
+            "по комнатности) или смените город." % city_label,
+            reply_markup=main_kb(st.get("city")))
         return
-    msg = "Подборка: %s — %d объектов от собственников\n" % (city_label, len(rows))
+    items = []
     for url, ct, price, rooms_, area, dropped, floor, risk in rows:
         tags = []
         if risk == 2:
@@ -148,8 +151,27 @@ def send_podbor(m):
         if dropped:
             tags.append("Цена снижена")
         fl = (" · этаж %s" % floor) if floor else ""
-        msg += f"\n{ct} · {rooms_}к · {area} м² · {price:.0f} ₽{fl} · {', '.join(tags)}\n{url}"
-    bot.send_message(m.chat.id, msg + hint, reply_markup=main_kb(st.get("city")))
+        ar = ("%g м²" % area) if area else ""
+        rm = ("%sк" % rooms_) if rooms_ is not None else ""
+        head = " · ".join(x for x in (ct, rm, ar) if x)
+        items.append("\n%s · %d ₽%s · %s\n%s" % (head, price, fl, ", ".join(tags), url))
+    # порционная отправка: не более ~3500 символов на сообщение
+    chunks, cur = [], ""
+    for it in items:
+        if len(cur) + len(it) > 3500 and cur:
+            chunks.append(cur)
+            cur = it
+        else:
+            cur += it
+    if cur:
+        chunks.append(cur)
+    first = True
+    for ch in chunks:
+        text = ("Подборка: %s — %d объектов от собственников\n" % (city_label, len(rows)) + ch
+                + hint) if first else ch
+        bot.send_message(m.chat.id, text,
+                         reply_markup=main_kb(st.get("city")) if first else None)
+        first = False
 
 
 @bot.message_handler(commands=["podbor"])

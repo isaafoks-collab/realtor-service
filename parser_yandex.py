@@ -52,15 +52,20 @@ def extract(o, city):
         return None
     price = dig(o, "price", "value")
     area = dig(o, "area", "value")
-    ap = o.get("apartment") or {}
-    rooms = ap.get("roomsCount") or o.get("roomsCount")
-    floor = ap.get("floorNumber") or o.get("floorNumber")
-    ftot = ap.get("floorsTotal") or dig(o, "building", "floorsTotal")
-    if floor is None and o.get("floorsOffered"):
-        try:
-            floor = int(str(o["floorsOffered"]).split("/")[0])
-        except Exception:
-            floor = None
+    rooms = o.get("roomsTotal")
+    if isinstance(rooms, str):
+        rooms = rooms.strip()
+        if rooms.isdigit():
+            rooms = int(rooms)
+        elif "туди" in rooms.lower():
+            rooms = 0
+        else:
+            rooms = None
+    fo = o.get("floorsOffered")
+    floor = fo[0] if isinstance(fo, list) and fo else None
+    if isinstance(floor, str) and floor.isdigit():
+        floor = int(floor)
+    ftot = o.get("floorsTotal")
     addr = dig(o, "location", "address") or dig(o, "location", "street")
     a = o.get("author") or {}
     cat = a.get("category")

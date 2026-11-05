@@ -37,7 +37,9 @@ new_cnt = upd_cnt = own_cnt = 0
 for lid, rec in listings.items():
     rec = rec or {}
     raw = rec.get("raw") or {}
-    url = rec.get("url") or ("https://www.cian.ru/sale/flat/%s/" % lid)
+    url = (rec.get("url") or ("https://www.cian.ru/sale/flat/%s/" % lid))
+    if "mlSearchSessionGuid" in url:
+        url = url.split("mlSearchSessionGuid")[0].rstrip("?&")
     old = conn.execute(
         "SELECT price, first_seen, price_dropped, is_owner, agent_risk "
         "FROM listings WHERE url=?", (url,)).fetchone()
@@ -67,6 +69,11 @@ for lid, rec in listings.items():
             dropped = old[2]
     first_seen = old[1] if old else rec.get("first_seen")
 
+    city = (rec.get("city") or "").strip()
+    # «Россия, Краснодар, улица …» -> «Краснодар»; город без «Россия,» не трогаем
+    parts = [x.strip() for x in city.split(",") if x.strip()]
+    if len(parts) >= 3 and parts[0] == "Россия":
+        city = parts[1]
     conn.execute(
         "INSERT OR REPLACE INTO listings "
         "(url, city, title, price, rooms, area, author_type, is_owner, "

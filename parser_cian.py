@@ -2,7 +2,7 @@
 """Парсер ЦИАН v14: API-мегаполисы + HTML-сбор по каждому городу отдельно."""
 import json, os, random, re, time, sys
 from collections import OrderedDict
-import requests
+from httpclient import session
 from cities import cities_to_collect
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -43,10 +43,10 @@ def json_query(rid, page, owners_only=False):
         q["is_by_homeowner"] = {"type": "term", "value": True}
     return {"jsonQuery": q}
 
-def fetch_api(session, body, label):
+def fetch_api(sess, body, label):
     for attempt in range(3):
         try:
-            r = session.post(API_URL, json=body, timeout=25)
+            r = sess.post(API_URL, json=body, timeout=25)
             if r.status_code == 200:
                 data = r.json()
                 offers = (data.get("data") or {}).get("offersSerialized") or []
@@ -68,11 +68,11 @@ def owner_ids_from_html(text):
             owners.add(match.group(1))
     return owners
 
-def fetch_city_html(session, slug, page, label):
+def fetch_city_html(sess, slug, page, label):
     url = "https://%s.cian.ru/kupit-kvartiru/?p=%d" % (slug, page)
     for attempt in range(2):
         try:
-            r = session.get(url, timeout=25)
+            r = sess.get(url, timeout=25)
             if r.status_code == 200:
                 ids = re.findall(r"/sale/flat/(\d+)/", r.text)
                 if ids:
@@ -89,8 +89,8 @@ def fetch_city_html(session, slug, page, label):
 
 def main():
     print("[INFO] Парсер ЦИАН v14 стартует")
-    session = requests.Session()
-    session.headers.update(BASE_HEADERS)
+    sess = session()
+    sess.headers.update(BASE_HEADERS)
     listings, owners, seen = OrderedDict(), OrderedDict(), set()
 
     test = len(sys.argv) > 1 and sys.argv[1].startswith("тест")
@@ -101,7 +101,7 @@ def main():
         for name, rid in API_CITIES:
             for page in (1, 2):
                 label = "%s%s стр.%d" % (name, " (собственники)" if owners_only else "", page)
-                offers = fetch_api(session, json_query(rid, page, owners_only), label)
+                offers = fetch_api(sess, json_query(rid, page, owners_only), label)
                 if offers is None:
                     continue
                 for it in offers:
@@ -120,7 +120,7 @@ def main():
     for city in per_city:
         slug = cian_slug_for(city)
         label = "%s (html)" % city
-        items, owner_ids = fetch_city_html(session, slug, 1, label)
+        items, owner_ids = fetch_city_html(sess, slug, 1, label)
         if items is None:
             print("[ПРОПУСК] %s: поддомен недоступен" % city)
             continue

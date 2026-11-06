@@ -6,6 +6,7 @@ from telebot import types
 from access import grant, has_access
 from geo import REGION_CITIES
 import warm_leads
+from notify import Notifier
 
 ROLE = os.getenv("BOT_ROLE", "realtor")  # realtor | owners
 REALTOR_CHAT_ID = os.getenv("REALTOR_CHAT_ID")
@@ -32,6 +33,7 @@ if not TOKEN:
 FREE_CODE = os.getenv("FREE_CODE", "PRYMO-2026")
 DB = os.getenv("LISTINGS_DB", "listings.db")
 bot = telebot.TeleBot(TOKEN)
+bot.send_message = Notifier().wrap(bot.send_message)
 state = {}
 
 WELCOME = ("👋 Привет! Это «Прямо» — подборка квартир напрямую от собственников, "

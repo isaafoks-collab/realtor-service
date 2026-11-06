@@ -1,7 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 """Парсер Яндекс.Недвижимости v2.0: сбор по каждому городу отдельно."""
-import json, re, time, random, sys, requests
+import json, re, time, random, sys
 from datetime import datetime, timezone
+from httpclient import session
 from cities import cities_to_collect
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -125,7 +126,7 @@ def captcha_hit(resp):
 
 
 def collect_cities(targets, data, log=print):
-    s = requests.Session()
+    s = session()
     s.headers.update({"User-Agent": UA, "Accept-Language": "ru-RU,ru;q=0.9"})
     total, owners, blocked = 0, 0, []
     for city in targets:

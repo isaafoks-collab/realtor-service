@@ -1,5 +1,6 @@
 """Проверка городов из regions.yaml. Запуск: python check_cities.py"""
-import yaml, requests
+import yaml
+from httpclient import session
 
 def main():
     with open("regions.yaml", encoding="utf-8") as f:
@@ -13,9 +14,9 @@ def main():
             status = "НЕТ В CIANPARSER"; ok = False
         else:
             try:
-                r = requests.get("https://www.cian.ru/cat.php",
-                                 params={"deal_type": "sale", "offer_type": "flat", "region": rid},
-                                 timeout=15)
+                r = session().get("https://www.cian.ru/cat.php",
+                                  params={"deal_type": "sale", "offer_type": "flat", "region": rid},
+                                  timeout=15)
                 if r.status_code != 200:
                     status = f"HTTP {r.status_code}"
             except Exception as e:

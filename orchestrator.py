@@ -25,6 +25,8 @@ MODES = ("setup", "test", "parse", "report", "all")
 
 MIN_REQUIREMENTS = """pyTelegramBotAPI==4.14.0
 requests==2.31.0
+curl_cffi>=0.7.0
+tenacity>=8.3.0
 beautifulsoup4==4.12.3
 lxml==5.1.0
 PyYAML==6.0.1
@@ -93,7 +95,7 @@ def check_environment(root):
     log("Python: %s" % sys.version.split()[0])
     if sys.version_info < (3, 10):
         log("ПРЕДУПРЕЖДЕНИЕ: требуется Python 3.10+")
-    for mod in ("telebot", "requests", "bs4", "lxml", "yaml"):
+    for mod in ("telebot", "requests", "curl_cffi", "tenacity", "bs4", "lxml", "yaml"):
         if importlib.util.find_spec(mod) is not None:
             log("Модуль %s: OK" % mod)
         else:

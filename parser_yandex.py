@@ -116,30 +116,36 @@ def extract(o, city):
         },
     }
 
-s = requests.Session()
-s.headers.update({"User-Agent": UA, "Accept-Language": "ru-RU,ru;q=0.9"})
-data = json.load(open("data/listings.json", encoding="utf-8"))
-if "listings" not in data:
-    data = {"listings": data}
+def captcha_hit(resp):
+    """True: Яндекс отдаёт страницу капчи вместо каталога (HTTP 200!)."""
+    if resp.headers.get("X-Yandex-Captcha", "").lower() == "captcha":
+        return True
+    m = re.search(r"<title[^>]*>(.*?)</title>", resp.text[:2000], re.S)
+    return bool(m and m.group(1).strip().startswith("Вы не робот"))
 
-test = len(sys.argv) > 1 and sys.argv[1].startswith("тест")
-if test:
-    targets = ["Саратов", "Энгельс", "Одинцово"]
-else:
-    targets = []
-    for c in list(MAJOR_SLUGS) + cities_to_collect():
-        if c not in targets:
-            targets.append(c)
 
-total, owners = 0, 0
-for city in targets:
-    slug = slug_for(city)
-    for tag, suffix in (("обычные", ""), ("без-посредников", "bez-posrednikov/")):
-        url = "https://realty.yandex.ru/%s/kupit/kvartira/%s" % (slug, suffix)
-        try:
-            r = s.get(url, timeout=25)
+def collect_cities(targets, data, log=print):
+    s = requests.Session()
+    s.headers.update({"User-Agent": UA, "Accept-Language": "ru-RU,ru;q=0.9"})
+    total, owners, blocked = 0, 0, []
+    for city in targets:
+        slug = slug_for(city)
+        for tag, suffix in (("обычные", ""), ("без-посредников", "bez-posrednikov/")):
+            url = "https://realty.yandex.ru/%s/kupit/kvartira/%s" % (slug, suffix)
+            try:
+                r = s.get(url, timeout=25)
+            except Exception as e:
+                log("[ПРОПУСК] %s (%s): %s: %s" % (city, tag, type(e).__name__, e))
+                continue
             if r.status_code != 200:
-                print("[ПРОПУСК] %s (%s): HTTP %d" % (city, tag, r.status_code))
+                log("[ПРОПУСК] %s (%s): HTTP %d" % (city, tag, r.status_code))
+                time.sleep(random.uniform(4, 8))
+                continue
+            if captcha_hit(r):
+                log("[БЛОК] %s (%s): Яндекс отдал капчу вместо каталога" % (city, tag))
+                if city not in blocked:
+                    blocked.append(city)
+                time.sleep(random.uniform(4, 8))
                 continue
             offers = parse_state(r.text)
             uniq = {}
@@ -157,13 +163,35 @@ for city in targets:
             cnt_owner = sum(1 for rec in uniq.values() if rec["is_owner"])
             total += len(uniq)
             owners += cnt_owner
-            print("[OK] %s (%s): найдено=%d, новых=%d, частников=%d" %
-                  (city, tag, len(uniq), new, cnt_owner))
+            log("[OK] %s (%s): найдено=%d, новых=%d, частников=%d" %
+                (city, tag, len(uniq), new, cnt_owner))
             time.sleep(random.uniform(4, 8))
-        except Exception as e:
-            print("[ПРОПУСК] %s (%s): %s: %s" % (city, tag, type(e).__name__, e))
+    return total, owners, blocked
 
-json.dump(data, open("data/listings.json", "w", encoding="utf-8"),
-          ensure_ascii=False)
-print("ИТОГ: объектов=%d, частников=%d, всего в хранилище=%d" %
-      (total, owners, len(data["listings"])))
+
+def main():
+    data = json.load(open("data/listings.json", encoding="utf-8"))
+    if "listings" not in data:
+        data = {"listings": data}
+
+    test = len(sys.argv) > 1 and sys.argv[1].startswith("тест")
+    if test:
+        targets = ["Саратов", "Энгельс", "Одинцово"]
+    else:
+        targets = []
+        for c in list(MAJOR_SLUGS) + cities_to_collect():
+            if c not in targets:
+                targets.append(c)
+
+    total, owners, blocked = collect_cities(targets, data)
+    json.dump(data, open("data/listings.json", "w", encoding="utf-8"),
+              ensure_ascii=False)
+    print("ИТОГ: объектов=%d, частников=%d, всего в хранилище=%d" %
+          (total, owners, len(data["listings"])))
+    if blocked:
+        print("ВНИМАНИЕ: Яндекс заблокировал %d городов капчей: %s" %
+              (len(blocked), ", ".join(blocked)))
+
+
+if __name__ == "__main__":
+    main()

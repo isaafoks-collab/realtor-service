@@ -194,7 +194,7 @@ def show_faq(m):
 @bot.message_handler(commands=["start"])
 def start(m):
     bot.send_message(m.chat.id, WELCOME, reply_markup=menu_kb())
-    state[m.chat.id] = {"step": "consent_pending", "ts": time.time()}
+    state[m.chat.id] = {"step": "consent", "ts": time.time()}
     bot.send_message(m.chat.id, CONSENT, reply_markup=consent_kb())
 
 
@@ -245,7 +245,7 @@ def flow(m):
     # глобальные кнопки меню работают с любого шага
     if text == "🔄 Начать сначала":
         bot.send_message(m.chat.id, WELCOME, reply_markup=menu_kb())
-        st.clear(); st.update({"step": "consent_pending", "ts": time.time()})
+        st.clear(); st.update({"step": "consent", "ts": time.time()})
         bot.send_message(m.chat.id, CONSENT, reply_markup=consent_kb())
         return
     if text == "🔍 Подбор жилья":

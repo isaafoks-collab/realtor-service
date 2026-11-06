@@ -20,7 +20,8 @@ TRANSLIT = {
     "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu", "я": "ya",
 }
 CIAN_EXCEPT = {"Химки": "khimki", "Немчиновка": "nemchinovka",
-               "Старая Купавна": "staraya-kupavna"}
+               "Старая Купавна": "staraya-kupavna",
+               "Ртищево": "rtishchevo", "Мытищи": "mytishchi"}
 
 def cian_slug_for(city):
     if city in CIAN_EXCEPT:
@@ -133,7 +134,7 @@ def main():
             if lid in owner_ids:
                 owners[lid] = city
         print("[OK] %s: найдено=%d, новых=%d, собственников=%d" % (city, len(items), new, len(owner_ids)))
-        time.sleep(random.uniform(8, 15))
+        time.sleep(random.uniform(15, 28))
 
     print("ИТОГ: объектов=%d, собственников=%d" % (len(listings), len(owners)))
     # слияние с существующим хранилищем: не выбрасывать данные Яндекса и прежние записи

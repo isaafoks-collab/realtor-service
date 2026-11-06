@@ -4,6 +4,18 @@ import os, time, sqlite3
 import telebot
 from telebot import types
 from access import grant, has_access
+from geo import REGION_CITIES
+
+def full_cities_in_region(region):
+    """Все города региона: сначала те, где есть данные, затем весь справочник."""
+    db_cities = cities_in_region(region) or []
+    out = list(db_cities)
+    for c in REGION_CITIES.get(region, []):
+        if c not in out:
+            out.append(c)
+    return out
+
+from geo import REGION_CITIES
 
 TOKEN = os.getenv("BOT_TOKEN")
 FREE_CODE = os.getenv("FREE_CODE", "PRYMO-2026")
@@ -303,7 +315,7 @@ def flow(m):
             st["region"] = None; st["city"] = None
         else:
             st["region"] = text; st["city"] = None
-        cities = cities_in_region(st["region"]) if st["region"] else []
+        cities = full_cities_in_region(st["region"]) if st["region"] else []
         st["ts"] = time.time()
         if cities:
             st["step"] = "city"
@@ -326,6 +338,19 @@ def flow(m):
         if text == "Весь регион":
             st["city"] = None
         else:
+            conn = sqlite3.connect("listings.db")
+            n_city = conn.execute(
+                "SELECT COUNT(*) FROM listings WHERE is_owner=1 AND city=?",
+                (text,)).fetchone()[0]
+            conn.close()
+            if n_city == 0:
+                st["city"] = None
+                st["step"] = "type"
+                st["ts"] = time.time()
+                bot.send_message(m.chat.id,
+                    "В %s пока нет объявлений от собственников — покажу весь регион «%s». Что ищем?" % (text, st.get("region") or "выбранном"),
+                    reply_markup=pairs_kb(["Квартиры", "Комнаты", "Дома", "Участки"]))
+                return
             st["city"] = text
         st["step"] = "type"
         st["ts"] = time.time()

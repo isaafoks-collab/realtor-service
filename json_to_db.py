@@ -1,6 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 """Конвертер v3: ЦИАН через owners+raw, Яндекс через поля записи, метки не понижаются."""
 import json, sqlite3
+from geo import normalize
 
 data = json.load(open("data/listings.json", encoding="utf-8"))
 listings = data.get("listings", data)
@@ -9,7 +10,7 @@ print("owners в json: %d" % len(owners))
 
 conn = sqlite3.connect("listings.db")
 cols = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
-for extra in ("floors_total", "source"):
+for extra in ("floors_total", "source", "region"):
     if extra not in cols:
         conn.execute("ALTER TABLE listings ADD COLUMN %s" % extra)
 
@@ -69,17 +70,13 @@ for lid, rec in listings.items():
             dropped = old[2]
     first_seen = old[1] if old else rec.get("first_seen")
 
-    city = (rec.get("city") or "").strip()
-    # «Россия, Краснодар, улица …» -> «Краснодар»; город без «Россия,» не трогаем
-    parts = [x.strip() for x in city.split(",") if x.strip()]
-    if len(parts) >= 3 and parts[0] == "Россия":
-        city = parts[1]
+    city, region = normalize(rec.get("city"))
     conn.execute(
         "INSERT OR REPLACE INTO listings "
-        "(url, city, title, price, rooms, area, author_type, is_owner, "
+        "(url, city, region, title, price, rooms, area, author_type, is_owner, "
         " first_seen, last_seen, price_dropped, agent_risk, floor, floors_total, source) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-        (url, rec.get("city") or "",
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        (url, city, region,
          (rec.get("address") or (rec.get("description") or "")[:80] or "")[:120],
          price, rooms, area, author_type, is_owner,
          first_seen, rec.get("last_seen"), dropped, risk, floor, ftot, source))

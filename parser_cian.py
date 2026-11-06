@@ -136,6 +136,24 @@ def main():
         time.sleep(random.uniform(8, 15))
 
     print("ИТОГ: объектов=%d, собственников=%d" % (len(listings), len(owners)))
+    # слияние с существующим хранилищем: не выбрасывать данные Яндекса и прежние записи
+    store_path = os.path.join("data", "listings.json")
+    if os.path.exists(store_path):
+        try:
+            prev = json.load(open(store_path, encoding="utf-8"))
+            if "listings" not in prev:
+                prev = {"listings": prev}
+            kept = 0
+            for lid, val in (prev.get("listings") or {}).items():
+                if lid not in listings:
+                    listings[lid] = val
+                    kept += 1
+            for oid in prev.get("owners") or []:
+                if oid not in owners and oid in listings:
+                    owners[oid] = (listings[oid].get("city") or "")
+            print("[OK] слияние: сохранено прежних записей=%d" % kept)
+        except Exception as e:
+            print("[WARN] слияние не удалось: %s" % e)
     os.makedirs("data", exist_ok=True)
     with open(os.path.join("data", "listings.json"), "w", encoding="utf-8") as f:
         json.dump({"listings": listings, "owners": list(owners.keys())}, f, ensure_ascii=False, indent=1)

@@ -5,6 +5,12 @@ import telebot
 from telebot import types
 from access import grant, has_access
 from geo import REGION_CITIES
+import warm_leads
+
+ROLE = os.getenv("BOT_ROLE", "realtor")  # realtor | owners
+REALTOR_CHAT_ID = os.getenv("REALTOR_CHAT_ID")
+HELP_BTN = "🛠 Нужна помощь риэлтору"
+DEADLINES = ["ближайшие 1–3 месяца", "3–6 месяцев", "6–12 месяцев", "больше года"]
 
 def full_cities_in_region(region):
     """Все города региона: сначала те, где есть данные, затем весь справочник."""
@@ -91,6 +97,8 @@ def consent_kb():
 def menu_kb():
     kb = types.ReplyKeyboardMarkup(resize_keyboard=True)
     kb.row("🔍 Подбор жилья")
+    if ROLE == "owners":
+        kb.row(HELP_BTN)
     kb.row("💰 Тарифы", "❓ Вопросы и ответы")
     kb.row("🔑 Ввести код", "🔄 Начать сначала")
     return kb
@@ -249,6 +257,21 @@ def access_cmd(m):
         send_menu(m, "Код не подошёл. Доступ персональный, выдаётся по приглашению.")
 
 
+@bot.message_handler(commands=["лиды", "leads"])
+def leads_cmd(m):
+    rows = warm_leads.list_leads()
+    if not rows:
+        bot.send_message(m.chat.id, "Новых заявок нет.", reply_markup=menu_kb())
+        return
+    kb = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    for row in rows:
+        card = warm_leads.build_card(row)
+        bot.send_message(m.chat.id, card)
+        kb.row("✅ Обработать №%d" % row[0])
+    kb.row("🔄 Начать сначала")
+    bot.send_message(m.chat.id, "Новых заявок: %d" % len(rows), reply_markup=kb)
+
+
 @bot.message_handler(func=lambda m: True)
 def flow(m):
     st = state.setdefault(m.chat.id, {})
@@ -286,10 +309,25 @@ def flow(m):
             "🔑 Отправьте код доступа одной строкой. Его выдают по приглашению.",
             reply_markup=types.ReplyKeyboardRemove())
         return
+    if text.startswith("✅ Обработать №"):
+        try:
+            ok = warm_leads.mark_handled_id(int(text[len("✅ Обработать №"):]))
+        except ValueError:
+            ok = False
+        send_menu(m, "Отмечено как обработанное." if ok else "Заявка не найдена.")
+        return
     if text == "🔍 Изменить параметры":
         st["step"] = "region"
         bot.send_message(m.chat.id, "Шаг 1 из 4. В каком регионе ищете?",
                          reply_markup=pairs_kb(["Все регионы"] + regions_from_db()))
+        return
+    if text == HELP_BTN:
+        st.clear(); st["step"] = "hlp_city"; st["ts"] = time.time()
+        bot.send_message(m.chat.id,
+            "🛠 Давайте подготовим заявку. Вы подпишете согласие (152-ФЗ), "
+            "и риэлтор-партнёр вашего города сам свяжется с вами.\n\n"
+            "В каком городе продаёте?",
+            reply_markup=types.ReplyKeyboardRemove())
         return
 
     step = st.get("step")
@@ -430,6 +468,65 @@ def flow(m):
         st["step"] = "done"
         st["ts"] = time.time()
         send_podbor(m)
+        return
+
+    if step == "hlp_city":
+        st["h_city"] = text; st["step"] = "hlp_rooms"; st["ts"] = time.time()
+        bot.send_message(m.chat.id, "Сколько комнат?", reply_markup=pairs_kb(
+            ["Студия", "1", "2", "3", "4+"]))
+        return
+
+    if step == "hlp_rooms":
+        st["h_rooms"] = text if text in ("Студия", "1", "2", "3", "4+") else ""
+        st["step"] = "hlp_area"; st["ts"] = time.time()
+        bot.send_message(m.chat.id,
+            "Какая площадь? Например: 54. Или «нет», чтобы не указывать.",
+            reply_markup=types.ReplyKeyboardRemove())
+        return
+
+    if step == "hlp_area":
+        if text.lower() in ("нет", "не указывать"):
+            st["h_area"] = None
+        else:
+            try:
+                st["h_area"] = float(text.replace(",", ".").replace("м²", "").strip())
+            except ValueError:
+                bot.send_message(m.chat.id, "Площадь — числом, например 54 (или «нет»).")
+                return
+        st["step"] = "hlp_floor"; st["ts"] = time.time()
+        bot.send_message(m.chat.id, "Этаж? Например: 5/9 (или «нет»).")
+        return
+
+    if step == "hlp_floor":
+        st["h_floor"] = None if text.lower() in ("нет", "не указывать") else text
+        st["step"] = "hlp_price"; st["ts"] = time.time()
+        bot.send_message(m.chat.id, "На какую цену рассчитываете? Например: 7,2 млн (или «нет»).")
+        return
+
+    if step == "hlp_price":
+        st["h_price"] = None if text.lower() in ("нет", "не указывать") else text
+        st["step"] = "hlp_deadline"; st["ts"] = time.time()
+        bot.send_message(m.chat.id, "В какие сроки планируете продать?", reply_markup=pairs_kb(DEADLINES))
+        return
+
+    if step == "hlp_deadline":
+        deadline = text if text in DEADLINES else "ближайшие 1–3 месяца"
+        payload = {
+            "username": m.from_user.username,
+            "city": st.get("h_city"), "rooms": st.get("h_rooms"),
+            "area": st.get("h_area"), "floor": st.get("h_floor"),
+            "price_wish": st.get("h_price"), "deadline": deadline,
+        }
+        res, lead_id = warm_leads.save_lead(m.from_user.id, payload)
+        send_menu(m, "Отлично, принёс заявку №%d. Если риэлтор не позвонил — "
+                     "нажмите ещё раз." % lead_id if res == "new" else
+                 "У вас уже есть активная заявка №%d — риэлтор свяжется, "
+                 "новую создавать не нужно." % lead_id)
+        if res == "new":
+            _, card = warm_leads.get_lead(m.from_user.id)
+            warm_leads.deliver(card, send=(
+                lambda c: bot.send_message(REALTOR_CHAT_ID, c)
+            ) if REALTOR_CHAT_ID else None)
         return
 
     # шаг done и все прочие: неизвестный текст — подсказка

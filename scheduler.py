@@ -8,7 +8,7 @@ INTERVAL_HOURS = 6
 def run(script):
     print("[%s] >> %s" % (datetime.now().strftime("%H:%M:%S"), script))
     try:
-        r = subprocess.run([sys.executable, script], timeout=1800,
+        r = subprocess.run([sys.executable, script], timeout=7200,
                            capture_output=True, text=True, errors="replace")
         tail = (r.stdout or "").strip().splitlines()
         for line in tail[-3:]:

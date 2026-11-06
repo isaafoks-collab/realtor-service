@@ -1,18 +1,38 @@
 ﻿# -*- coding: utf-8 -*-
-"""Парсер Яндекс.Недвижимости v1.0 — структура через INITIAL_STATE."""
-import json, re, time, random, requests
+"""Парсер Яндекс.Недвижимости v2.0: сбор по каждому городу отдельно."""
+import json, re, time, random, sys, requests
 from datetime import datetime, timezone
+from cities import cities_to_collect
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
-CITIES = {
+CAT_MAP = {"OWNER": (True, 0), "AGENT": (False, 2),
+           "PRIVATE_AGENT": (False, 1), "DEVELOPER": (False, 0)}
+
+MAJOR_SLUGS = {
     "Москва": "moskva", "Санкт-Петербург": "sankt-peterburg",
     "Екатеринбург": "ekaterinburg", "Казань": "kazan",
     "Новосибирск": "novosibirsk", "Краснодар": "krasnodar",
-    "Саратовская область": "saratov",
+    "Саратов": "saratov", "Энгельс": "engels",
 }
-CAT_MAP = {"OWNER": (True, 0), "AGENT": (False, 2),
-           "PRIVATE_AGENT": (False, 1), "DEVELOPER": (False, 0)}
+TRANSLIT = {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e",
+    "ж": "zh", "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m",
+    "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "h", "ц": "ts", "ч": "ch", "ш": "sh", "щ": "shch",
+    "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu", "я": "ya",
+}
+
+def slug_for(city):
+    if city in MAJOR_SLUGS:
+        return MAJOR_SLUGS[city]
+    out = ""
+    for ch in city.lower():
+        if ch == " " or ch == "-":
+            out += "-"
+        else:
+            out += TRANSLIT.get(ch, "")
+    return out
 
 def parse_state(html):
     pos = html.find("window.INITIAL_STATE = ")
@@ -102,21 +122,32 @@ data = json.load(open("data/listings.json", encoding="utf-8"))
 if "listings" not in data:
     data = {"listings": data}
 
+test = len(sys.argv) > 1 and sys.argv[1].startswith("тест")
+if test:
+    targets = ["Саратов", "Энгельс", "Одинцово"]
+else:
+    targets = []
+    for c in list(MAJOR_SLUGS) + cities_to_collect():
+        if c not in targets:
+            targets.append(c)
+
 total, owners = 0, 0
-for city, slug in CITIES.items():
+for city in targets:
+    slug = slug_for(city)
     for tag, suffix in (("обычные", ""), ("без-посредников", "bez-posrednikov/")):
         url = "https://realty.yandex.ru/%s/kupit/kvartira/%s" % (slug, suffix)
         try:
             r = s.get(url, timeout=25)
             if r.status_code != 200:
-                print("[WARN] %s (%s): HTTP %d" % (city, tag, r.status_code))
+                print("[ПРОПУСК] %s (%s): HTTP %d" % (city, tag, r.status_code))
                 continue
             offers = parse_state(r.text)
-            uniq, new = {}, 0
+            uniq = {}
             for o in offers or []:
                 rec = extract(o, city)
                 if rec and rec["id"] not in uniq:
                     uniq[rec["id"]] = rec
+            new = 0
             for rid, rec in uniq.items():
                 if rid not in data["listings"]:
                     rec["first_seen"] = datetime.now(timezone.utc).isoformat()
@@ -130,7 +161,7 @@ for city, slug in CITIES.items():
                   (city, tag, len(uniq), new, cnt_owner))
             time.sleep(random.uniform(4, 8))
         except Exception as e:
-            print("[WARN] %s (%s): %s: %s" % (city, tag, type(e).__name__, e))
+            print("[ПРОПУСК] %s (%s): %s: %s" % (city, tag, type(e).__name__, e))
 
 json.dump(data, open("data/listings.json", "w", encoding="utf-8"),
           ensure_ascii=False)

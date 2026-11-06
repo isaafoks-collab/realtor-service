@@ -18,6 +18,11 @@ def full_cities_in_region(region):
 from geo import REGION_CITIES
 
 TOKEN = os.getenv("BOT_TOKEN")
+if not TOKEN:
+    raise SystemExit(
+        "Не задана переменная окружения BOT_TOKEN.\n"
+        "Задайте её перед запуском (см. README): setx BOT_TOKEN \"...\" "
+        "или запускайте через start*.bat.")
 FREE_CODE = os.getenv("FREE_CODE", "PRYMO-2026")
 DB = os.getenv("LISTINGS_DB", "listings.db")
 bot = telebot.TeleBot(TOKEN)
@@ -433,7 +438,5 @@ def flow(m):
 
 
 if __name__ == "__main__":
-    if not TOKEN:
-        raise SystemExit("BOT_TOKEN не задан.")
     print("Бот запущен. Ctrl+C — остановка.")
     bot.infinity_polling()

@@ -12,6 +12,9 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_TOKEN_OWNERS: ${{ secrets.BOT_TOKEN_OWNERS }}
       - run: python parser_cian.py
       - name: Commit database
         run: |

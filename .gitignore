@@ -10,3 +10,4 @@ found_regions*.txt
 check_y_db.py
 fix_parser_y.py
 json_to_db_orig.py
+токены.txt

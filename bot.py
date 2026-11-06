@@ -243,7 +243,8 @@ def flow(m):
         bot.send_message(m.chat.id, CONSENT, reply_markup=types.ReplyKeyboardRemove())
         return
     if text == "🔍 Подбор жилья":
-        st.clear(); st["ts"] = time.time()
+        keep = st.get("consent_ok")
+        st.clear(); st["consent_ok"] = keep; st["ts"] = time.time()
         if not st.get("consent_ok"):
             st["step"] = "consent"
             bot.send_message(m.chat.id, CONSENT, reply_markup=types.ReplyKeyboardRemove())

@@ -65,6 +65,12 @@ def pairs_kb(items, current=None):
     return kb
 
 
+def consent_kb():
+    kb = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+    kb.row("✅ Согласен")
+    return kb
+
+
 def menu_kb():
     kb = types.ReplyKeyboardMarkup(resize_keyboard=True)
     kb.row("🔍 Подбор жилья")
@@ -189,7 +195,7 @@ def show_faq(m):
 def start(m):
     bot.send_message(m.chat.id, WELCOME, reply_markup=menu_kb())
     state[m.chat.id] = {"step": "consent_pending", "ts": time.time()}
-    bot.send_message(m.chat.id, CONSENT, reply_markup=types.ReplyKeyboardRemove())
+    bot.send_message(m.chat.id, CONSENT, reply_markup=consent_kb())
 
 
 @bot.message_handler(commands=["tarify"])
@@ -240,14 +246,14 @@ def flow(m):
     if text == "🔄 Начать сначала":
         bot.send_message(m.chat.id, WELCOME, reply_markup=menu_kb())
         st.clear(); st.update({"step": "consent_pending", "ts": time.time()})
-        bot.send_message(m.chat.id, CONSENT, reply_markup=types.ReplyKeyboardRemove())
+        bot.send_message(m.chat.id, CONSENT, reply_markup=consent_kb())
         return
     if text == "🔍 Подбор жилья":
         keep = st.get("consent_ok")
         st.clear(); st["consent_ok"] = keep; st["ts"] = time.time()
         if not st.get("consent_ok"):
             st["step"] = "consent"
-            bot.send_message(m.chat.id, CONSENT, reply_markup=types.ReplyKeyboardRemove())
+            bot.send_message(m.chat.id, CONSENT, reply_markup=consent_kb())
             return
         st["step"] = "region"
         bot.send_message(m.chat.id, "Шаг 1 из 4. В каком регионе ищете?",
@@ -272,14 +278,14 @@ def flow(m):
     step = st.get("step")
 
     if step == "consent":
-        if text == "Согласен":
+        if text in ("Согласен", "✅ Согласен"):
             st["consent_ok"] = True
             st["step"] = "region"
             st["ts"] = time.time()
             bot.send_message(m.chat.id, "Шаг 1 из 4. В каком регионе ищете?",
                              reply_markup=pairs_kb(["Все регионы"] + regions_from_db()))
         else:
-            bot.send_message(m.chat.id, CONSENT, reply_markup=types.ReplyKeyboardRemove())
+            bot.send_message(m.chat.id, CONSENT, reply_markup=consent_kb())
         return
 
     if step == "code":

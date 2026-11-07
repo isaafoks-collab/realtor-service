@@ -2,7 +2,7 @@
 """Парсер ЦИАН v14: API-мегаполисы + HTML-сбор по каждому городу отдельно."""
 import json, os, random, re, time, sys
 from collections import OrderedDict
-from httpclient import session
+from httpclient import fetch_with_backoff, pause, session
 from cities import cities_to_collect
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -87,6 +87,28 @@ def fetch_city_html(sess, slug, page, label):
         time.sleep(10 + attempt * 8)
     return None, set()
 
+
+def collect_city_html(sess, city, listings, owners, seen, log=print, fetch=None):
+    """Слив одного города в общее хранилище: listings/owners/seen.
+    Единая логика с main() — без дублей. fetch подменяется в тестах."""
+    fetcher = fetch or fetch_city_html
+    slug = cian_slug_for(city)
+    label = "%s (html)" % city
+    items, owner_ids = fetcher(sess, slug, 1, label)
+    if items is None:
+        log("[ПРОПУСК] %s: поддомен недоступен" % city)
+        return
+    new = 0
+    for it in items:
+        lid = it["id"]
+        if lid not in seen:
+            seen.add(lid)
+            listings[lid] = {"city": city, "raw": it}
+            new += 1
+        if lid in owner_ids:
+            owners[lid] = city
+    log("[OK] %s: найдено=%d, новых=%d, собственников=%d" % (city, len(items), new, len(owner_ids)))
+
 def main():
     print("[INFO] Парсер ЦИАН v14 стартует")
     sess = session()
@@ -118,22 +140,7 @@ def main():
 
     # 2) HTML-сбор по каждому городу отдельно (1 страница на город)
     for city in per_city:
-        slug = cian_slug_for(city)
-        label = "%s (html)" % city
-        items, owner_ids = fetch_city_html(sess, slug, 1, label)
-        if items is None:
-            print("[ПРОПУСК] %s: поддомен недоступен" % city)
-            continue
-        new = 0
-        for it in items:
-            lid = it["id"]
-            if lid not in seen:
-                seen.add(lid)
-                listings[lid] = {"city": city, "raw": it}
-                new += 1
-            if lid in owner_ids:
-                owners[lid] = city
-        print("[OK] %s: найдено=%d, новых=%d, собственников=%d" % (city, len(items), new, len(owner_ids)))
+        collect_city_html(sess, city, listings, owners, seen)
         pause(21)
 
     print("ИТОГ: объектов=%d, собственников=%d" % (len(listings), len(owners)))

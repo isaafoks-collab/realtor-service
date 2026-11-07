@@ -2,8 +2,13 @@
 """Конвертер v3: ЦИАН через owners+raw, Яндекс через поля записи, метки не понижаются."""
 import json
 import sqlite3
+from datetime import datetime, timezone
 
 from geo import normalize
+
+
+def utc_now_iso():
+    return datetime.now(timezone.utc).isoformat()
 
 data = json.load(open("data/listings.json", encoding="utf-8"))
 listings = data.get("listings", data)
@@ -15,6 +20,10 @@ cols = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
 for extra in ("floors_total", "source", "region"):
     if extra not in cols:
         conn.execute("ALTER TABLE listings ADD COLUMN %s" % extra)
+
+# A4: метрики появления объявлений в конвейере (idempotent)
+import db_schema
+db_schema.ensure(conn)
 
 
 def dig(d, path):
@@ -41,7 +50,8 @@ for lid, rec in listings.items():
     if "mlSearchSessionGuid" in url:
         url = url.split("mlSearchSessionGuid")[0].rstrip("?&")
     old = conn.execute(
-        "SELECT price, first_seen, price_dropped, is_owner, agent_risk "
+        "SELECT price, first_seen, price_dropped, is_owner, agent_risk, "
+        "detected_at, sent_at, published_at "
         "FROM listings WHERE url=?", (url,)).fetchone()
 
     price = num(rec.get("price") or dig(raw, "price") or dig(raw, "bargainTerms.price"))
@@ -68,17 +78,28 @@ for lid, rec in listings.items():
         elif old[2]:
             dropped = old[2]
     first_seen = old[1] if old else rec.get("first_seen")
+    # A4: времени конвеера — у новых отмечаем, у старых сохраняем
+    if old:
+        detected_at = old[5]
+        sent_at = old[6]
+        published_at = old[7] or rec.get("published")
+    else:
+        detected_at = utc_now_iso()
+        sent_at = None
+        published_at = rec.get("published")
 
     city, region = normalize(rec.get("city"))
     conn.execute(
         "INSERT OR REPLACE INTO listings "
         "(url, city, region, title, price, rooms, area, author_type, is_owner, "
-        " first_seen, last_seen, price_dropped, agent_risk, floor, floors_total, source) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        " first_seen, last_seen, price_dropped, agent_risk, floor, floors_total, source, "
+        " published_at, detected_at, sent_at) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
         (url, city, region,
          (rec.get("address") or (rec.get("description") or "")[:80] or "")[:120],
          price, rooms, area, author_type, is_owner,
-         first_seen, rec.get("last_seen"), dropped, risk, floor, ftot, source))
+         first_seen, rec.get("last_seen"), dropped, risk, floor, ftot, source,
+         published_at, detected_at, sent_at))
     if old:
         upd_cnt += 1
     else:

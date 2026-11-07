@@ -1,0 +1,39 @@
+name: watchdog-db
+on:
+  schedule:
+    # раз в 30 минут; если БД в репозитории молчит дольше 40 минут —
+    # резервный прогон сборки прямо здесь (A3)
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Свежесть БД
+        id: freshness
+        run: |
+          if python watchdog_db.py; then
+            echo "stale=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=yes" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Резервный прогон
+        if: steps.freshness.outputs.stale == 'yes'
+        run: |
+          pip install -r requirements.txt
+          python parser_cian.py
+          python parser_yandex.py
+          python json_to_db.py
+      - name: Коммит базы
+        if: steps.freshness.outputs.stale == 'yes'
+        run: |
+          git config user.name "watchdog"
+          git config user.email "watchdog@realtor.service"
+          git add listings.db
+          git diff --cached --quiet || git commit -m "watchdog: резервный прогон"
+          git push

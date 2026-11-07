@@ -33,11 +33,11 @@ PyYAML==6.0.1
 """
 
 PARSE_STEPS = (
-    ("check_cities.py", "проверка городов из regions.yaml"),
     ("parser_cian.py", "основной сбор объявлений ЦИАН (создаёт listings.db)"),
     ("parser_yandex.py", "сбор объявлений Яндекс.Недвижимости"),
     ("json_to_db.py", "загрузка data/listings.json в БД",
      "data/listings.json"),
+    ("owner_check.py", "анти-фильтр агентских рисков (owner_check)"),
 )
 
 SENSITIVE_NAME_RE = re.compile(r"(токен|token|secret|парол|password|api[_-]?key|ключ)", re.IGNORECASE)

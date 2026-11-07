@@ -22,8 +22,6 @@ def full_cities_in_region(region):
             out.append(c)
     return out
 
-from geo import REGION_CITIES
-
 TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise SystemExit(

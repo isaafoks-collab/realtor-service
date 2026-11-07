@@ -11,7 +11,7 @@ Python 3.11+, зависимости: `pip install -r requirements.txt`
    читают start*.bat).
 2. Оркестратор: `python orchestrator.py <режим>` — режимы:
    `setup` (requirements), `test` (unittest), `parse` (полный сбор:
-   check_cities → parser_cian → parser_yandex → json_to_db),
+   parser_cian → parser_yandex → json_to_db → owner_check),
    `report` (project_report.txt), `all` (setup+test+parse+report).
 3. Боты:
    - realtor: `start_realtor.bat` (BOT_ROLE=realtor)
@@ -20,12 +20,13 @@ Python 3.11+, зависимости: `pip install -r requirements.txt`
 ## Статус парсеров
 - ЦИАН (`parser_cian.py`): работает — API-мегаполисы (пагинация и
   фильтр `is_by_homeowner` живые, 28 офферов на страницу) + HTML-сбор
-  по остальным городам; собственники находятся (в БД 416 is_owner=1).
-- Яндекс (`parser_yandex.py`): сайт отдаёт ботам капчу с HTTP 200
-  (`X-Yandex-Captcha: captcha`, «Вы не робот?»). Парсер различает такие
-  ответы: `[БЛОК]` + сводка заблокированных городов, даны в БД не пишутся.
-  Ожидает снятия блокировки IP или другого канала.
-- Авито: IP-блокировка (429, Server QRATOR; и через Playwright то же).
+  по остальным городам; собственники находятся.
+- Яндекс (`parser_yandex.py`): работает с Волны 2 — curl_cffi с
+  TLS-отпечатком Chrome и `sort=DATE_DESC`; капча встречается флейпом
+  (~1 запрос из 6) и снимается повтором со свежей сессией и backoff.
+  Упорная капча отмечается `[БЛОК]` и пишется в сводку, данные не пишутся.
+- Авито: IP-блокировка (429 и 439 «Доступ ограничен» на
+  `/web/1/js/items`, Server QRATOR; и через Playwright то же).
   Легального обхода нет — парсер не пишется; варианты: официальный
   Авито API для pro-партнёров, медленный «честный» пул residential-IP,
   либо совсем исключить Авито и опираться на ЦИАН/Яндекс.

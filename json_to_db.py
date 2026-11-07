@@ -1,6 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 """Конвертер v3: ЦИАН через owners+raw, Яндекс через поля записи, метки не понижаются."""
-import json, sqlite3
+import json
+import sqlite3
+
 from geo import normalize
 
 data = json.load(open("data/listings.json", encoding="utf-8"))
@@ -14,6 +16,7 @@ for extra in ("floors_total", "source", "region"):
     if extra not in cols:
         conn.execute("ALTER TABLE listings ADD COLUMN %s" % extra)
 
+
 def dig(d, path):
     cur = d
     for p in path.split("."):
@@ -22,17 +25,13 @@ def dig(d, path):
         cur = cur.get(p)
     return cur
 
+
 def num(v, cast=int):
     try:
         return cast(v) if v is not None else None
     except (TypeError, ValueError):
         return None
 
-# образец ключей raw цian-записи — сверим имена полей
-for lid, rec in listings.items():
-    if not str(lid).startswith("y_"):
-        print("цian raw ключи:", sorted((rec.get("raw") or {}).keys())[:40])
-        break
 
 new_cnt = upd_cnt = own_cnt = 0
 for lid, rec in listings.items():

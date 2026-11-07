@@ -52,7 +52,7 @@ class TestNoSecretsInScripts(unittest.TestCase):
         self.assertEqual(proc.returncode, 0, ".gitignore не покрывает токены.txt")
 
     def test_workflows_pull_bot_tokens_from_github_secrets(self):
-        text = read("daily-parse.yml")
+        text = read(os.path.join(".github", "workflows", "daily-parse.yml"))
         self.assertIn("${{ secrets.BOT_TOKEN }}", text)
         self.assertIsNone(TG_TOKEN_RE.search(text))
 

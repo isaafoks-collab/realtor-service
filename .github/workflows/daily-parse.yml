@@ -1,0 +1,44 @@
+name: daily-parse
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    env:
+      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      BOT_TOKEN_OWNERS: ${{ secrets.BOT_TOKEN_OWNERS }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Проверка секретов
+        run: |
+          ok=1
+          for v in BOT_TOKEN BOT_TOKEN_OWNERS; do
+            if [ -n "${!v}" ]; then
+              echo "$v: заполнен (из Secrets)"
+            else
+              echo "$v: НЕ задан"
+              ok=0
+            fi
+          done
+          if [ "$ok" -eq 0 ]; then
+            echo "Не хватает секретов. Ручной ввод в Actions невозможен:"
+            echo "задайте их в Settings -> Secrets -> Actions и перезапустите workflow."
+            exit 1
+          fi
+      - run: pip install -r requirements.txt
+      - run: python parser_cian.py
+      - name: Backup + restore drill
+        run: python db_backup.py listings.db data/listings_backup.sqlite
+      - name: Commit database
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add listings.db
+          git diff --cached --quiet || git commit -m "daily parse"
+          git push

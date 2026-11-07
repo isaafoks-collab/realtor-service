@@ -1,0 +1,77 @@
+name: deploy-vps
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    # изменения кода/конфига системы; база (listings.db) деплой не триггерит
+    paths:
+      - "runner.py"
+      - "parser_cian.py"
+      - "parser_yandex.py"
+      - "json_to_db.py"
+      - "owner_check.py"
+      - "httpclient.py"
+      - "db_schema.py"
+      - "metrics.py"
+      - "watchdog_db.py"
+      - "cities.py"
+      - "geo.py"
+      - "bot.py"
+      - "access.py"
+      - "warm_leads.py"
+      - "notify.py"
+      - "requirements.txt"
+      - "deploy/**"
+      - ".github/workflows/deploy-vps.yml"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      VPS_HOST: ${{ secrets.VPS_IP }}
+      VPS_USER: ${{ secrets.VPS_USER }}
+      VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Копируем код на сервер
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq sshpass rsync
+          # listings.db исключён из передачи и из удаления: база живёт на VPS,
+          # из репозитория она не приезжает и не стирается
+          SSHPASS="$VPS_PASSWORD" sshpass -e rsync -az --delete \
+            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
+            --exclude ".git/" --exclude "data/" --exclude "__pycache__/" \
+            --exclude "listings_backup*" --exclude "токены.txt" \
+            --exclude "listings.db" \
+            --exclude "scheduler.log" --exclude "project_report.txt" \
+            --exclude "*.log" \
+            ./ "$VPS_USER@$VPS_HOST:/opt/realtor-service/"
+
+      - name: Готовим файл секретов (на сервер не печатается)
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_TOKEN_OWNERS: ${{ secrets.BOT_TOKEN_OWNERS }}
+          REALTOR_CHAT_ID: ${{ secrets.REALTOR_CHAT_ID }}
+          GITHUB_REPO_TOKEN: ${{ secrets.GITHUB_REPO_TOKEN }}
+        run: |
+          cat > /tmp/realtor.env <<EOF
+          BOT_TOKEN=$BOT_TOKEN
+          BOT_TOKEN_OWNERS=$BOT_TOKEN_OWNERS
+          REALTOR_CHAT_ID=$REALTOR_CHAT_ID
+          GITHUB_REPO_TOKEN=$GITHUB_REPO_TOKEN
+          EOF
+          SSHPASS="$VPS_PASSWORD" sshpass -e rsync -az \
+            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
+            /tmp/realtor.env "$VPS_USER@$VPS_HOST:/tmp/realtor.env"
+          rm /tmp/realtor.env
+
+      - name: Настраиваем и запускаем
+        run: |
+          SSHPASS="$VPS_PASSWORD" sshpass -e ssh \
+            -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            "$VPS_USER@$VPS_HOST" "bash /opt/realtor-service/deploy/bootstrap-vps.sh"
+
+      - name: Итог деплоя
+        run: echo "деплой завершён"

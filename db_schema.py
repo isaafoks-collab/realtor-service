@@ -8,14 +8,42 @@
 - journal_mode=WAL — безопасная запись при параллельных процессах.
 Миграция идемпотентна. Перед первой миграцией — бэкап (F2):
 python db_backup.py listings.db data/listings_backup.sqlite
+На пустом сервере создаёт таблицу listings с полной текущей схемой.
 """
 import sqlite3
 
 LISTINGS_METRICS = ("published_at", "detected_at", "sent_at")
 
+_TABLE_SQL = (
+    "CREATE TABLE IF NOT EXISTS listings ("
+    " url TEXT PRIMARY KEY,"
+    " city TEXT,"
+    " title TEXT,"
+    " price INTEGER,"
+    " rooms TEXT,"
+    " area REAL,"
+    " author_type TEXT,"
+    " is_owner INTEGER,"
+    " first_seen TEXT,"
+    " last_seen TEXT,"
+    " price_dropped INTEGER DEFAULT 0,"
+    " agent_risk INTEGER,"
+    " floor INTEGER,"
+    " floors_total INTEGER,"
+    " source TEXT,"
+    " region TEXT,"
+    " published_at TEXT,"
+    " detected_at TEXT,"
+    " sent_at TEXT"
+    ")"
+)
+
 
 def ensure(conn):
     cols = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
+    if not cols:
+        conn.execute(_TABLE_SQL)
+        cols = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
     for name in LISTINGS_METRICS:
         if name not in cols:
             conn.execute("ALTER TABLE listings ADD COLUMN %s TEXT" % name)

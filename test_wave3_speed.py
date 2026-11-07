@@ -117,6 +117,20 @@ class TestSchemaMigration(unittest.TestCase):
             "price INTEGER, is_owner INTEGER)")
         return con
 
+    def test_creates_table_on_fresh_db(self):
+        fd, path = tempfile.mkstemp(suffix=".db")
+        os.close(fd)
+        try:
+            con = sqlite3.connect(path)
+            db_schema.ensure(con)  # пустая БД — таблица создаётся с нуля
+            cols = [r[1] for r in con.execute("PRAGMA table_info(listings)")]
+            for name in ("url", "city", "price", "is_owner", "source",
+                         "region", "last_seen") + db_schema.LISTINGS_METRICS:
+                self.assertIn(name, cols)
+            con.close()
+        finally:
+            os.remove(path)
+
     def test_metrics_columns_and_queue_idempotent(self):
         fd, path = tempfile.mkstemp(suffix=".db")
         os.close(fd)

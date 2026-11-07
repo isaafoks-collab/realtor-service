@@ -6,12 +6,12 @@ Wants=network-online.target
 [Service]
 Type=simple
 WorkingDirectory=/opt/realtor-service
-ExecStart=/usr/bin/python3 /opt/realtor-service/runner.py
+ExecStart=/opt/realtor-service/venv/bin/python3 /opt/realtor-service/runner.py
 Restart=always
 RestartSec=30
 Environment=PYTHONUTF8=1
 Environment=PYTHONUNBUFFERED=1
-EnvironmentFile=-/etc/realtor/env
+EnvironmentFile=/etc/realtor/env
 # Логи процесса — в журнал системы (journalctl -u realtor-runner)
 
 [Install]

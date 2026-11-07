@@ -34,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Секреты: срезаем CR/LF/пробелы по краям
+      - name: "Секреты: срезаем CR/LF/пробелы по краям"
         # GitHub Secret мог быть сохранён с завершающим переносом строки —
         # rsync тогда ругается «hostname contains invalid characters».
         # У пароля снимаем только края (пробелы внутри пароля не трогаем).

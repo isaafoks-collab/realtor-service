@@ -114,7 +114,7 @@ def main():
                     if owners_only:
                         owners[lid] = name
                 print("[OK] %s: найдено=%d, накоплено собственников=%d" % (label, len(offers), len(owners)))
-                time.sleep(random.uniform(10, 18))
+                pause(14)
 
     # 2) HTML-сбор по каждому городу отдельно (1 страница на город)
     for city in per_city:
@@ -134,7 +134,7 @@ def main():
             if lid in owner_ids:
                 owners[lid] = city
         print("[OK] %s: найдено=%d, новых=%d, собственников=%d" % (city, len(items), new, len(owner_ids)))
-        time.sleep(random.uniform(15, 28))
+        pause(21)
 
     print("ИТОГ: объектов=%d, собственников=%d" % (len(listings), len(owners)))
     # слияние с существующим хранилищем: не выбрасывать данные Яндекса и прежние записи

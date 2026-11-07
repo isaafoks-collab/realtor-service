@@ -31,9 +31,10 @@ class WarmLeadsTest(unittest.TestCase):
         self.tmp.cleanup()
 
     def test_save_then_card_matches_template(self):
-        res, _ = warm_leads.save_lead(101, self.lead, db_path=self.db)
-        self.assertEqual(res, "new")
-        row, card = warm_leads.get_lead(101, db_path=self.db)
+        _, row = warm_leads.save_lead(101, self.lead, db_path=self.db)
+        self.assertIsInstance(row, int)
+        row, _ = warm_leads.get_lead(101, db_path=self.db)
+        card = warm_leads.build_card(row, ref=self.lead["now"])
         self.assertEqual(card,
             "Собственник: согласен на звонок риэлтора\n"
             "Объект: 2-к, 54 м², 5/9, Одинцово\n"
@@ -81,7 +82,8 @@ class WarmLeadsTest(unittest.TestCase):
     def test_yesterday_wording(self):
         lead = dict(self.lead, now=msk(m=11, d=5))
         warm_leads.save_lead(103, lead, db_path=self.db)
-        _, card = warm_leads.get_lead(103, db_path=self.db)
+        row, _ = warm_leads.get_lead(103, db_path=self.db)
+        card = warm_leads.build_card(row, ref=msk(m=11, d=6))
         self.assertIn("вчера в 14:30", card)
 
 

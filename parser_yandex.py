@@ -2,7 +2,7 @@
 """Парсер Яндекс.Недвижимости v2.0: сбор по каждому городу отдельно."""
 import json, re, time, random, sys
 from datetime import datetime, timezone
-from httpclient import session
+from httpclient import fetch_with_backoff, pause, session as make_session
 from cities import cities_to_collect
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -126,27 +126,39 @@ def captcha_hit(resp):
 
 
 def collect_cities(targets, data, log=print):
-    s = session()
-    s.headers.update({"User-Agent": UA, "Accept-Language": "ru-RU,ru;q=0.9"})
     total, owners, blocked = 0, 0, []
     for city in targets:
         slug = slug_for(city)
         for tag, suffix in (("обычные", ""), ("без-посредников", "bez-posrednikov/")):
-            url = "https://realty.yandex.ru/%s/kupit/kvartira/%s" % (slug, suffix)
-            try:
-                r = s.get(url, timeout=25)
-            except Exception as e:
-                log("[ПРОПУСК] %s (%s): %s: %s" % (city, tag, type(e).__name__, e))
+            url = "https://realty.yandex.ru/%s/kupit/kvartira/%s?sort=DATE_DESC" % (slug, suffix)
+            r, skip = None, False
+            for attempt in (1, 2):
+                # Яндекс вешает капчу примерно на 1 запрос из 6 (флейп) и
+                # после первого запроса той же сессии — свежая сессия + 1
+                # повтор спасают; упорная капча → [БЛОК]
+                s = make_session()
+                s.headers.update({"Accept-Language": "ru-RU,ru;q=0.9"})
+                try:
+                    r = fetch_with_backoff(s.get, url, timeout=25)
+                except Exception as e:
+                    log("[ПРОПУСК] %s (%s): %s: %s" % (city, tag, type(e).__name__, e))
+                    r, skip = None, True
+                    break
+                if captcha_hit(r) and attempt == 1:
+                    time.sleep(random.uniform(2, 4))
+                    continue
+                break
+            if skip or r is None:
                 continue
             if r.status_code != 200:
                 log("[ПРОПУСК] %s (%s): HTTP %d" % (city, tag, r.status_code))
-                time.sleep(random.uniform(4, 8))
+                pause(6)
                 continue
             if captcha_hit(r):
                 log("[БЛОК] %s (%s): Яндекс отдал капчу вместо каталога" % (city, tag))
                 if city not in blocked:
                     blocked.append(city)
-                time.sleep(random.uniform(4, 8))
+                pause(6)
                 continue
             offers = parse_state(r.text)
             uniq = {}
@@ -166,7 +178,7 @@ def collect_cities(targets, data, log=print):
             owners += cnt_owner
             log("[OK] %s (%s): найдено=%d, новых=%d, частников=%d" %
                 (city, tag, len(uniq), new, cnt_owner))
-            time.sleep(random.uniform(4, 8))
+            pause(6)
     return total, owners, blocked
 
 

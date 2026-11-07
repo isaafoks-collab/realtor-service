@@ -28,11 +28,37 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      VPS_HOST: ${{ secrets.VPS_IP }}
-      VPS_USER: ${{ secrets.VPS_USER }}
-      VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
+      SRC_HOST: ${{ secrets.VPS_IP }}
+      SRC_USER: ${{ secrets.VPS_USER }}
+      SRC_PASSWORD: ${{ secrets.VPS_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: Секреты: срезаем CR/LF/пробелы по краям
+        # GitHub Secret мог быть сохранён с завершающим переносом строки —
+        # rsync тогда ругается «hostname contains invalid characters».
+        # У пароля снимаем только края (пробелы внутри пароля не трогаем).
+        run: |
+          DEPLOY_HOST="$(printf '%s' "$SRC_HOST" | tr -d '[:space:]')"
+          DEPLOY_USER="$(printf '%s' "$SRC_USER" | tr -d '[:space:]')"
+          SSHPASS="$(printf '%s' "$SRC_PASSWORD" | tr -d '\r' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          if [ -z "$DEPLOY_HOST" ] || [ -z "$DEPLOY_USER" ] || [ -z "$SSHPASS" ]; then
+            echo "ОШИБКА: секрет VPS_IP / VPS_USER / VPS_PASSWORD пуст после нормализации"
+            exit 1
+          fi
+          echo "после нормализации: хост=${#DEPLOY_HOST} симв., пользователь=${#DEPLOY_USER} симв., пароль=${#SSHPASS} симв."
+          echo "DEPLOY_HOST=$DEPLOY_HOST" >> "$GITHUB_ENV"
+          echo "DEPLOY_USER=$DEPLOY_USER" >> "$GITHUB_ENV"
+          echo "SSHPASS=$SSHPASS" >> "$GITHUB_ENV"
+          SSH_OPTIONS=(-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null)
+          {
+            echo "SSH_OPTIONS=${SSH_OPTIONS[*]}"
+          } >> "$GITHUB_ENV"
+
+      - name: Проверка входа по SSH
+        run: |
+          sshpass -e ssh $SSH_OPTIONS "$DEPLOY_USER@$DEPLOY_HOST" \
+            "echo вход-ок: \$(hostname); mkdir -p /opt/realtor-service"
 
       - name: Копируем код на сервер
         run: |
@@ -40,14 +66,13 @@ jobs:
           sudo apt-get install -y -qq sshpass rsync
           # listings.db исключён из передачи и из удаления: база живёт на VPS,
           # из репозитория она не приезжает и не стирается
-          SSHPASS="$VPS_PASSWORD" sshpass -e rsync -az --delete \
-            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
+          SSHPASS="$SSHPASS" sshpass -e rsync -az --delete $SSH_OPTIONS \
             --exclude ".git/" --exclude "data/" --exclude "__pycache__/" \
             --exclude "listings_backup*" --exclude "токены.txt" \
             --exclude "listings.db" \
             --exclude "scheduler.log" --exclude "project_report.txt" \
             --exclude "*.log" \
-            ./ "$VPS_USER@$VPS_HOST:/opt/realtor-service/"
+            ./ "$DEPLOY_USER@$DEPLOY_HOST:/opt/realtor-service/"
 
       - name: Готовим файл секретов (на сервер не печатается)
         env:
@@ -62,16 +87,14 @@ jobs:
           REALTOR_CHAT_ID=$REALTOR_CHAT_ID
           GITHUB_REPO_TOKEN=$GITHUB_REPO_TOKEN
           EOF
-          SSHPASS="$VPS_PASSWORD" sshpass -e rsync -az \
-            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
-            /tmp/realtor.env "$VPS_USER@$VPS_HOST:/tmp/realtor.env"
+          SSHPASS="$SSHPASS" sshpass -e rsync -az $SSH_OPTIONS \
+            /tmp/realtor.env "$DEPLOY_USER@$DEPLOY_HOST:/tmp/realtor.env"
           rm /tmp/realtor.env
 
       - name: Настраиваем и запускаем
         run: |
-          SSHPASS="$VPS_PASSWORD" sshpass -e ssh \
-            -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-            "$VPS_USER@$VPS_HOST" "bash /opt/realtor-service/deploy/bootstrap-vps.sh"
+          SSHPASS="$SSHPASS" sshpass -e ssh $SSH_OPTIONS "$DEPLOY_USER@$DEPLOY_HOST" \
+            "bash /opt/realtor-service/deploy/bootstrap-vps.sh"
 
       - name: Итог деплоя
         run: echo "деплой завершён"

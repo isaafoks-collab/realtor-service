@@ -4,8 +4,13 @@ on:
     inputs:
       diag_cmd:
         description: "Команда для выполнения на VPS"
-        required: true
+        required: false
         type: string
+      push_test:
+        description: "Тест пуша токена с раннера"
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   diag:
@@ -36,3 +41,16 @@ jobs:
           SSHPASS="$SSHPASS" sshpass -e ssh \
             -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
             "$DEPLOY_USER@$DEPLOY_HOST" "$DIAG_CMD"
+
+      - name: "Push-тест токена с раннера"
+        if: inputs.push_test == true
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_REPO_TOKEN || secrets.REPO_TOKEN }}
+        run: |
+          cd "$(mktemp -d)"
+          git init -q .
+          git remote add origin "https://isaafoks-collab:$REPO_TOKEN@github.com/isaafoks-collab/realtor-service.git"
+          git ls-remote origin main 2>&1 | head -2
+          echo "ls-remote rc done"
+          git commit -q --allow-empty -m "push-test diag"
+          git push --dry-run origin HEAD:main 2>&1 | tail -3

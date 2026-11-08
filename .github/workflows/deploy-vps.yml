@@ -62,9 +62,11 @@ jobs:
           sudo apt-get install -y -qq sshpass rsync
           # listings.db исключён из передачи и из удаления: база живёт на VPS,
           # из репозитория она не приезжает и не стирается
+          # .git НЕ исключаем: runner коммитит базу в репо с VPS,
+          # без .git бессмысленно репозиторий init'ить
           SSHPASS="$SSHPASS" sshpass -e rsync -az --delete \
             -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
-            --exclude ".git/" --exclude "data/" --exclude "__pycache__/" \
+            --exclude "data/" --exclude "__pycache__/" \
             --exclude "listings_backup*" --exclude "токены.txt" \
             --exclude "listings.db" \
             --exclude "scheduler.log" --exclude "project_report.txt" \

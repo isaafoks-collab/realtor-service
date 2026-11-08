@@ -28,7 +28,7 @@ requests==2.31.0
 curl_cffi>=0.7.0
 tenacity>=8.3.0
 beautifulsoup4==4.12.3
-lxml==5.1.0
+lxml==6.1.3
 PyYAML==6.0.1
 """
 

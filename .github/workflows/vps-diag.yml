@@ -1,0 +1,38 @@
+name: vps-diag
+on:
+  workflow_dispatch:
+    inputs:
+      diag_cmd:
+        description: "Команда для выполнения на VPS"
+        required: true
+        type: string
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    env:
+      SRC_HOST: ${{ secrets.VPS_IP }}
+      SRC_USER: ${{ secrets.VPS_USER }}
+      SRC_PASSWORD: ${{ secrets.VPS_PASSWORD }}
+    steps:
+      - name: "Секреты: срезаем whitespace как в деплое"
+        run: |
+          DEPLOY_HOST="$(printf '%s' "$SRC_HOST" | tr -d '[:space:]')"
+          DEPLOY_USER="$(printf '%s' "$SRC_USER" | tr -d '[:space:]')"
+          SSHPASS="$(printf '%s' "$SRC_PASSWORD" | tr -d '\r' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          echo "DEPLOY_HOST=$DEPLOY_HOST" >> "$GITHUB_ENV"
+          echo "DEPLOY_USER=$DEPLOY_USER" >> "$GITHUB_ENV"
+          echo "SSHPASS=$SSHPASS" >> "$GITHUB_ENV"
+
+      - name: "Диагностика на VPS"
+        env:
+          DIAG_CMD: ${{ inputs.diag_cmd }}
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq sshpass
+          echo "--- выполняемая команда ---"
+          printf '%s\n' "$DIAG_CMD"
+          echo "--- вывод с VPS ---"
+          SSHPASS="$SSHPASS" sshpass -e ssh \
+            -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            "$DEPLOY_USER@$DEPLOY_HOST" "$DIAG_CMD"

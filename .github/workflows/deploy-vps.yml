@@ -50,14 +50,10 @@ jobs:
           echo "DEPLOY_HOST=$DEPLOY_HOST" >> "$GITHUB_ENV"
           echo "DEPLOY_USER=$DEPLOY_USER" >> "$GITHUB_ENV"
           echo "SSHPASS=$SSHPASS" >> "$GITHUB_ENV"
-          SSH_OPTIONS=(-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null)
-          {
-            echo "SSH_OPTIONS=${SSH_OPTIONS[*]}"
-          } >> "$GITHUB_ENV"
 
       - name: Проверка входа по SSH
         run: |
-          sshpass -e ssh $SSH_OPTIONS "$DEPLOY_USER@$DEPLOY_HOST" \
+          sshpass -e ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null "$DEPLOY_USER@$DEPLOY_HOST" \
             "echo вход-ок: \$(hostname); mkdir -p /opt/realtor-service"
 
       - name: Копируем код на сервер
@@ -66,7 +62,8 @@ jobs:
           sudo apt-get install -y -qq sshpass rsync
           # listings.db исключён из передачи и из удаления: база живёт на VPS,
           # из репозитория она не приезжает и не стирается
-          SSHPASS="$SSHPASS" sshpass -e rsync -az --delete $SSH_OPTIONS \
+          SSHPASS="$SSHPASS" sshpass -e rsync -az --delete \
+            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
             --exclude ".git/" --exclude "data/" --exclude "__pycache__/" \
             --exclude "listings_backup*" --exclude "токены.txt" \
             --exclude "listings.db" \
@@ -87,13 +84,14 @@ jobs:
           REALTOR_CHAT_ID=$REALTOR_CHAT_ID
           GITHUB_REPO_TOKEN=$GITHUB_REPO_TOKEN
           EOF
-          SSHPASS="$SSHPASS" sshpass -e rsync -az $SSH_OPTIONS \
+          SSHPASS="$SSHPASS" sshpass -e rsync -az \
+            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
             /tmp/realtor.env "$DEPLOY_USER@$DEPLOY_HOST:/tmp/realtor.env"
           rm /tmp/realtor.env
 
       - name: Настраиваем и запускаем
         run: |
-          SSHPASS="$SSHPASS" sshpass -e ssh $SSH_OPTIONS "$DEPLOY_USER@$DEPLOY_HOST" \
+          SSHPASS="$SSHPASS" sshpass -e ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null "$DEPLOY_USER@$DEPLOY_HOST" \
             "bash /opt/realtor-service/deploy/bootstrap-vps.sh"
 
       - name: Итог деплоя

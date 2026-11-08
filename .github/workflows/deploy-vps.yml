@@ -78,7 +78,8 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           BOT_TOKEN_OWNERS: ${{ secrets.BOT_TOKEN_OWNERS }}
           REALTOR_CHAT_ID: ${{ secrets.REALTOR_CHAT_ID }}
-          GITHUB_REPO_TOKEN: ${{ secrets.GITHUB_REPO_TOKEN }}
+          # секрет называется REPO_TOKEN; в env-файле каноничное имя
+          GITHUB_REPO_TOKEN: ${{ secrets.GITHUB_REPO_TOKEN || secrets.REPO_TOKEN }}
         run: |
           cat > /tmp/realtor.env <<EOF
           BOT_TOKEN=$BOT_TOKEN

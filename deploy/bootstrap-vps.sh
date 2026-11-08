@@ -21,6 +21,9 @@ python3 -m venv venv
 # каталога деплой-юзера — без safe.directory git падает «dubious ownership».
 # --system: /etc/gitconfig читается при любом HOME.
 sudo git config --system --add safe.directory /opt/realtor-service || true
+# Санитизация: подсовывание к ним обращений по explicit push-Basic; breaking
+# символ extraheader stale-base64, откуда появился - вырезається при деплое.
+git config --local --unset 'http.https://github.com/.extraheader' 2>/dev/null || true
 
 # 3) Схема БД (идемпотентная миграция Волны 3).
 ./venv/bin/python db_schema.py

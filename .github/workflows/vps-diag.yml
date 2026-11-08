@@ -52,5 +52,5 @@ jobs:
           git remote add origin "https://isaafoks-collab:$REPO_TOKEN@github.com/isaafoks-collab/realtor-service.git"
           git ls-remote origin main 2>&1 | head -2
           echo "ls-remote rc done"
-          git commit -q --allow-empty -m "push-test diag"
-          git push --dry-run origin HEAD:main 2>&1 | tail -3
+          git -c user.name=t -c user.email=t@t commit -q --allow-empty -m "push-test diag"
+          git -c user.name=t -c user.email=t@t push --dry-run origin HEAD:main 2>&1 | tail -3

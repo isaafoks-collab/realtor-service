@@ -17,9 +17,10 @@ python3 -m venv venv
 ./venv/bin/pip install -q --upgrade pip
 ./venv/bin/pip install -q -r requirements.txt
 
-# 2б) Git: runner (root) коммитит базу из каталога деплой-юзера
-# — без safe.directory git падает «dubious ownership».
-sudo git config --global --add safe.directory /opt/realtor-service || true
+# 2б) Git: runner (root, ноomes HOME может быть не задан) коммитит базу из
+# каталога деплой-юзера — без safe.directory git падает «dubious ownership».
+# --system: /etc/gitconfig читается при любом HOME.
+sudo git config --system --add safe.directory /opt/realtor-service || true
 
 # 3) Схема БД (идемпотентная миграция Волны 3).
 ./venv/bin/python db_schema.py

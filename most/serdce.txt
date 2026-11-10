@@ -1,1 +1,1 @@
-18:55 direktiva-5 accepted, task A started
+19:05 stage A done, stage B running orchestrator all

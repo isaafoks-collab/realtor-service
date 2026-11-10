@@ -1,1 +1,1 @@
-19:05 stage A done, stage B running orchestrator all
+20:56 stage B done: orchestrator all green, 95 tests OK

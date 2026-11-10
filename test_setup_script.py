@@ -12,10 +12,13 @@ SCRIPT = os.path.join(ROOT, "setup.ps1")
 
 
 def run_setup(env, stdin_text=None, token_file=None):
-    args = ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass",
-            "-File", SCRIPT, "-SkipGitHub"]
+    cmd = ("[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "
+           "[Console]::InputEncoding = [System.Text.Encoding]::UTF8; "
+           "& '%s' -SkipGitHub" % SCRIPT)
     if token_file:
-        args += ["-TokenFile", token_file]
+        cmd += " -TokenFile '%s'" % token_file
+    args = ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass",
+            "-Command", cmd]
     return subprocess.run(args, capture_output=True, input=stdin_text,
                           text=True, encoding="utf-8", errors="replace",
                           env=env, cwd=ROOT, timeout=120)

@@ -51,6 +51,11 @@ def log(msg):
 
 def main(argv, root=None):
     root = root or ROOT
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError, OSError):
+            pass
     if not argv or argv[0] not in MODES:
         print("orchestrator.py — оркестратор проекта realtor-service")
         print("Использование: python orchestrator.py <режим>")
@@ -356,7 +361,8 @@ def setup_mode(root):
     try:
         proc = subprocess.run([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"],
                               cwd=root, capture_output=True, text=True,
-                              encoding="utf-8", errors="replace", timeout=SETUP_TIMEOUT)
+                              encoding="utf-8", errors="replace", timeout=SETUP_TIMEOUT,
+                              env=dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8"))
     except subprocess.TimeoutExpired:
         log("pip install прерван по таймауту")
         return 1

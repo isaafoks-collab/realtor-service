@@ -2,6 +2,7 @@
 """Тесты оркестратора. Запуск: python -m unittest test_orchestrator"""
 import io
 import os
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -186,6 +187,29 @@ class TestReport(unittest.TestCase):
         with open(path, encoding="utf-8") as f:
             content = f.read()
         self.assertIn("ПРОБЛЕМЫ", content)
+
+
+class TestSetupUnicodeCrash(unittest.TestCase):
+    def test_setup_mode_does_not_crash_on_unencodable_output(self):
+        fake = subprocess.CompletedProcess(args=[], returncode=0)
+        fake.stdout = "\ufffd " * 5
+        fake.stderr = ""
+        real_run = orchestrator.subprocess.run
+        old_out, old_err = sys.stdout, sys.stderr
+        buf = io.TextIOWrapper(io.BytesIO(), encoding="cp1251", errors="strict")
+        buf_err = io.TextIOWrapper(io.BytesIO(), encoding="cp1251", errors="strict")
+        try:
+            orchestrator.subprocess.run = lambda *a, **k: fake
+            sys.stdout = buf
+            sys.stderr = buf_err
+            with tempfile.TemporaryDirectory() as tmpdir:
+                rc = orchestrator.main(["setup"], root=tmpdir)
+            self.assertEqual(rc, 0)
+        finally:
+            orchestrator.subprocess.run = real_run
+            sys.stdout, sys.stderr = old_out, old_err
+            buf.close()
+            buf_err.close()
 
 
 if __name__ == "__main__":

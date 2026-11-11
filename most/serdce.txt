@@ -1,3 +1,4 @@
 21:10 stage C done: tokens were in history (my a7a6a33), cleaned; access.db empty
 06:25 SSH key ready (waiting human adds it); daily_digest.py written (101 tests OK) - Telegram delivery gap closed
 07:05 Уточнение 1 done (dumps placeholders); replica skill installed verbatim + 6 tools (57 tests OK); РЕПЛИКА: ПЕРВЫЙ ПРОГОН ГОТОВ (ЦИАН entrepreneur, 20 RuStore reviews -> pain-points.md); waiting only VPS_ROOT_PASSWORD
+07:30 stage E prep done: ONE-TOUCH deploy package (install.sh+unit+timer+env+README+tar.gz, bash -n OK), morning.sh parse->digest->push; stage A history recorded; all refinements done; waiting VPS_ROOT_PASSWORD

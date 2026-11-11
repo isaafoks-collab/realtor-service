@@ -1,0 +1,17 @@
+[Unit]
+Description=Realtor - утренний прогон: парсинг ЦИАН+Яндекс, сводка в Telegram, пуш базы
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/realtor-service
+ExecStart=/opt/realtor-service/deploy/morning.sh
+Environment=PYTHONUTF8=1
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/etc/realtor/env
+# 1 ГБ RAM на VPS: потолки памяти, чтобы OOM-киллер не трогал чужие процессы
+MemoryHigh=700M
+MemoryMax=850M
+Nice=10
+TimeoutStartSec=3600

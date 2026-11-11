@@ -1,1 +1,2 @@
 21:10 stage C done: tokens were in history (my a7a6a33), cleaned; access.db empty
+06:25 SSH key ready (waiting human adds it); daily_digest.py written (101 tests OK) - Telegram delivery gap closed

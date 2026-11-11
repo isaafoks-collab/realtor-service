@@ -1,1 +1,1 @@
-20:56 stage B done: orchestrator all green, 95 tests OK
+21:10 stage C done: tokens were in history (my a7a6a33), cleaned; access.db empty

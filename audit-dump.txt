@@ -4426,17 +4426,20 @@ def normalize(raw, addr=""):
 
 === hide_owners.vbs ===
 PROISHOZHDENIE: РЕПО-ИСТОРИЯ: коммиты Andrey/realtor-runner;первовиток вне git — НЕ ПОДТВЕРЖДЕНО
-��C r e a t e O b j e c t ( " W S c r i p t . S h e l l " ) . R u n   " " " C : \ U s e r s \ =4@59\ D o c u m e n t s \ r e a l t o r - s e r v i c e \ s t a r t _ o w n e r s . b a t " " " ,   0 ,   F a l s e  
+��C r e a t e O b j e c t ( " W S c r i p t . S h e l l " ) . R u n   " " " C : \ U s e r s \ =4@59\ D o c u m e n t s \ r e a l t o r - s e r v i c e \ s t a r t _ o w n e r s . b a t " " " ,   0 ,   F a l s e 
+ 
  
 
 === hide_realtor.vbs ===
 PROISHOZHDENIE: РЕПО-ИСТОРИЯ: коммиты Andrey/realtor-runner;первовиток вне git — НЕ ПОДТВЕРЖДЕНО
-��C r e a t e O b j e c t ( " W S c r i p t . S h e l l " ) . R u n   " " " C : \ U s e r s \ =4@59\ D o c u m e n t s \ r e a l t o r - s e r v i c e \ s t a r t _ r e a l t o r . b a t " " " ,   0 ,   F a l s e  
+��C r e a t e O b j e c t ( " W S c r i p t . S h e l l " ) . R u n   " " " C : \ U s e r s \ =4@59\ D o c u m e n t s \ r e a l t o r - s e r v i c e \ s t a r t _ r e a l t o r . b a t " " " ,   0 ,   F a l s e 
+ 
  
 
 === hide_scheduler.vbs ===
 PROISHOZHDENIE: РЕПО-ИСТОРИЯ: коммиты Andrey/realtor-runner;первовиток вне git — НЕ ПОДТВЕРЖДЕНО
-��C r e a t e O b j e c t ( " W S c r i p t . S h e l l " ) . R u n   " " " C : \ U s e r s \ =4@59\ D o c u m e n t s \ r e a l t o r - s e r v i c e \ s t a r t _ s c h e d u l e r . b a t " " " ,   0 ,   F a l s e  
+��C r e a t e O b j e c t ( " W S c r i p t . S h e l l " ) . R u n   " " " C : \ U s e r s \ =4@59\ D o c u m e n t s \ r e a l t o r - s e r v i c e \ s t a r t _ s c h e d u l e r . b a t " " " ,   0 ,   F a l s e 
+ 
  
 
 === httpclient.py ===
@@ -8308,8 +8311,5 @@ if __name__ == "__main__":
 
 === токены.txt ===
 PROISHOZHDENIE: РЕПО-ИСТОРИЯ: коммиты Andrey/realtor-runner;первовиток вне git — НЕ ПОДТВЕРЖДЕНО
-﻿BOT_TOKEN=9229375994:AAFme97-q7HK4Fk6kJkXg9RcJKp19fbLVUc
-BOT_TOKEN_OWNERS=9175005639:AAFNIGDGXEzkwtbCevYVIf5w9qxF7-epQnE
-
-
+[ОТРЕЗАНО: файл содержит секреты (BOT_TOKEN/BOT_TOKEN_OWNERS). Содержимое не дампится по жёсткому стопу №3; файл лежит локально, gitignored, в репозитории отсутствует.]
 === END OF DUMP ===

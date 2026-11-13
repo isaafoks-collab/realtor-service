@@ -28,4 +28,9 @@ if [ "$rc_digest" -ne 0 ]; then
 fi
 
 $PY -c "from runner import git_push_db; git_push_db('/opt/realtor-service', 0, None)" || true
+
+# Витрина: публикация public-страницы после успешного прогона.
+# Ошибка витрины никогда не роняет утренний прогон.
+bash "$PWD/deploy/publish_vitrina.sh" || true
+
 echo "morning: прогон завершён"

@@ -24,6 +24,9 @@ Adobe (Acrobat), AmneziaVPN/AmneziaWG, MetaTrader 5, Microsoft Office, OpenOffic
 | OmniRoute v3.8.53 (эшелон 2a) | npm global `omniroute serve --headless`, cmd-процесс с автоперезапуском через стража | 20128 (только 127.0.0.1) | /healthz |
 | freellmapi v0.2.1 (эшелон 2b) | node server/dist/index.js из C:\Users\Андрей\Documents\agent-tools\freellmapi | 3001 | /v1/models с единым ключом |
 | Ollama qwen2.5-coder:3b (эшелон 3) | приложение Ollama (Programs\Ollama) | 11434 | /v1/chat/completions |
+| claude-mem v15.18.3 (память) | воркер claude-mem, автостарт при установке; страж поднимает через `npx claude-mem start` | 37792 (не 37777!) | /health |
+- supermemory снят (supermemory.json удалён из ~\.config\opencode) — два движка памяти держать нельзя
+- claude-mem: настройка провайдера саммари ждёт первого захода мастера в веб-GUI: http://127.0.0.1:37792/?setup=1; до этого статус «degraded (Claude CLI setup required)» — это не поломка
 - Логи OmniRoute: ~\.omniroute\logs\stdout.log / stderr.log; конфиг ~\.omniroute\.env (REQUIRE_API_KEY=false, OMNIROUTE_SERVER_HOST=127.0.0.1)
 - freellmapi: единый ключ в БД server\data\freeapi.db (таблица settings, unified_api_key); ключ прописан в конфиге OpenCode
 - Конфиг OpenCode: ~\.config\opencode\opencode.jsonc (permissions allow: edit/bash/webfetch; провайдеры freellmapi/omniroute/ollama)

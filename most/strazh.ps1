@@ -105,13 +105,15 @@ while ($true) {
         #    с командой переключиться вниз; ждать сброса только если дно тоже пусто
         if (Test-Path $status) {
             $st = Get-Content $status -Raw
-            if ($st -match "СОСТОЯНИЕ:\s*ЖДУ ЛИМИТ" -and $st -match "СБРОС:\s*(\d{1,2}):(\d{2})") {
+            if ($st -match "СОСТОЯНИЕ:\s*ЖДУ ЛИМИТ") {
                 $niz = (OmniZhiv -or FreellmZhiv -or OllamaZhiv)
                 if ($niz) {
                     Log "лимит на эшелоне 1, внизу есть топливо — переключение эшелона"
+                    Get-Process opencode* -ErrorAction SilentlyContinue | Stop-Process -Force
+                    Start-Sleep 3
                     Zapustit "Ты слон. Лимит эшелона 1 сбрасывается позже. Внизу есть топливо: freellmapi (127.0.0.1:3001) и OmniRoute (127.0.0.1:20128) живы, Ollama (127.0.0.1:11434, qwen2.5-coder:3b) — дно. Продолжай работу на эшелоне 2 или 3, записав в most/status.md строку ЭШЕЛОН: N. Сложные задачи отложи в очередь до возврата эшелона 1, механические делай сразу."
                     Set-Content $status ("СОСТОЯНИЕ: РАБОТАЮ`r`nЭШЕЛОН: 2-3`r`nОБНОВЛЕНО: " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + "`r`nЗАДАЧА: продолжение на эшелоне 2-3 после лимита эшелона 1")
-                } else {
+                } elseif ($st -match "СБРОС:\s*(\d{1,2}):(\d{2})") {
                     $reset = Get-Date -Hour ([int]$Matches[1]) -Minute ([int]$Matches[2]) -Second 0
                     if ($reset -lt (Get-Date)) { $reset = $reset.AddDays(1) }
                     $reset = $reset.AddMinutes(5)
@@ -119,6 +121,9 @@ while ($true) {
                     while ((Get-Date) -lt $reset) { Start-Sleep 60 }
                     Zapustit "Ты слон. Ты молчал из-за лимита, он сбросился. Продолжай работу по правилам моста из most/README.md: прочитай most/status.md и очередь most/ochered-komand.txt."
                     Set-Content $status ("СОСТОЯНИЕ: РАБОТАЮ`r`nОБНОВЛЕНО: " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + "`r`nЗАДАЧА: продолжение после перезапуска стражем")
+                } else {
+                    Log "лимит, внизу пусто, время сброса неизвестно — проверю через 15 минут"
+                    Start-Sleep 900
                 }
             }
         }

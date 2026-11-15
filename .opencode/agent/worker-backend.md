@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Серверная часть: python/node код, парсеры, БД, миграции. Выполняет узкое задание диспетчера.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: omniroute/auto
 permissions:
   edit: allow
   bash: allow

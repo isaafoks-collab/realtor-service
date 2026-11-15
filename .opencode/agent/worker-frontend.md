@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Интерфейсы: html/js/css, витрины, страницы. Выполняет узкое задание диспетчера.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: omniroute/auto
 permissions:
   edit: allow
   bash: allow

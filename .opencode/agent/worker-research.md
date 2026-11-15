@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Исследования: рынок, отзывы, скиллы, документация. Собирает факты, возвращает отчёт. Не пишет код.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: omniroute/auto
 permissions:
   edit: deny
   bash: allow

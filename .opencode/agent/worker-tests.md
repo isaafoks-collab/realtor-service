@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Тесты и прогоны: pytest, проверка регрессий, сбор логов. Сломанное чинит только по заданию диспетчера.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: freellmapi/auto
 permissions:
   edit: allow
   bash: allow

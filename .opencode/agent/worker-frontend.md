@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Интерфейсы: html/js/css, витрины, страницы. Выполняет узкое задание диспетчера.
 mode: subagent
-model: omniroute/auto
+model: ollama/qwen2.5-coder:3b
 permissions:
   edit: allow
   bash: allow

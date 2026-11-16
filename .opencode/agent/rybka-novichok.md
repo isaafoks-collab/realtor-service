@@ -1,7 +1,7 @@
 ---
 description: Рыбка-новичок. Читает план как человек без контекста: можно ли сделать работу, не задав ни одного вопроса.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: ollama/qwen3:4b
 permissions:
   edit: deny
   bash: deny

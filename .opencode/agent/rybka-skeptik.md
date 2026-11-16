@@ -1,7 +1,7 @@
 ---
 description: Рыбка-скептик. Ищет, что сломается: крайние значения, деньги, порядок правил.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: ollama/qwen3:4b
 permissions:
   edit: deny
   bash: deny

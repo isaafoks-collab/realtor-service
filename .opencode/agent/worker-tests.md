@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Тесты и прогоны: pytest, проверка регрессий, сбор логов. Сломанное чинит только по заданию диспетчера.
 mode: subagent
-model: freellmapi/auto
+model: ollama/qwen2.5-coder:3b
 permissions:
   edit: allow
   bash: allow

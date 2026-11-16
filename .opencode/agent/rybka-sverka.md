@@ -1,7 +1,7 @@
 ---
 description: Рыбка-сверка. Сверяет план с реальными файлами проекта: те ли функции названы, сходится ли проверка, которую обязана пересчитать сама.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: ollama/qwen3:4b
 permissions:
   edit: deny
   bash: deny

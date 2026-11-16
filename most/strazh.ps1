@@ -1,6 +1,9 @@
 ﻿# strazh.ps1 — страж моста «слон и рыбки» (realtor-service)
 # Живёт в фоне, раз в минуту: собирает команды из GitHub, ловит лимит, перезапускает агента,
-# следит за эшелонами каскада (freellmapi/OmniRoute/Ollama) и поднимает умершие
+# следит за эшелонами каскада (freellmapi/OmniRoute/Ollama) и поднимает умершие.
+# Версия 2 (2026-11-16): работающий агент НЕ убивается по таймеру молчания —
+# живость проверяется по CPU всего дерева процессов агента; убиваются только
+# реально висящие (5 минут нулевой активности); перезапуски с бэкоффом; status.md стражем не затирается.
 $ErrorActionPreference = "Continue"
 
 $proj    = "C:\Users\Андрей\Documents\realtor-service"
@@ -13,7 +16,6 @@ $repo    = "isaafoks-collab/realtor-most"      # публичный репо-п�
 $fllDir  = "C:\Users\Андрей\Documents\agent-tools\freellmapi"
 $fllLog  = "$env:USERPROFILE\.freellmapi"
 $omniLog = "$env:USERPROFILE\.omniroute\logs"
-$fllKey  = ""                                # заполняется из БД freellmapi при проверке живости
 
 function Log($m) { "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $m" | Add-Content $log }
 
@@ -30,13 +32,43 @@ function SerdceStale([int]$min) {
     if (-not (Test-Path $serdce)) { return $true }
     return ((Get-Date) - (Get-Item $serdce).LastWriteTime).TotalMinutes -gt $min
 }
-function OpenCodeZhiv {
-    return ($null -ne (Get-Process opencode* -ErrorAction SilentlyContinue))
+function AgentProcs {
+    return @(Get-Process opencode* -ErrorAction SilentlyContinue)
+}
+function AgentZhiv {
+    return ((AgentProcs).Count -gt 0)
+}
+# CPU всего дерева процессов агента (opencode + его дети-тулзы: python/node/...)
+function AgentCpuTicks {
+    $all = Get-CimInstance Win32_Process -ErrorAction SilentlyContinue
+    if (-not $all) { return $null }
+    $ids = New-Object System.Collections.Generic.HashSet[uint32]
+    foreach ($pr in $all) {
+        if ($pr.Name -like "opencode*") { [void]$ids.Add([uint32]$pr.ProcessId) }
+    }
+    $changed = $true
+    while ($changed) {
+        $changed = $false
+        foreach ($pr in $all) {
+            if ($ids.Contains([uint32]$pr.ParentProcessId) -and -not $ids.Contains([uint32]$pr.ProcessId)) {
+                [void]$ids.Add([uint32]$pr.ProcessId); $changed = $true
+            }
+        }
+    }
+    $sum = 0
+    foreach ($p in (Get-Process -ErrorAction SilentlyContinue)) {
+        if ($ids.Contains([uint32]$p.Id)) { try { $sum += $p.TotalProcessorTime.Ticks } catch {} }
+    }
+    return $sum
 }
 function Zapustit($prompt) {
     Log "запуск OpenCode: $prompt"
     $cmd = "cd /d '$proj' && opencode run -c --auto `"$prompt`""
     Start-Process cmd.exe -ArgumentList "/c", $cmd -WindowStyle Hidden
+    Set-Content $serdce "restart"
+    $script:lastLaunch = Get-Date
+    $script:cpuSnap = $null
+    $script:idleStreak = 0
 }
 
 # --- эшелоны каскада ---
@@ -83,6 +115,13 @@ function RobotyBezAgenta {
     return $false
 }
 
+# --- состояние цикла ---
+$script:lastLaunch    = (Get-Date).AddMinutes(-60)
+$script:lastEshSwitch = (Get-Date).AddMinutes(-60)
+$script:cpuSnap       = $null
+$script:idleStreak    = 0
+$script:quickExits    = 0
+
 while ($true) {
     try {
         # 1. Команды из GitHub Issues
@@ -101,44 +140,61 @@ while ($true) {
         if (-not (OllamaZhiv))  { PodnyatOllama; Start-Sleep 20 }
         if (-not (ClaudeMemZhiv)) { PodnyatClaudeMem; Start-Sleep 20 }
 
-        # 3. Лимит: если внизу есть топливо (эшелон 2/3 жив) — перезапускаем сразу
-        #    с командой переключиться вниз; ждать сброса только если дно тоже пусто
+        # 3. Живость агента по CPU дерева процессов: работает — трогаем сердце, НЕ убиваем
+        $ticks = AgentCpuTicks
+        if (AgentZhiv) {
+            if ($null -ne $ticks -and $null -ne $script:cpuSnap -and ($ticks - $script:cpuSnap) -gt 10000000) {
+                # больше 1 сек CPU за минуту по дереву — агент работает
+                Set-Content $serdce "tick"
+                $script:idleStreak = 0
+            } else {
+                $script:idleStreak++
+            }
+            $script:cpuSnap = $ticks
+        } else {
+            $script:cpuSnap = $null
+            $script:idleStreak = 0
+        }
+
+        # 4. Лимит: агент сам остановился (не запущен) — переключаем эшелон или ждём сброса
         if (Test-Path $status) {
             $st = Get-Content $status -Raw
-            if ($st -match "СОСТОЯНИЕ:\s*ЖДУ ЛИМИТ") {
+            if ($st -match "СОСТОЯНИЕ:\s*ЖДУ ЛИМИТ" -and -not (AgentZhiv)) {
                 $niz = (OmniZhiv -or FreellmZhiv -or OllamaZhiv)
-                if ($niz) {
-                    Log "лимит на эшелоне 1, внизу есть топливо — переключение эшелона"
-                    Get-Process opencode* -ErrorAction SilentlyContinue | Stop-Process -Force
-                    Start-Sleep 3
-                    Zapustit "Ты слон. Лимит эшелона 1 сбрасывается позже. Внизу есть топливо: freellmapi (127.0.0.1:3001) и OmniRoute (127.0.0.1:20128) живы, Ollama (127.0.0.1:11434, qwen2.5-coder:3b) — дно. Продолжай работу на эшелоне 2 или 3, записав в most/status.md строку ЭШЕЛОН: N. Сложные задачи отложи в очередь до возврата эшелона 1, механические делай сразу."
-                    Set-Content $status ("СОСТОЯНИЕ: РАБОТАЮ`r`nЭШЕЛОН: 2-3`r`nОБНОВЛЕНО: " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + "`r`nЗАДАЧА: продолжение на эшелоне 2-3 после лимита эшелона 1")
-                } elseif ($st -match "СБРОС:\s*(\d{1,2}):(\d{2})") {
+                if ($niz -and ((Get-Date) - $script:lastEshSwitch).TotalMinutes -gt 45) {
+                    Log "лимит эшелона 1, внизу есть топливо — переключение на эшелон 2-3 (пауза между попытками 45 мин)"
+                    $script:lastEshSwitch = Get-Date
+                    Zapustit "Ты слон. Лимит эшелона 1 сбрасывается позже. Внизу есть топливо: freellmapi (127.0.0.1:3001) и OmniRoute (127.0.0.1:20128) живы, Ollama (127.0.0.1:11434, qwen2.5-coder:3b) — дно. Продолжай работу на эшелоне 2 или 3, записав в most/status.md строку ЭШЕЛОН: N и состояние РАБОТАЮ. Сложные задачи отложи в очередь до возврата эшелона 1, механические делай сразу."
+                    Start-Sleep 20
+                } elseif (-not $niz -and $st -match "СБРОС:\s*(\d{1,2}):(\d{2})") {
                     $reset = Get-Date -Hour ([int]$Matches[1]) -Minute ([int]$Matches[2]) -Second 0
                     if ($reset -lt (Get-Date)) { $reset = $reset.AddDays(1) }
                     $reset = $reset.AddMinutes(5)
                     Log "лимит, внизу пусто; жду до $($reset.ToString('HH:mm'))"
                     while ((Get-Date) -lt $reset) { Start-Sleep 60 }
                     Zapustit "Ты слон. Ты молчал из-за лимита, он сбросился. Продолжай работу по правилам моста из most/README.md: прочитай most/status.md и очередь most/ochered-komand.txt."
-                    Set-Content $status ("СОСТОЯНИЕ: РАБОТАЮ`r`nОБНОВЛЕНО: " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + "`r`nЗАДАЧА: продолжение после перезапуска стражем")
-                } else {
+                } elseif (-not $niz) {
                     Log "лимит, внизу пусто, время сброса неизвестно — проверю через 15 минут"
                     Start-Sleep 900
                 }
+                # агент запущен и работает — не трогаем: он сам разберётся с лимитом
             }
         }
 
-        # 4. Завис: сердце молчит дольше 40 минут, но Strix/полигоны — не молчание
+        # 5. Молчание сердца: убиваем ТОЛЬКО висящего агента или запускаем отсутствующего
         if ((SerdceStale 40) -and -not (RobotyBezAgenta)) {
-            Log "сердце молчит 40 минут; перезапуск"
-            Get-Process opencode* -ErrorAction SilentlyContinue | Stop-Process -Force
-            Zapustit "Ты слон. Ты молчал сорок минут. Прочитай most/status.md, восстанови картину и продолжай последнюю задачу по правилам моста из most/README.md."
-            Set-Content $serdce "restart"
-        }
-
-        # 5. Агент не запущен, а команда ждёт
-        if ((-not (OpenCodeZhiv)) -and (Test-Path $ochered) -and ((Get-Item $ochered).Length -gt 0)) {
-            Zapustit "Ты слон. Прочитай most/README.md и очередь most/ochered-komand.txt: там команда от человека. Выполни по правилам моста."
+            $staleLimit = [Math]::Min(40 + 20 * $script:quickExits, 120)
+            if ((SerdceStale $staleLimit) -and -not (AgentZhiv)) {
+                if (((Get-Date) - $script:lastLaunch).TotalMinutes -lt 15) { $script:quickExits++ } else { $script:quickExits = 0 }
+                Log "сердце молчит $staleLimit мин, агент не запущен — запуск (быстрых падений подряд: $($script:quickExits))"
+                Zapustit "Ты слон. Ты молчал сорок минут. Прочитай most/status.md, восстанови картину и продолжай последнюю задачу по правилам моста из most/README.md. Если упёрся в лимит — запиши СОСТОЯНИЕ: ЖДУ ЛИМИТ и строку СБРОС: ЧЧ:ММ."
+            } elseif ((SerdceStale $staleLimit) -and $script:idleStreak -ge 5) {
+                Log "агент запущен, но без активности $($script:idleStreak) мин и сердце молчит $staleLimit мин — висит, перезапуск"
+                (AgentProcs) | Stop-Process -Force
+                Start-Sleep 3
+                Zapustit "Ты слон. Ты молчал сорок минут. Прочитай most/status.md, восстанови картину и продолжай последнюю задачу по правилам моста из most/README.md. Если упёрся в лимит — запиши СОСТОЯНИЕ: ЖДУ ЛИМИТ и строку СБРОС: ЧЧ:ММ."
+            }
+            # иначе: агент жив и работает (CPU-проверка уже тронула сердце) — не убиваем
         }
     }
     catch { Log "ошибка стража: $($_.Exception.Message)" }

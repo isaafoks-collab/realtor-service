@@ -1,7 +1,7 @@
 ---
 description: Рабочий армии агентов. Исследования: рынок, отзывы, скиллы, документация. Собирает факты, возвращает отчёт. Не пишет код.
 mode: subagent
-model: ollama/qwen3:4b
+model: ollama/qwen2.5-coder:3b
 permissions:
   edit: deny
   bash: allow

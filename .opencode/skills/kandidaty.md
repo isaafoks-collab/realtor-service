@@ -1,0 +1,2268 @@
+# Каталог кандидатов в библиотеку скиллов
+Собран: 2026-11-17 скриптом tools/skills-harvest.py. Итого кандидатов: 2197 (без дубликатов)
+
+## BehiSecc/awesome-claude-skills
+- 0xArchive Backtest — BehiSecc/awesome-claude-skills — https://github.com/0xArchiveIO/0xarchive-quant/tree/main/skills/backtest
+- <img src="atlas.svg" alt="Atlas Cloud" width="180"> — BehiSecc/awesome-claude-skills — https://www.atlascloud.ai/console/coding-plan
+- agent-cards-skill — BehiSecc/awesome-claude-skills — https://github.com/agent-cards/skill
+- agent-lsp — BehiSecc/awesome-claude-skills — https://github.com/blackwell-systems/agent-lsp
+- agenttrace-session-audit — BehiSecc/awesome-claude-skills — https://github.com/luoyuctl/agenttrace/tree/master/skills/agenttrace-session-audit
+- agnix — BehiSecc/awesome-claude-skills — https://github.com/avifenesh/agnix
+- ai-shortfilm-prompts — BehiSecc/awesome-claude-skills — https://github.com/jnMetaCode/ai-shortfilm-prompts
+- alpha-insights — BehiSecc/awesome-claude-skills — https://github.com/Ericyoung-183/alpha-insights
+- android-ui-check — BehiSecc/awesome-claude-skills — https://github.com/ateymoori/oh-my-android/tree/main/skills/android-ui-check
+- anidoodle — BehiSecc/awesome-claude-skills — https://github.com/alexgreensh/anidoodle
+- apify-reddit-scraper — BehiSecc/awesome-claude-skills — https://github.com/apify/awesome-skills/tree/main/skills/apify-reddit-scraper
+- APIMart — BehiSecc/awesome-claude-skills — https://go.apimart.ai/gh-claude-skislsss
+- Archcore skills — BehiSecc/awesome-claude-skills — https://github.com/archcore-ai/archcore/tree/main/plugins/archcore/skills
+- Arcmira: YouTube Transcript Search — BehiSecc/awesome-claude-skills — https://github.com/arcmira/mcp/tree/master/plugins/arcmira/skills/arcmira
+- aria-icons — BehiSecc/awesome-claude-skills — https://github.com/LeulAria/Aria-Icons/tree/main/skills
+- Atlas Cloud — BehiSecc/awesome-claude-skills — https://www.atlascloud.ai/
+- auteur — BehiSecc/awesome-claude-skills — https://github.com/agiwhitelist/auteur
+- avoid-ai-writing — BehiSecc/awesome-claude-skills — https://github.com/conorbronsdon/avoid-ai-writing
+- awesome-seedance-2.5-prompts-skills — BehiSecc/awesome-claude-skills — https://github.com/AtlasCloudAI/awesome-seedance-2.5-prompts-skills
+- aws-architecture-diagram-skill — BehiSecc/awesome-claude-skills — https://github.com/vidanov/aws-architecture-diagram-skill
+- ax-extract-workflow — BehiSecc/awesome-claude-skills — https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow
+- azure-devops — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/azure-devops
+- backlink-guard — BehiSecc/awesome-claude-skills — https://github.com/zhuyansen/backlink-guard
+- Birdview — BehiSecc/awesome-claude-skills — https://github.com/Qiuner/birdview
+- blender-kiln — BehiSecc/awesome-claude-skills — https://github.com/elithril/blender-kiln
+- blueprint — BehiSecc/awesome-claude-skills — https://github.com/imbue-ai/blueprint
+- bria-ai — BehiSecc/awesome-claude-skills — https://github.com/Bria-AI/bria-skill/tree/dev/skills/bria-ai
+- bullshit-detector — BehiSecc/awesome-claude-skills — https://github.com/SerhiiKorniienko/bullshit-detector
+- buyer-eval — BehiSecc/awesome-claude-skills — https://github.com/salespeak-ai/buyer-eval-skill
+- chainaware-behavioral-prediction — BehiSecc/awesome-claude-skills — https://github.com/ChainAware/behavioral-prediction-mcp
+- charles-proxy-extract — BehiSecc/awesome-claude-skills — https://github.com/wannabehero/charles-proxy-extract-skill
+- chisle — BehiSecc/awesome-claude-skills — https://github.com/JayPokale/Chisle
+- Claude Code Video Toolkit — BehiSecc/awesome-claude-skills — https://github.com/digitalsamba/claude-code-video-toolkit
+- claude-ai-music-skills — BehiSecc/awesome-claude-skills — https://github.com/bitwize-music-studio/claude-ai-music-skills
+- claude-ally-health — BehiSecc/awesome-claude-skills — https://github.com/huifer/Claude-Ally-Health
+- claude-code-terminal-title — BehiSecc/awesome-claude-skills — https://github.com/bluzername/claude-code-terminal-title
+- claude-ecom — BehiSecc/awesome-claude-skills — https://github.com/takechanman1228/claude-ecom
+- claude-epub-skill — BehiSecc/awesome-claude-skills — https://github.com/smerchek/claude-epub-skill
+- claude-persona — BehiSecc/awesome-claude-skills — https://github.com/takechanman1228/claude-persona
+- claude-real-video — BehiSecc/awesome-claude-skills — https://github.com/HUANGCHIHHUNGLeo/claude-real-video
+- claude-scientific-skills — BehiSecc/awesome-claude-skills — https://github.com/K-Dense-AI/claude-scientific-skills
+- claude-skills — BehiSecc/awesome-claude-skills — https://github.com/jeffallan/claude-skills
+- claude-video-plus — BehiSecc/awesome-claude-skills — https://github.com/abe238/claude-video-plus
+- claudemy — BehiSecc/awesome-claude-skills — https://github.com/assafkip/claudemy
+- code-review-skill — BehiSecc/awesome-claude-skills — https://github.com/kyy-logs/code-review-skill/tree/main/skills/code-review
+- Coding Plan — BehiSecc/awesome-claude-skills — https://www.atlascloud.ai/console/coding-plan
+- coinpaprika-api — BehiSecc/awesome-claude-skills — https://github.com/coinpaprika/skills/tree/main/coinpaprika-api
+- content-research-writer — BehiSecc/awesome-claude-skills — https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer
+- court-skill — BehiSecc/awesome-claude-skills — https://github.com/alexyc9381/court-skill
+- creative-director-skill — BehiSecc/awesome-claude-skills — https://github.com/smixs/creative-director-skill
+- crit — BehiSecc/awesome-claude-skills — https://github.com/tomasz-tomczyk/crit
+- crowdcast — BehiSecc/awesome-claude-skills — https://github.com/TheQmaks/crowdcast
+- csv-data-summarizer-claude-skill — BehiSecc/awesome-claude-skills — https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill
+- cup — BehiSecc/awesome-claude-skills — https://github.com/krodak/clickup-cli
+- Dashmotion — BehiSecc/awesome-claude-skills — https://github.com/csthink/dashmotion
+- deapi-ai/claude-code-skills — BehiSecc/awesome-claude-skills — https://github.com/deapi-ai/claude-code-skills
+- debug-skill — BehiSecc/awesome-claude-skills — https://github.com/AlmogBaku/debug-skill
+- DeepRead — BehiSecc/awesome-claude-skills — https://github.com/xiehuan123/dsh-deepread
+- Design Auditor — BehiSecc/awesome-claude-skills — https://github.com/Ashutos1997/claude-design-auditor-skill
+- design-os-3d-blender — BehiSecc/awesome-claude-skills — https://github.com/jangtrinh/design-os-3d-blender
+- dexpaprika-api — BehiSecc/awesome-claude-skills — https://github.com/coinpaprika/skills/tree/main/dexpaprika-api
+- dna-claude-analysis — BehiSecc/awesome-claude-skills — https://github.com/shmlkv/dna-claude-analysis
+- docx-cli — BehiSecc/awesome-claude-skills — https://github.com/kklimuk/docx-cli/tree/main/skills/docx-cli
+- Dory — BehiSecc/awesome-claude-skills — https://github.com/tjqscott/dory
+- ecommerce-image-skills — BehiSecc/awesome-claude-skills — https://github.com/xianyu110/ecommerce-image-skills
+- ecommerce-video-skills — BehiSecc/awesome-claude-skills — https://github.com/xianyu110/ecommerce-video-skills
+- elevenlabs — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/elevenlabs
+- elicitation — BehiSecc/awesome-claude-skills — https://github.com/tasteray/skills/tree/main/elicitation
+- email-html-mjml — BehiSecc/awesome-claude-skills — https://github.com/framix-team/skill-email-html-mjml
+- email-marketing-bible — BehiSecc/awesome-claude-skills — https://github.com/CosmoBlk/email-marketing-bible
+- Emblem AI Agent Wallet — BehiSecc/awesome-claude-skills — https://github.com/EmblemCompany/Agent-skills/tree/main/skills/emblem-ai-agent-wallet
+- Factory-Floor — BehiSecc/awesome-claude-skills — https://github.com/Swiftner/Factory-Floor
+- feature-track — BehiSecc/awesome-claude-skills — https://github.com/JunsW/feature-track
+- ffuf_claude_skill — BehiSecc/awesome-claude-skills — https://github.com/jthack/ffuf_claude_skill
+- forward-deployed-selling — BehiSecc/awesome-claude-skills — https://github.com/vonarmen-wq/forward-deployed-selling
+- genai-mesh-gradient — BehiSecc/awesome-claude-skills — https://github.com/9929y/genai-mesh-gradient
+- genjutsu — BehiSecc/awesome-claude-skills — https://github.com/AThevon/genjutsu
+- gh-star-history — BehiSecc/awesome-claude-skills — https://github.com/ykdojo/gh-star-history
+- go-agent-skills — BehiSecc/awesome-claude-skills — https://github.com/eduardo-sl/go-agent-skills
+- google-tts — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/google-tts
+- harness-evolver — BehiSecc/awesome-claude-skills — https://github.com/raphaelchristi/harness-evolver
+- hashicorp-agent-skills — BehiSecc/awesome-claude-skills — https://github.com/hashicorp/agent-skills
+- here — BehiSecc/awesome-claude-skills — https://go.apimart.ai/gh-claude-skilssss
+- hivemind — BehiSecc/awesome-claude-skills — https://github.com/activeloopai/hivemind
+- humanizer-ru — BehiSecc/awesome-claude-skills — https://github.com/Vladimir-Human/humanizer-ru
+- humanpen-skill — BehiSecc/awesome-claude-skills — https://github.com/humanpen/humanpen-skill
+- hypergrok-trading-desk — BehiSecc/awesome-claude-skills — https://github.com/galleonlabs/hypergrok-trading-desk
+- image-enhancer — BehiSecc/awesome-claude-skills — https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer
+- itr-wala — BehiSecc/awesome-claude-skills — https://github.com/karanb192/itr-wala
+- Jev Social — BehiSecc/awesome-claude-skills — https://github.com/socai-io/jev-social/tree/main/skills/jev-social
+- jp-essay — BehiSecc/awesome-claude-skills — https://github.com/lucasbabur/jp-essay
+- Junshi — BehiSecc/awesome-claude-skills — https://github.com/junshi-research/research-junshi
+- kaggle-skill — BehiSecc/awesome-claude-skills — https://github.com/shepsci/kaggle-skill
+- kanban-skill — BehiSecc/awesome-claude-skills — https://github.com/mattjoyce/kanban-skill
+- karpathy-llm-wiki — BehiSecc/awesome-claude-skills — https://github.com/Astro-Han/karpathy-llm-wiki
+- Kinetograph — BehiSecc/awesome-claude-skills — https://github.com/0xS4N4TG/kinetograph/tree/main/packages/cli/skills/kinetograph
+- krexa — BehiSecc/awesome-claude-skills — https://github.com/Krexa-xyz/skills/tree/main/skills/krexa
+- learn-this — BehiSecc/awesome-claude-skills — https://github.com/michalparkola/tapestry-skills/tree/main/learn-this
+- lightning-architecture-review — BehiSecc/awesome-claude-skills — https://github.com/8144225309/superscalar-mcp/tree/master/skills/lightning-architecture-review
+- lightning-channel-factories — BehiSecc/awesome-claude-skills — https://github.com/8144225309/superscalar-mcp/tree/master/skills/lightning-channel-factories
+- lightning-factory-explainer — BehiSecc/awesome-claude-skills — https://github.com/8144225309/superscalar-mcp/tree/master/skills/lightning-factory-explainer
+- linear-claude-skill — BehiSecc/awesome-claude-skills — https://github.com/wrsmith108/linear-claude-skill
+- linear-cli-skill — BehiSecc/awesome-claude-skills — https://github.com/Valian/linear-cli-skill
+- llm-wiki — BehiSecc/awesome-claude-skills — https://github.com/praneybehl/llm-wiki-plugin
+- mailtrap-skills — BehiSecc/awesome-claude-skills — https://github.com/mailtrap/mailtrap-skills
+- manus — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/manus
+- master-skill (大师.skill) — BehiSecc/awesome-claude-skills — https://github.com/swaylq/master-skill
+- materials-simulation-skills — BehiSecc/awesome-claude-skills — https://github.com/HeshamFS/materials-simulation-skills
+- md2wechat — BehiSecc/awesome-claude-skills — https://github.com/geekjourneyx/md2wechat-skill
+- meeting-insights-analyzer — BehiSecc/awesome-claude-skills — https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer
+- moltdj — BehiSecc/awesome-claude-skills — https://github.com/polaroteam/moltdj-skill
+- Motion Graphics Skills — BehiSecc/awesome-claude-skills — https://github.com/iart-ai/motion-skills
+- mssql — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/mssql
+- mysql — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/mysql
+- naming — BehiSecc/awesome-claude-skills — https://github.com/glacierphonk/naming
+- new-term-radar — BehiSecc/awesome-claude-skills — https://github.com/zhuyansen/new-term-radar
+- NoizAI/skills — BehiSecc/awesome-claude-skills — https://github.com/NoizAI/skills
+- notebooklm — BehiSecc/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/notebooklm
+- octav-api-skill — BehiSecc/awesome-claude-skills — https://github.com/Octav-Labs/octav-api-skill
+- orca-replay — BehiSecc/awesome-claude-skills — https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay
+- OrkasVideoStudio video-router — BehiSecc/awesome-claude-skills — https://github.com/Orkas-AI/Orkas-VideoStudio/blob/7387d99d468e0cce22508854ba8bca04e79657e1/packages
+- owasp-security — BehiSecc/awesome-claude-skills — https://github.com/agamm/claude-code-owasp
+- paper-search — BehiSecc/awesome-claude-skills — https://github.com/ykdojo/paper-search
+- papercut-explainer — BehiSecc/awesome-claude-skills — https://github.com/0xS4N4TG/papercut-explainer
+- plannotator — BehiSecc/awesome-claude-skills — https://github.com/backnotprop/plannotator
+- Playwright Skill — BehiSecc/awesome-claude-skills — https://github.com/testdino-hq/playwright-skill
+- plugin-authoring — BehiSecc/awesome-claude-skills — https://github.com/ivan-magda/claude-code-plugin-template/tree/main/plugins/plugin-development/skill
+- pm-skills — BehiSecc/awesome-claude-skills — https://github.com/product-on-purpose/pm-skills
+- polaris-datainsight-doc-extract — BehiSecc/awesome-claude-skills — https://github.com/jacob-g-park/polaris-datainsight-doc-extract
+- product-launch-motion — BehiSecc/awesome-claude-skills — https://github.com/AbubakrChan/product-launch-motion
+- Product-Manager-Skills — BehiSecc/awesome-claude-skills — https://github.com/deanpeters/Product-Manager-Skills
+- public-google-drive — BehiSecc/awesome-claude-skills — https://github.com/zagmoai/public-google-drive
+- qdrant-skills — BehiSecc/awesome-claude-skills — https://github.com/qdrant/skills
+- recommendations — BehiSecc/awesome-claude-skills — https://github.com/tasteray/skills/tree/main/recommendations
+- repo-context-ledger — BehiSecc/awesome-claude-skills — https://github.com/gviiisen/repo-context-ledger/tree/main/skills/repo-context-ledger
+- Research Toolkit — BehiSecc/awesome-claude-skills — https://github.com/rrrrrredy/research-toolkit
+- research-field-onboarding — BehiSecc/awesome-claude-skills — https://github.com/ljx-chase/research-field-onboarding
+- revealjs-skill — BehiSecc/awesome-claude-skills — https://github.com/ryanbbrown/revealjs-skill/tree/main
+- ru-text — BehiSecc/awesome-claude-skills — https://github.com/talkstream/ru-text
+- Satori — BehiSecc/awesome-claude-skills — https://github.com/MetcalfSolutions/Satori
+- skill-optimizer — BehiSecc/awesome-claude-skills — https://github.com/hqhq1025/skill-optimizer
+- spartan-ai-toolkit — BehiSecc/awesome-claude-skills — https://github.com/spartan-stratos/spartan-ai-toolkit
+- story-skills — BehiSecc/awesome-claude-skills — https://github.com/danjdewhurst/story-skills
+- suede-creator-skills — BehiSecc/awesome-claude-skills — https://github.com/JasonColapietro/suede-creator-skills
+- Superdesign — BehiSecc/awesome-claude-skills — https://github.com/superdesigndev/superdesign-skill
+- swarmclaw — BehiSecc/awesome-claude-skills — https://github.com/swarmclawai/swarmclaw/blob/main/skills/swarmclaw.md
+- swarmvault — BehiSecc/awesome-claude-skills — https://github.com/swarmclawai/swarmvault
+- systematic-debugging — BehiSecc/awesome-claude-skills — https://github.com/obra/superpowers/tree/main/skills/systematic-debugging
+- Trail of Bits Security Skills — BehiSecc/awesome-claude-skills — https://github.com/trailofbits/skills
+- uizze/uizze — BehiSecc/awesome-claude-skills — https://github.com/uizze/uizze
+- understanding-ladder — BehiSecc/awesome-claude-skills — https://github.com/ChangWenC/understanding-ladder
+- unity-agent-skills — BehiSecc/awesome-claude-skills — https://github.com/jahro-console/unity-agent-skills
+- universal-exam-cram-coach — BehiSecc/awesome-claude-skills — https://github.com/ZeKaiNie/universal-examprep-skill
+- upload-post — BehiSecc/awesome-claude-skills — https://github.com/Upload-Post/upload-post-skill
+- using-lwc — BehiSecc/awesome-claude-skills — https://github.com/JanYork/llm-wiki-cli/tree/main/skills/using-lwc
+- varlock-claude-skill — BehiSecc/awesome-claude-skills — https://github.com/wrsmith108/varlock-claude-skill
+- vibe-check — BehiSecc/awesome-claude-skills — https://github.com/TexasBedouin/vibe-check
+- vibe-creating-skill — BehiSecc/awesome-claude-skills — https://github.com/Alisa0808/vibe-creating-skill
+- vibe-replay — BehiSecc/awesome-claude-skills — https://github.com/tuo-lei/vibe-replay
+- VibeSec-Skill — BehiSecc/awesome-claude-skills — https://github.com/BehiSecc/VibeSec-Skill
+- video-downloader — BehiSecc/awesome-claude-skills — https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader
+- video-prompting-skill — BehiSecc/awesome-claude-skills — https://github.com/Square-Zero-Labs/video-prompting-skill
+- video-to-music — BehiSecc/awesome-claude-skills — https://github.com/sonilo-ai/skills/tree/main/video-to-music
+- VideoDB Skills — BehiSecc/awesome-claude-skills — https://github.com/video-db/skills
+- Vox Director — BehiSecc/awesome-claude-skills — https://github.com/Alisa0808/vox-director
+- wiki — BehiSecc/awesome-claude-skills — https://github.com/plasma-ai/wiki/tree/main/wiki/skills/wiki
+- x-twitter-scraper — BehiSecc/awesome-claude-skills — https://github.com/Xquik-dev/x-twitter-scraper
+- youtube-full — BehiSecc/awesome-claude-skills — https://github.com/ZeroPointRepo/youtube-skills
+- youtube-transcript-skills — BehiSecc/awesome-claude-skills — https://github.com/tubeagentkit/youtube-transcript-skills
+- zero-slop — BehiSecc/awesome-claude-skills — https://github.com/manavmishra/ZeroSlop
+
+## ComposioHQ/awesome-claude-skills
+- @Anjos2 — ComposioHQ/awesome-claude-skills — https://github.com/Anjos2
+- @avelikiy — ComposioHQ/awesome-claude-skills — https://github.com/avelikiy
+- @BuildShipGrowRepeat — ComposioHQ/awesome-claude-skills — https://github.com/BuildShipGrowRepeat
+- @chrisvoncsefalvay — ComposioHQ/awesome-claude-skills — https://github.com/chrisvoncsefalvay
+- @coffeefuelbump — ComposioHQ/awesome-claude-skills — https://github.com/coffeefuelbump
+- @conorluddy — ComposioHQ/awesome-claude-skills — https://github.com/conorluddy
+- @jthack — ComposioHQ/awesome-claude-skills — https://github.com/jthack
+- @lackeyjb — ComposioHQ/awesome-claude-skills — https://github.com/lackeyjb
+- @LewisLiu007 — ComposioHQ/awesome-claude-skills — https://github.com/LewisLiu007
+- @openweb-org — ComposioHQ/awesome-claude-skills — https://github.com/openweb-org
+- @OthmanAdi — ComposioHQ/awesome-claude-skills — https://github.com/OthmanAdi
+- @PleasePrompto — ComposioHQ/awesome-claude-skills — https://github.com/PleasePrompto
+- @rampstackco — ComposioHQ/awesome-claude-skills — https://github.com/rampstackco
+- @sanjay3290 — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290
+- @santiago-vargas-de-kruijf — ComposioHQ/awesome-claude-skills — https://github.com/santiago-vargas-de-kruijf
+- @sboghossian — ComposioHQ/awesome-claude-skills — https://github.com/sboghossian
+- @septimlabs-code — ComposioHQ/awesome-claude-skills — https://github.com/septimlabs-code
+- @smerchek — ComposioHQ/awesome-claude-skills — https://github.com/smerchek
+- @uxKero — ComposioHQ/awesome-claude-skills — https://github.com/uxKero
+- @wholiver — ComposioHQ/awesome-claude-skills — https://github.com/wholiver
+- @yusufkaraaslan — ComposioHQ/awesome-claude-skills — https://github.com/yusufkaraaslan
+- @yvgude — ComposioHQ/awesome-claude-skills — https://github.com/yvgude
+- Agent Skills Blog Post — ComposioHQ/awesome-claude-skills — https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- Anthropic Skills Repository — ComposioHQ/awesome-claude-skills — https://github.com/anthropics/skills
+- anydesign — ComposioHQ/awesome-claude-skills — https://github.com/uxKero/anydesign
+- article-extractor — ComposioHQ/awesome-claude-skills — https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/article-extractor
+- artifacts-builder — ComposioHQ/awesome-claude-skills — https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder
+- ASD-AuDHD-PAI-Skills — ComposioHQ/awesome-claude-skills — https://github.com/emory/ASD-AuDHD-PAI-Skills
+- aws-skills — ComposioHQ/awesome-claude-skills — https://github.com/zxkane/aws-skills
+- brainstorming — ComposioHQ/awesome-claude-skills — https://github.com/obra/superpowers/tree/main/skills/brainstorming
+- Brand Build Skills — ComposioHQ/awesome-claude-skills — https://github.com/rampstackco/claude-skills
+- building-blog — ComposioHQ/awesome-claude-skills — https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill
+- Chrome Relay — ComposioHQ/awesome-claude-skills — https://chrome-relay.kushalsm.com/
+- Chrome Web Store extension — ComposioHQ/awesome-claude-skills — https://chromewebstore.google.com/detail/chrome-relay/cpdiapbifblhlcpnmlmfpgfjlacebokb
+- Claude Code Terminal Title — ComposioHQ/awesome-claude-skills — https://github.com/bluzername/claude-code-terminal-title
+- Claude Community — ComposioHQ/awesome-claude-skills — https://community.anthropic.com
+- Claude Skills Overview — ComposioHQ/awesome-claude-skills — https://www.anthropic.com/news/skills
+- computer-forensics — ComposioHQ/awesome-claude-skills — https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills
+- Creating Custom Skills — ComposioHQ/awesome-claude-skills — https://support.claude.com/en/articles/12512198-creating-custom-skills
+- CSV Data Summarizer — ComposioHQ/awesome-claude-skills — https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill
+- D3.js Visualization — ComposioHQ/awesome-claude-skills — https://github.com/chrisvoncsefalvay/claude-d3js-skill
+- dashboard.composio.dev — ComposioHQ/awesome-claude-skills — https://dashboard.composio.dev/login?utm_source=Github&utm_content=AwesomeSkills
+- deep-research — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research
+- family-history-research — ComposioHQ/awesome-claude-skills — https://github.com/emaynard/claude-family-history-research-skill
+- FFUF Web Fuzzing — ComposioHQ/awesome-claude-skills — https://github.com/jthack/ffuf_claude_skill
+- file-deletion — ComposioHQ/awesome-claude-skills — https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills
+- finishing-a-development-branch — ComposioHQ/awesome-claude-skills — https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch
+- Follow on Twitter/X — ComposioHQ/awesome-claude-skills — https://x.com/composio
+- Full-Page Screenshot — ComposioHQ/awesome-claude-skills — https://github.com/LewisLiu007/full-page-screenshot
+- git-pushing — ComposioHQ/awesome-claude-skills — https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skil
+- google-workspace-skills — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills
+- great_cto — ComposioHQ/awesome-claude-skills — https://github.com/avelikiy/great_cto
+- imagen — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen
+- iOS Simulator — ComposioHQ/awesome-claude-skills — https://github.com/conorluddy/ios-simulator-skill
+- Join our Discord — ComposioHQ/awesome-claude-skills — https://discord.com/invite/composio
+- jules — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/jules
+- kaizen — ComposioHQ/awesome-claude-skills — https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen
+- lean-ctx — ComposioHQ/awesome-claude-skills — https://github.com/yvgude/lean-ctx
+- leanctx.com — ComposioHQ/awesome-claude-skills — https://leanctx.com
+- Lenny's Newsletter — ComposioHQ/awesome-claude-skills — https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code
+- Markdown to EPUB Converter — ComposioHQ/awesome-claude-skills — https://github.com/smerchek/claude-epub-skill
+- Master Claude for Legal — ComposioHQ/awesome-claude-skills — https://github.com/sboghossian/master-claude-for-legal
+- MCP Gateway — ComposioHQ/awesome-claude-skills — https://composio.dev/mcp-gateway
+- Mercury — ComposioHQ/awesome-claude-skills — https://mercury.build
+- mercury-mcp — ComposioHQ/awesome-claude-skills — https://www.teamoffsite.ai/proton/docs/skill
+- metadata-extraction — ComposioHQ/awesome-claude-skills — https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills
+- move-code-quality-skill — ComposioHQ/awesome-claude-skills — https://github.com/1NickPappas/move-code-quality-skill
+- n8n-skills — ComposioHQ/awesome-claude-skills — https://github.com/haunchen/n8n-skills
+- NotebookLM Integration — ComposioHQ/awesome-claude-skills — https://github.com/PleasePrompto/notebooklm-skill
+- Notion Skills — ComposioHQ/awesome-claude-skills — https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0
+- open standard — ComposioHQ/awesome-claude-skills — https://github.com/anthropics/skills
+- OpenWeb — ComposioHQ/awesome-claude-skills — https://github.com/openweb-org/openweb
+- outline — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/outline
+- overkill — ComposioHQ/awesome-claude-skills — https://github.com/santiago-vargas-de-kruijf/claude-overkill
+- pda-reframing — ComposioHQ/awesome-claude-skills — https://github.com/emory/ASD-AuDHD-PAI-Skills/blob/main/Skills/pda-reframing/SKILL.md
+- Pixelbin-Media-Generation — ComposioHQ/awesome-claude-skills — https://github.com/anandpareek-hub/pixelbin-claude-skill
+- Playwright Browser Automation — ComposioHQ/awesome-claude-skills — https://github.com/lackeyjb/playwright-skill
+- postgres — ComposioHQ/awesome-claude-skills — https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres
+- prompt-engineering — ComposioHQ/awesome-claude-skills — https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prom
+- pypict-claude-skill — ComposioHQ/awesome-claude-skills — https://github.com/omkamal/pypict-claude-skill
+- recursive-research — ComposioHQ/awesome-claude-skills — https://github.com/Anjos2/recursive-research
+- reddit-fetch — ComposioHQ/awesome-claude-skills — https://github.com/ykdojo/claude-code-tips/tree/main/skills/reddit-fetch
+- review-implementing — ComposioHQ/awesome-claude-skills — https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skil
+- root-cause-tracing — ComposioHQ/awesome-claude-skills — https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing
+- Rube MCP (Composio) — ComposioHQ/awesome-claude-skills — https://composio.dev
+- See all supported apps → — ComposioHQ/awesome-claude-skills — https://composio.dev/toolkits
+- Septim Agents Pack — ComposioHQ/awesome-claude-skills — https://septimlabs.com/tools/agents?utm_source=awesome-claude-skills&utm_medium=awesome-list&utm_cam
+- ship-learn-next — ComposioHQ/awesome-claude-skills — https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next
+- Skill Seekers — ComposioHQ/awesome-claude-skills — https://github.com/yusufkaraaslan/Skill_Seekers
+- Skills API documentation — ComposioHQ/awesome-claude-skills — https://docs.claude.com/en/api/skills-guide
+- Skills Marketplace — ComposioHQ/awesome-claude-skills — https://claude.ai/marketplace
+- Skills User Guide — ComposioHQ/awesome-claude-skills — https://support.claude.com/en/articles/12512180-using-skills-in-claude
+- software-architecture — ComposioHQ/awesome-claude-skills — https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd/skills/software-architec
+- solo-skills — ComposioHQ/awesome-claude-skills — https://github.com/rockscy/solo-skills
+- subagent-driven-development — ComposioHQ/awesome-claude-skills — https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd/skills/subagent-driven-
+- swiftui-design-skill — ComposioHQ/awesome-claude-skills — https://github.com/wholiver/swiftui-design-skill
+- tapestry — ComposioHQ/awesome-claude-skills — https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry
+- test-driven-development — ComposioHQ/awesome-claude-skills — https://github.com/obra/superpowers/tree/main/skills/test-driven-development
+- test-fixing — ComposioHQ/awesome-claude-skills — https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skil
+- threat-hunting-with-sigma-rules — ComposioHQ/awesome-claude-skills — https://github.com/jthack/threat-hunting-with-sigma-rules-skill
+- Top Claude Skills — ComposioHQ/awesome-claude-skills — https://composio.dev/content/top-claude-skills
+- using-git-worktrees — ComposioHQ/awesome-claude-skills — https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/
+- youtube-transcript — ComposioHQ/awesome-claude-skills — https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript
+
+## JSONbored/awesome-claude
+- Ableton MCP Extended — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ableton-mcp-extended
+- ABMeter MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/abmeter-mcp-server
+- AccInt MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/accint-mcp-server
+- ACI MCP Servers — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aci-mcp-servers
+- AdAdvisor MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/adadvisor-mcp-server
+- Adeu MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-adeu-adeu-mcp-server
+- advertise — JSONbored/awesome-claude — https://heyclau.de/advertise
+- Adyen MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/adyen-mcp-server
+- AFFiNE MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/affine-mcp-server
+- After Effects MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/after-effects-mcp-server
+- agency.lona/trading MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agency-lona-trading-mcp-server
+- Agent Device MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agent-device-mcp-server
+- Agent Observability SRE Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/agent-observability-sre-agent
+- Agent Only — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agent-only-mcp
+- Agent SDK Production Architect Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/agent-sdk-production-architect-agent
+- Agent Skill QA Reviewer Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/agent-skill-qa-reviewer-agent
+- Agent Skills Enterprise Librarian Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/agent-skills-enterprise-librarian-agent
+- Agent Skills Framework Engineer - Claude Code Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/agent-skills-framework-engineer
+- Agent Skills Search Server MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agent-skills-search-server-mcp-server
+- Agent View Fleet Operator Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/agent-view-fleet-operator-agent
+- Agentage Memory MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentage-memory-mcp-server
+- AgentDM MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentdm-mcp-server
+- Agentgateway MCP Gateway — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentgateway-mcp-gateway
+- Agentic News MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentic-news-mcp-server
+- Agentic Terminal Directory MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentic-terminal-directory-mcp-server
+- AgentQL MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentql-mcp-server
+- Agentset MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agentset-mcp-server
+- AgentTrust MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/agenttrust-identity-and-trust-for-a2a-agents-mcp-server
+- AI Agent Cost Governance Analyst Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/ai-agent-cost-governance-analyst-agent
+- AI Code Review Security Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/ai-code-review-security-agent
+- AI Game Developer Unity MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-game-developer-unity-mcp-server
+- AI Workflow Privacy Compliance Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/ai-workflow-privacy-compliance-review-agent
+- Airbyte MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/airbyte-mcp-server
+- Airtable MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/airtable-mcp-server
+- Aiven MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aiven-mcp-server
+- Algolia MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/algolia-mcp-server
+- Allways Agent Quickstart for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/allways-agent-quickstart
+- Alpaca MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/alpaca-mcp-server
+- Alpic MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/alpic-mcp-server
+- Amazon ECS MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-ecs-mcp-server
+- Amazon EKS MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-eks-mcp-server
+- Amazon Location Service MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-location-mcp-server
+- Amazon SNS / SQS MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-sns-sqs-mcp-server
+- Amplitude MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/amplitude-mcp-server
+- Android Skills MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/android-skills-mcp-server
+- Angular Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/angular-repository-contributor-agent
+- Anki MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/anki-mcp-server
+- AnomalyArmor MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/anomalyarmor-mcp-server
+- Ansible Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/ansible-repository-contributor-agent
+- AntV MCP Server Chart — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/antv-mcp-server-chart
+- API Builder Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/api-builder-agent
+- Apify MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/apify-mcp-server
+- AppDeploy MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/appdeploy-mcp-server
+- Apple Docs MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/apple-docs-mcp-server
+- Appwrite MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/appwrite-mcp-server
+- Archestra MCP Platform — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/archestra-mcp-platform
+- Arclan MCP Registry MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/arclan-mcp-registry-mcp-server
+- Argo CD MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/argocd-mcp-server
+- Arize Phoenix MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/arize-phoenix-mcp-server
+- Artidrop MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-artidrop-artidrop-mcp-server
+- arXiv MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/arxiv-mcp-server
+- Asana MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/asana-mcp-server
+- Astro Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/astro-repository-contributor-agent
+- Atlas Migration Safety Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/atlas-migration-safety-review-agent
+- AutEng MCP - Markdown Publishing & Document Share Links MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/auteng-mcp-markdown-publishing-and-document-share-links-mcp-server
+- Auth0 MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/auth0-mcp-server
+- Autogen Conversation Agent Builder - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/autogen-conversation-agent-builder
+- AutoRFP.ai MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/autorfp-ai-mcp-server
+- Auxen MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-auxen-auxen-mcp-server
+- AWS Billing and Cost Management MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-billing-cost-management-mcp-server
+- AWS CloudTrail MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-cloudtrail-mcp-server
+- AWS CloudWatch MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-cloudwatch-mcp-server
+- AWS Documentation MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-documentation-mcp-server
+- AWS DynamoDB MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-dynamodb-mcp-server
+- AWS FinOps MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-finops-mcp-server
+- AWS IAM MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-iam-mcp-server
+- AWS Knowledge MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-knowledge-mcp-server
+- AWS Lambda Tool MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-lambda-tool-mcp-server
+- AWS S3 Tables MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-s3-tables-mcp-server
+- AWS Serverless MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-serverless-mcp-server
+- AWS Services MCP Server - MCP Servers — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-services-mcp-server
+- AWS Step Functions Tool MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-stepfunctions-tool-mcp-server
+- Axiom MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/axiom-mcp-server
+- Azure DevOps MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/azure-devops-mcp-server
+- Azure MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/azure-mcp-server
+- Backend Architect Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/backend-architect-agent
+- Backlog MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/backlog-mcp-server
+- Baselight MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-baselight-baselight-mcp-server
+- Basic Memory MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/basic-memory-mcp-server
+- bb-browser MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/bb-browser-mcp-server
+- Bedrock Claude Code Platform Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/bedrock-claude-code-platform-agent
+- Better Icons MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/better-icons-mcp-server
+- Bifrost MCP Gateway — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/bifrost-mcp-gateway
+- BigQuery MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/bigquery-mcp-server
+- BioMCP — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/biomcp
+- BittleBits GEO Assistant MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/bittlebits-geo-assistant-mcp-server
+- Blender MCP Server — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/blender-mcp-server
+- BoolsAI Scan MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/boolsai-scan-mcp-server
+- BorealHost MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/borealhost-mcp-server
+- Bowmark MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/bowmark-mcp-server
+- Box MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/box-mcp-server
+- Buf Protobuf API Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/buf-protobuf-api-review-agent
+- ButlerBrain MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-butlerbrain-mcp-mcp-server
+- Changesets Release Cutover Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/changesets-release-cutover-agent
+- claim/update — JSONbored/awesome-claude — https://heyclau.de/claim
+- Claude Code Auto Mode Policy Auditor Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-code-auto-mode-policy-auditor-agent
+- Claude Code Desktop Operations Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-code-desktop-operations-agent
+- Claude Code Enterprise Rollout Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-code-enterprise-rollout-agent
+- Claude Code Routine Designer Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-code-routine-designer-agent
+- Claude Code Security Guidance Remediator Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-code-security-guidance-remediator-agent
+- Claude Code Worktree Coordinator Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-code-worktree-coordinator-agent
+- Claude Haiku 45 Speed Optimizer Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-haiku-45-speed-optimizer-agent
+- Claude MCP Skills Integration Agent - Claude Code Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-mcp-skills-integration-agent
+- Claude Models in GitHub Copilot Advisor — JSONbored/awesome-claude — https://heyclau.de/entry/agents/github-copilot-interop-bridge
+- Claude Plugin Marketplace Reviewer Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-plugin-marketplace-reviewer-agent
+- Claude Slack Delegation Triage Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-slack-delegation-triage-agent
+- CLAUDE.md Knowledge Manager Agent - Claude Code Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/claude-md-knowledge-manager-agent
+- Cloud Infrastructure Architect Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/cloud-infrastructure-architect-agent
+- Cloudflare Workers Deployment Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/cloudflare-workers-deployment-review-agent
+- Code Reviewer Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/code-reviewer-agent
+- Codebase Migration Refactoring Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/codebase-migration-refactoring-agent
+- Codecov Patch Coverage Planning Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/codecov-patch-coverage-planning-agent
+- Computer Use GUI Test Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/computer-use-gui-test-agent
+- Context Compaction Recovery Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/context-compaction-recovery-agent
+- Context Window Optimizer Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/context-window-optimizer-agent
+- CueAPI MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-cueapi-mcp-mcp-server
+- Data Pipeline Engineering Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/data-pipeline-engineering-agent
+- Database Expert for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/database-expert
+- Database Specialist Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/database-specialist-agent
+- DataStax Astra DB MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/astra-db-mcp-server
+- Debugging Assistant Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/debugging-assistant-agent
+- Dependency Update Triage Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/dependency-update-triage-agent
+- DevOps Engineer Agent - CI/CD, Terraform, Kubernetes — JSONbored/awesome-claude — https://heyclau.de/entry/agents/ai-devops-automation-engineer-agent
+- Devops SRE Expert for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/devops-sre-expert
+- Docs MCP Server for Claude (Grounded Docs) — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/arabold-docs-mcp-server
+- Domain Specialist AI Agents - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/domain-specialist-ai-agents
+- Dynamic Workflow Migration Planner Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/dynamic-workflow-migration-planner-agent
+- Enterprise Network Proxy Debugging Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/enterprise-network-proxy-debugging-agent
+- Extended Thinking Orchestrator - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/extended-thinking-orchestrator
+- Frontend Specialist Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/frontend-specialist-agent
+- Full Stack AI Development Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/full-stack-ai-development-agent
+- Ghidra MCP Server by bethington — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/bethington-ghidra-mcp-server
+- GitHub Community Issue Triage Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/github-community-issue-triage-agent
+- GitLab CI Claude Automation Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/gitlab-ci-claude-automation-agent
+- Home Assistant Core Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/home-assistant-core-repository-contributor-agent
+- Inspect AI Benchmark Rubric Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/inspect-ai-benchmark-rubric-agent
+- Jupytext Reproducible Notebook Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/jupytext-reproducible-notebook-agent
+- Kibana Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/kibana-repository-contributor-agent
+- Kubernetes Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/kubernetes-repository-contributor-agent
+- Legal/disclaimer — JSONbored/awesome-claude — https://heyclau.de/legal
+- Life Sciences Research Specialist - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/life-sciences-research-specialist
+- Live Incident Debugging Triage Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/live-incident-debugging-triage-agent
+- Material UI Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/material-ui-repository-contributor-agent
+- MCP Authorization Boundary Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-authorization-boundary-review-agent
+- MCP Integration Architect Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-integration-architect-agent
+- MCP OAuth Integration Reviewer Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-oauth-integration-reviewer-agent
+- MCP Proxy for AWS — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/aws-mcp-proxy-for-aws
+- MCP Registry Curator Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-registry-curator-agent
+- MCP Registry Metadata Reviewer Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-registry-metadata-reviewer-agent
+- MCP Remote Server Security Auditor Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-remote-server-security-auditor-agent
+- MCP Server Threat Modeling Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-server-threat-modeling-agent
+- MCP Tool Discovery Taxonomist Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-tool-discovery-taxonomist-agent
+- MCP Tool Result Budget Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/mcp-tool-result-budget-review-agent
+- Microsoft Foundry Claude Code Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/microsoft-foundry-claude-code-agent
+- Multi Agent Orchestration Specialist - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/multi-agent-orchestration-specialist
+- NanoClaw Container Isolation Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/nanoclaw-container-isolation-review-agent
+- Next.js Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/nextjs-repository-contributor-agent
+- Open Source PR Security Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/open-source-pr-security-review-agent
+- OpenAI Agents SDK Production Specialist Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/openai-agents-sdk-production-agent
+- OpenTelemetry Trace Analysis Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/opentelemetry-trace-analysis-agent
+- Parallel Subagent Distributor - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/parallel-subagent-distributor
+- Performance Optimizer Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/performance-optimizer-agent
+- Plugin Dependency Compatibility Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/plugin-dependency-compatibility-agent
+- Plugin Ecosystem Architect - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/plugin-ecosystem-architect
+- Prisma Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/prisma-repository-contributor-agent
+- Product Management AI Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/product-management-ai-agent
+- Production Reliability Engineer - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/production-reliability-engineer
+- Prompt Cache Optimization Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/prompt-cache-optimization-agent
+- Prompt Optimization Specialist - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/prompt-optimization-specialist
+- React Router Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/react-router-repository-contributor-agent
+- Rendered Frontend Visual QA Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/rendered-frontend-visual-qa-agent
+- Sandbox Boundary Review Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/sandbox-boundary-review-agent
+- Semantic Kernel Enterprise Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/semantic-kernel-enterprise-agent
+- Slash Command Orchestrator Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/slash-command-orchestrator-agent
+- SpotDB MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ai-aliengiraffe-spotdb-mcp-server
+- Storybook Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/storybook-repository-contributor-agent
+- Subagent Factory Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/subagent-factory-agent
+- submit flow — JSONbored/awesome-claude — https://heyclau.de/submit
+- Tandem Docs MCP Server for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/mcp/ac-tandem-docs-mcp-mcp-server
+- TanStack Router Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/tanstack-router-repository-contributor-agent
+- Technical Doc Writer — JSONbored/awesome-claude — https://heyclau.de/entry/agents/technical-documentation-writer-agent
+- Test Automation Engineer — JSONbored/awesome-claude — https://heyclau.de/entry/agents/test-automation-engineer-agent
+- Token Cost Budget Optimizer - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/token-cost-budget-optimizer
+- TypeScript Maintenance Mode Repository Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/typescript-maintenance-mode-repository-agent
+- UI UX Design Expert Agent - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/ui-ux-design-expert-agent
+- Vale Documentation Maintenance Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/vale-documentation-maintenance-agent
+- Vercel AI SDK Repository Contributor Agent for Claude — JSONbored/awesome-claude — https://heyclau.de/entry/agents/vercel-ai-sdk-repository-contributor-agent
+- Vertex AI Claude Code Platform Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/vertex-ai-claude-code-platform-agent
+- Web Async Agent Coordinator - Agents — JSONbored/awesome-claude — https://heyclau.de/entry/agents/web-async-agent-coordinator
+- Zero Data Retention Compliance Agent — JSONbored/awesome-claude — https://heyclau.de/entry/agents/zero-data-retention-compliance-agent
+
+## JackyST0/awesome-agent-skills
+- addyosmani/agent-skills — JackyST0/awesome-agent-skills — https://github.com/addyosmani/agent-skills
+- Agent Skills Index — JackyST0/awesome-agent-skills — https://agent-skills.md/
+- Agent Skills Open Standard — JackyST0/awesome-agent-skills — https://skill.md/
+- Agent Skills Specification — JackyST0/awesome-agent-skills — https://agentskills.io/specification
+- agentskills/agentskills — JackyST0/awesome-agent-skills — https://github.com/agentskills/agentskills
+- answer-me-with-html — JackyST0/awesome-agent-skills — https://github.com/QingYunA/answer-me-with-html
+- antfu/skills — JackyST0/awesome-agent-skills — https://github.com/antfu/skills
+- api-doc-generator — JackyST0/awesome-agent-skills — https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/api-doc-generator
+- ava — JackyST0/awesome-agent-skills — https://github.com/antvis/AVA/tree/ai/skills/ava
+- awesome-claude-code — JackyST0/awesome-agent-skills — https://github.com/hesreallyhim/awesome-claude-code
+- awesome-cursorrules — JackyST0/awesome-agent-skills — https://github.com/PatrickJS/awesome-cursorrules
+- best-skills — JackyST0/awesome-agent-skills — https://github.com/xstongxue/best-skills
+- browser-use/browser-use — JackyST0/awesome-agent-skills — https://github.com/browser-use/browser-use
+- career-ops — JackyST0/awesome-agent-skills — https://github.com/career-ops-hq/career-ops
+- changelog-generator — JackyST0/awesome-agent-skills — https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator
+- China npm package — JackyST0/awesome-agent-skills — https://www.npmjs.com/package/@klingai/plugin-cn
+- claude-code-security-review — JackyST0/awesome-agent-skills — https://github.com/anthropics/claude-code-security-review
+- claude-code-skill-factory — JackyST0/awesome-agent-skills — https://github.com/alirezarezvani/claude-code-skill-factory
+- claude-code-skills — JackyST0/awesome-agent-skills — https://github.com/daymade/claude-code-skills
+- claude-code-workflows — JackyST0/awesome-agent-skills — https://github.com/shinpr/claude-code-workflows
+- claude-skills-collection — JackyST0/awesome-agent-skills — https://github.com/abubakarsiddik31/claude-skills-collection
+- claudekit-skills — JackyST0/awesome-agent-skills — https://github.com/mrgoonie/claudekit-skills
+- ClawHub — JackyST0/awesome-agent-skills — https://docs.openclaw.ai/skills
+- code-review — JackyST0/awesome-agent-skills — https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/code-review
+- context-engineering — JackyST0/awesome-agent-skills — https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
+- coreyhaines31/marketingskills — JackyST0/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills
+- debug-helper — JackyST0/awesome-agent-skills — https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/debug-helper
+- elastic/agent-skills — JackyST0/awesome-agent-skills — https://github.com/elastic/agent-skills
+- git-commit — JackyST0/awesome-agent-skills — https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/git-commit
+- GitHub Awesome Copilot — JackyST0/awesome-agent-skills — https://github.com/github/awesome-copilot
+- GitHub CLI: gh skill — JackyST0/awesome-agent-skills — https://cli.github.com/manual/gh_skill
+- GitHub Docs: About agent skills — JackyST0/awesome-agent-skills — https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
+- GitHub Docs: Adding agent skills for GitHub Copilot — JackyST0/awesome-agent-skills — https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/add-skills
+- jiangshan-atlas — JackyST0/awesome-agent-skills — https://github.com/DeanChensj/jiangshan-map/tree/main/skills/jiangshan-atlas
+- Kling AI Plugin Skill (Global) — JackyST0/awesome-agent-skills — https://www.npmjs.com/package/@klingai/plugin-global
+- kordoc — JackyST0/awesome-agent-skills — https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc
+- laolaoshiren/claude-code-skills-zh — JackyST0/awesome-agent-skills — https://github.com/laolaoshiren/claude-code-skills-zh
+- microsoft/azure-skills — JackyST0/awesome-agent-skills — https://github.com/microsoft/azure-skills
+- nexscope-ai/Amazon-Skills — JackyST0/awesome-agent-skills — https://github.com/nexscope-ai/Amazon-Skills
+- nexscope-ai/eCommerce-Skills — JackyST0/awesome-agent-skills — https://github.com/nexscope-ai/eCommerce-Skills
+- oh-my-agent — JackyST0/awesome-agent-skills — https://github.com/first-fluke/oh-my-agent
+- OpenAI Codex: Agent Skills — JackyST0/awesome-agent-skills — https://developers.openai.com/codex/skills/
+- openskills — JackyST0/awesome-agent-skills — https://github.com/numman-ali/openskills
+- paypal.me/JackyST0 — JackyST0/awesome-agent-skills — https://paypal.me/JackyST0
+- reverse-engineer-anything — JackyST0/awesome-agent-skills — https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything
+- simonw/claude-skills — JackyST0/awesome-agent-skills — https://github.com/simonw/claude-skills
+- skill-codex — JackyST0/awesome-agent-skills — https://github.com/skills-directory/skill-codex
+- Skills Leaderboard — JackyST0/awesome-agent-skills — https://skills.sh
+- sno-station-skills — JackyST0/awesome-agent-skills — https://github.com/sno-ai/sno-station-skills
+- Star History Chart — JackyST0/awesome-agent-skills — https://star-history.dera.page/svg?repos=JackyST0/awesome-agent-skills&type=Date
+- Supabase Agent Skills — JackyST0/awesome-agent-skills — https://github.com/supabase/agent-skills
+- task-observer — JackyST0/awesome-agent-skills — https://github.com/rebelytics/one-skill-to-rule-them-all
+- Tencent SkillHub — JackyST0/awesome-agent-skills — https://skillhub.tencent.com/
+- trailofbits/skills — JackyST0/awesome-agent-skills — https://github.com/trailofbits/skills
+- unit-test-generator — JackyST0/awesome-agent-skills — https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/unit-test-generator
+- VS Code Docs: Use Agent Skills in VS Code — JackyST0/awesome-agent-skills — https://code.visualstudio.com/docs/copilot/customization/agent-skills
+- Website — JackyST0/awesome-agent-skills — https://career-ops.org
+- youtube-skills — JackyST0/awesome-agent-skills — https://github.com/ZeroPointRepo/youtube-skills
+
+## Prat011/awesome-llm-skills
+- @drpcorg — Prat011/awesome-llm-skills — https://github.com/drpcorg
+- @josstei — Prat011/awesome-llm-skills — https://github.com/josstei
+- @JuliusBrussee — Prat011/awesome-llm-skills — https://github.com/JuliusBrussee
+- @salespeak-ai — Prat011/awesome-llm-skills — https://github.com/salespeak-ai
+- @yujiachen-y — Prat011/awesome-llm-skills — https://github.com/yujiachen-y
+- CCHub — Prat011/awesome-llm-skills — https://github.com/Moresl/cchub
+- codebase-recon — Prat011/awesome-llm-skills — https://github.com/yujiachen-y/codebase-recon-skill
+- dev-gtm-claude-skills — Prat011/awesome-llm-skills — https://github.com/Infrasity-Labs/dev-gtm-claude-skills
+- dRPC Agent Skills — Prat011/awesome-llm-skills — https://github.com/drpcorg/drpc-agent-skills
+- Infrasity-Labs — Prat011/awesome-llm-skills — https://github.com/Infrasity-Labs
+- LLM Skills Overview — Prat011/awesome-llm-skills — https://www.anthropic.com/news/skills
+- Maestro Orchestrate — Prat011/awesome-llm-skills — https://github.com/josstei/maestro-orchestrate
+- Taisly Agent Kit — Prat011/awesome-llm-skills — https://github.com/taisly/agent
+
+## VoltAgent/awesome-agent-skills
+- angular/angular-developer — VoltAgent/awesome-agent-skills — https://github.com/angular/skills
+- angular/angular-new-app — VoltAgent/awesome-agent-skills — https://github.com/angular/skills
+- anthropics/algorithmic-art — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/algorithmic-art
+- anthropics/brand-guidelines — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/brand-guidelines
+- anthropics/canvas-design — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/canvas-design
+- anthropics/doc-coauthoring — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/doc-coauthoring
+- anthropics/docx — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/docx
+- anthropics/frontend-design — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/frontend-design
+- anthropics/internal-comms — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/internal-comms
+- anthropics/mcp-builder — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/mcp-builder
+- anthropics/pdf — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/pdf
+- anthropics/pptx — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/pptx
+- anthropics/skill-creator — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/skill-creator
+- anthropics/slack-gif-creator — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/slack-gif-creator
+- anthropics/template — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/template
+- anthropics/theme-factory — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/theme-factory
+- anthropics/web-artifacts-builder — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/web-artifacts-builder
+- anthropics/webapp-testing — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/webapp-testing
+- anthropics/xlsx — VoltAgent/awesome-agent-skills — https://officialskills.sh/anthropics/skills/xlsx
+- better-auth/best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/best-practices
+- better-auth/create-auth — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/create-auth
+- better-auth/emailAndPassword — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/emailAndPassword
+- better-auth/explain-error — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/explain-error
+- better-auth/organization — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/organization
+- better-auth/providers — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/providers
+- better-auth/twoFactor — VoltAgent/awesome-agent-skills — https://officialskills.sh/better-auth/skills/twoFactor
+- callstackincubator/github — VoltAgent/awesome-agent-skills — https://officialskills.sh/callstackincubator/skills/github
+- callstackincubator/react-native-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/callstackincubator/skills/react-native-best-practices
+- callstackincubator/upgrading-react-native — VoltAgent/awesome-agent-skills — https://officialskills.sh/callstackincubator/skills/upgrading-react-native
+- clickhouse/chdb-datastore — VoltAgent/awesome-agent-skills — https://officialskills.sh/clickhouse/skills/chdb-datastore
+- clickhouse/chdb-sql — VoltAgent/awesome-agent-skills — https://officialskills.sh/clickhouse/skills/chdb-sql
+- clickhouse/clickhouse-architecture-advisor — VoltAgent/awesome-agent-skills — https://officialskills.sh/clickhouse/skills/clickhouse-architecture-advisor
+- clickhouse/clickhouse-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/clickhouse/skills/clickhouse-best-practices
+- clickhouse/clickhousectl-cloud-deploy — VoltAgent/awesome-agent-skills — https://officialskills.sh/clickhouse/skills/clickhousectl-cloud-deploy
+- clickhouse/clickhousectl-local-dev — VoltAgent/awesome-agent-skills — https://officialskills.sh/clickhouse/skills/clickhousectl-local-dev
+- cloudflare/agents-sdk — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/agents-sdk
+- cloudflare/cloudflare — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/cloudflare
+- cloudflare/cloudflare-email-service — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/cloudflare-email-service
+- cloudflare/durable-objects — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/durable-objects
+- cloudflare/sandbox-sdk — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/sandbox-sdk
+- cloudflare/security-audit-skill — VoltAgent/awesome-agent-skills — https://github.com/cloudflare/security-audit-skill
+- cloudflare/web-perf — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/web-perf
+- cloudflare/workers-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/workers-best-practices
+- cloudflare/wrangler — VoltAgent/awesome-agent-skills — https://officialskills.sh/cloudflare/skills/wrangler
+- composiohq/composio — VoltAgent/awesome-agent-skills — https://officialskills.sh/composiohq/skills/composio
+- Crawlbase — VoltAgent/awesome-agent-skills — https://crawlbase.com/?utm_source=awesome-agent-skills&utm_medium=sponsorship&utm_campaign=voltagent
+- crawlbase/crawl-html — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/crawl-html
+- crawlbase/crawl-markdown — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/crawl-markdown
+- crawlbase/crawl-screenshot — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/crawl-screenshot
+- crawlbase/crawlbase-mcp — VoltAgent/awesome-agent-skills — https://github.com/crawlbase/crawlbase-mcp
+- crawlbase/langchain-crawlbase — VoltAgent/awesome-agent-skills — https://github.com/crawlbase/langchain-crawlbase
+- crawlbase/n8n-nodes-crawlbase — VoltAgent/awesome-agent-skills — https://github.com/crawlbase/n8n-nodes-crawlbase
+- crawlbase/storage-bulk-delete — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/storage-bulk-delete
+- crawlbase/storage-bulk-get — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/storage-bulk-get
+- crawlbase/storage-count — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/storage-count
+- crawlbase/storage-delete — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/storage-delete
+- crawlbase/storage-get — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/storage-get
+- crawlbase/storage-list — VoltAgent/awesome-agent-skills — https://officialskills.sh/crawlbase/skills/storage-list
+- EveryFeed — VoltAgent/awesome-agent-skills — https://everyfeed.ai/
+- firecrawl/firecrawl-alexandria — VoltAgent/awesome-agent-skills — https://github.com/firecrawl/cli/tree/main/skills/firecrawl-alexandria
+- firecrawl/firecrawl-build — VoltAgent/awesome-agent-skills — https://officialskills.sh/firecrawl/skills/firecrawl-build
+- firecrawl/firecrawl-build-interact — VoltAgent/awesome-agent-skills — https://officialskills.sh/firecrawl/skills/firecrawl-build-interact
+- firecrawl/firecrawl-build-onboarding — VoltAgent/awesome-agent-skills — https://officialskills.sh/firecrawl/skills/firecrawl-build-onboarding
+- firecrawl/firecrawl-build-scrape — VoltAgent/awesome-agent-skills — https://officialskills.sh/firecrawl/skills/firecrawl-build-scrape
+- firecrawl/firecrawl-build-search — VoltAgent/awesome-agent-skills — https://officialskills.sh/firecrawl/skills/firecrawl-build-search
+- google-gemini/gemini-api-dev — VoltAgent/awesome-agent-skills — https://officialskills.sh/google-gemini/skills/gemini-api-dev
+- google-gemini/gemini-interactions-api — VoltAgent/awesome-agent-skills — https://officialskills.sh/google-gemini/skills/gemini-interactions-api
+- google-gemini/gemini-live-api-dev — VoltAgent/awesome-agent-skills — https://officialskills.sh/google-gemini/skills/gemini-live-api-dev
+- google-gemini/vertex-ai-api-dev — VoltAgent/awesome-agent-skills — https://officialskills.sh/google-gemini/skills/vertex-ai-api-dev
+- hashicorp/azure-verified-modules — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/azure-verified-modules
+- hashicorp/new-terraform-provider — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/new-terraform-provider
+- hashicorp/provider-actions — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/provider-actions
+- hashicorp/provider-resources — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/provider-resources
+- hashicorp/provider-test-patterns — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/provider-test-patterns
+- hashicorp/refactor-module — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/refactor-module
+- hashicorp/run-acceptance-tests — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/run-acceptance-tests
+- hashicorp/terraform-search-import — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/terraform-search-import
+- hashicorp/terraform-stacks — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/terraform-stacks
+- hashicorp/terraform-style-guide — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/terraform-style-guide
+- hashicorp/terraform-test — VoltAgent/awesome-agent-skills — https://officialskills.sh/hashicorp/skills/terraform-test
+- Last Update — VoltAgent/awesome-agent-skills — https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=f
+- Modem — VoltAgent/awesome-agent-skills — https://modem.dev/go/awesome-agent-skills
+- modem-dev/skills — VoltAgent/awesome-agent-skills — https://github.com/modem-dev/skills
+- neondatabase/claimable-postgres — VoltAgent/awesome-agent-skills — https://officialskills.sh/neondatabase/skills/claimable-postgres
+- neondatabase/neon-postgres — VoltAgent/awesome-agent-skills — https://officialskills.sh/neondatabase/skills/neon-postgres
+- neondatabase/neon-postgres-egress-optimizer — VoltAgent/awesome-agent-skills — https://officialskills.sh/neondatabase/skills/neon-postgres-egress-optimizer
+- netlify/netlify-functions — VoltAgent/awesome-agent-skills — https://officialskills.sh/netlify/skills/netlify-functions
+- remotion-dev/remotion — VoltAgent/awesome-agent-skills — https://officialskills.sh/remotion-dev/skills/remotion
+- replicate/replicate — VoltAgent/awesome-agent-skills — https://officialskills.sh/replicate/skills/replicate
+- sanity-io/content-experimentation-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/sanity-io/skills/content-experimentation-best-practices
+- sanity-io/content-modeling-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/sanity-io/skills/content-modeling-best-practices
+- sanity-io/sanity-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/sanity-io/skills/sanity-best-practices
+- sanity-io/seo-aeo-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/sanity-io/skills/seo-aeo-best-practices
+- SerpApi — VoltAgent/awesome-agent-skills — https://serpapi.com/awesome-agent-skills
+- serpapi/agent-usability-test — VoltAgent/awesome-agent-skills — https://officialskills.sh/serpapi/skills/agent-usability-test
+- serpapi/serpapi-cli — VoltAgent/awesome-agent-skills — https://github.com/serpapi/serpapi-cli
+- serpapi/serpapi-search-tools-python — VoltAgent/awesome-agent-skills — https://github.com/serpapi/serpapi-search-tools-python
+- serpapi/serpapi-web-search — VoltAgent/awesome-agent-skills — https://officialskills.sh/serpapi/skills/serpapi-web-search
+- stripe/stripe-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/stripe/skills/stripe-best-practices
+- stripe/upgrade-stripe — VoltAgent/awesome-agent-skills — https://officialskills.sh/stripe/skills/upgrade-stripe
+- supabase/postgres-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/supabase/skills/postgres-best-practices
+- TestMu AI (formerly LambdaTest) — VoltAgent/awesome-agent-skills — https://www.testmuai.com
+- testmu-ai/api-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/api-skill
+- testmu-ai/appium-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/appium-skill
+- testmu-ai/behat-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/behat-skill
+- testmu-ai/behave-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/behave-skill
+- testmu-ai/capybara-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/capybara-skill
+- testmu-ai/cicd-pipeline-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/cicd-pipeline-skill
+- testmu-ai/codeception-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/codeception-skill
+- testmu-ai/cucumber-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/cucumber-skill
+- testmu-ai/cypress-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/cypress-skill
+- testmu-ai/detox-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/detox-skill
+- testmu-ai/espresso-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/espresso-skill
+- testmu-ai/flutter-testing-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/flutter-testing-skill
+- testmu-ai/gauge-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/gauge-skill
+- testmu-ai/geb-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/geb-skill
+- testmu-ai/hyperexecute-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/hyperexecute-skill
+- testmu-ai/jasmine-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/jasmine-skill
+- testmu-ai/jest-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/jest-skill
+- testmu-ai/junit-5-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/junit-5-skill
+- testmu-ai/kanecli-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/kanecli-skill
+- testmu-ai/karma-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/karma-skill
+- testmu-ai/laravel-dusk-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/laravel-dusk-skill
+- testmu-ai/lettuce-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/lettuce-skill
+- testmu-ai/mocha-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/mocha-skill
+- testmu-ai/mstest-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/mstest-skill
+- testmu-ai/nemojs-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/nemojs-skill
+- testmu-ai/nightwatchjs-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/nightwatchjs-skill
+- testmu-ai/nunit-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/nunit-skill
+- testmu-ai/phpunit-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/phpunit-skill
+- testmu-ai/playwright-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/playwright-skill
+- testmu-ai/protractor-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/protractor-skill
+- testmu-ai/puppeteer-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/puppeteer-skill
+- testmu-ai/pytest-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/pytest-skill
+- testmu-ai/reqnroll-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/reqnroll-skill
+- testmu-ai/robot-framework-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/robot-framework-skill
+- testmu-ai/rspec-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/rspec-skill
+- testmu-ai/selenide-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/selenide-skill
+- testmu-ai/selenium-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/selenium-skill
+- testmu-ai/serenity-bdd-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/serenity-bdd-skill
+- testmu-ai/smartui-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/smartui-skill
+- testmu-ai/specflow-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/specflow-skill
+- testmu-ai/test-framework-migration-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/test-framework-migration-skill
+- testmu-ai/testcafe-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/testcafe-skill
+- testmu-ai/testng-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/testng-skill
+- testmu-ai/testunit-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/testunit-skill
+- testmu-ai/unittest-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/unittest-skill
+- testmu-ai/vitest-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/vitest-skill
+- testmu-ai/webdriverio-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/webdriverio-skill
+- testmu-ai/xcuitest-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/xcuitest-skill
+- testmu-ai/xunit-skill — VoltAgent/awesome-agent-skills — https://github.com/LambdaTest/agent-skills/tree/main/xunit-skill
+- tinybirdco/tinybird-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/tinybirdco/skills/tinybird-best-practices
+- tinybirdco/tinybird-cli-guidelines — VoltAgent/awesome-agent-skills — https://officialskills.sh/tinybirdco/skills/tinybird-cli-guidelines
+- tinybirdco/tinybird-python-sdk-guidelines — VoltAgent/awesome-agent-skills — https://officialskills.sh/tinybirdco/skills/tinybird-python-sdk-guidelines
+- tinybirdco/tinybird-typescript-sdk-guidelines — VoltAgent/awesome-agent-skills — https://officialskills.sh/tinybirdco/skills/tinybird-typescript-sdk-guidelines
+- trycourier/courier-skills — VoltAgent/awesome-agent-skills — https://github.com/trycourier/courier-skills
+- typefully/typefully — VoltAgent/awesome-agent-skills — https://officialskills.sh/typefully/skills/typefully
+- veniceai/venice-api-keys — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-api-keys
+- veniceai/venice-api-overview — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-api-overview
+- veniceai/venice-audio-music — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-audio-music
+- veniceai/venice-audio-speech — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-audio-speech
+- veniceai/venice-audio-transcription — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-audio-transcription
+- veniceai/venice-augment — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-augment
+- veniceai/venice-auth — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-auth
+- veniceai/venice-billing — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-billing
+- veniceai/venice-characters — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-characters
+- veniceai/venice-chat — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-chat
+- veniceai/venice-crypto-rpc — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-crypto-rpc
+- veniceai/venice-embeddings — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-embeddings
+- veniceai/venice-errors — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-errors
+- veniceai/venice-image-edit — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-image-edit
+- veniceai/venice-image-generate — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-image-generate
+- veniceai/venice-models — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-models
+- veniceai/venice-responses — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-responses
+- veniceai/venice-video — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-video
+- veniceai/venice-x402 — VoltAgent/awesome-agent-skills — https://github.com/veniceai/skills/tree/main/skills/venice-x402
+- vercel-labs/composition-patterns — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns
+- vercel-labs/deploy-to-vercel — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel
+- vercel-labs/next-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/vercel-labs/skills/next-best-practices
+- vercel-labs/next-cache-components — VoltAgent/awesome-agent-skills — https://officialskills.sh/vercel-labs/skills/next-cache-components
+- vercel-labs/next-upgrade — VoltAgent/awesome-agent-skills — https://officialskills.sh/vercel-labs/skills/next-upgrade
+- vercel-labs/react-best-practices — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices
+- vercel-labs/react-native-skills — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills
+- vercel-labs/react-view-transitions — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions
+- vercel-labs/vercel-cli-with-tokens — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens
+- vercel-labs/vercel-optimize — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize
+- vercel-labs/web-design-guidelines — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines
+- vercel-labs/writing-guidelines — VoltAgent/awesome-agent-skills — https://github.com/vercel-labs/agent-skills/tree/main/skills/writing-guidelines
+- voltagent/create-voltagent — VoltAgent/awesome-agent-skills — https://officialskills.sh/voltagent/skills/create-voltagent
+- voltagent/voltagent-best-practices — VoltAgent/awesome-agent-skills — https://officialskills.sh/voltagent/skills/voltagent-best-practices
+- voltagent/voltagent-core-reference — VoltAgent/awesome-agent-skills — https://officialskills.sh/voltagent/skills/voltagent-core-reference
+- voltagent/voltagent-docs-bundle — VoltAgent/awesome-agent-skills — https://officialskills.sh/voltagent/skills/voltagent-docs-bundle
+- zero/zero — VoltAgent/awesome-agent-skills — https://github.com/officialzeroxyz/zero-plugins/blob/main/plugins/zero/skills/zero/SKILL.md
+- zero/zero-gemini — VoltAgent/awesome-agent-skills — https://github.com/officialzeroxyz/zero-plugins/tree/main/plugins/zero-gemini
+
+## bergside/awesome-design-skills
+- Become a sponsor — bergside/awesome-design-skills — https://www.typeui.sh/sponsor
+- Bergside — bergside/awesome-design-skills — https://github.com/bergside
+- Codex — bergside/awesome-design-skills — https://openai.com/index/codex/
+- Cursor — bergside/awesome-design-skills — https://www.cursor.com/
+- Preview all design skills on TypeUI — bergside/awesome-design-skills — https://typeui.sh/design-skills
+- TypeUI CLI — bergside/awesome-design-skills — https://github.com/bergside/typeui.sh
+
+## fleurytian/awesome-claude-skills
+- @fleurytian — fleurytian/awesome-claude-skills — https://github.com/fleurytian
+
+## github.com/ConardLi/garden-skills
+- garden-skills — github.com/ConardLi/garden-skills — ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generatio
+
+## github.com/Kotlin/kotlin-agent-skills
+- kotlin-agent-skills — github.com/Kotlin/kotlin-agent-skills — A collection of AI agent skills useful for projects using Kotlin language
+
+## github.com/LeoYeAI/agent-master-skills
+- agent-master-skills — github.com/LeoYeAI/agent-master-skills — 🧠 Curated collection of 2700+ best agent skills — AI, coding, marketing, design, finance and more. H
+
+## github.com/Owl-Listener/designer-skills
+- designer-skills — github.com/Owl-Listener/designer-skills — Designer Skills Collection: agentic skills, commands, and plugins for design — from research to syst
+
+## github.com/RKiding/Awesome-finance-skills
+- Awesome-finance-skills — github.com/RKiding/Awesome-finance-skills — A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills
+
+## github.com/VoltAgent/awesome-agent-skills
+- awesome-agent-skills — github.com/VoltAgent/awesome-agent-skills — A curated collection of 1000+ agent skills from official dev teams and the community, compatible wit
+
+## github.com/agent37-platform/agent37-skills-collection
+- agent37-skills-collection — github.com/agent37-platform/agent37-skills-collection — Collection of useful Claude AI skills and commands
+
+## github.com/anthropics/skills
+- academy-guide — github.com/anthropics/skills — путь: skills/academy-guide
+- algorithmic-art — github.com/anthropics/skills — путь: skills/algorithmic-art
+- brand-guidelines — github.com/anthropics/skills — путь: skills/brand-guidelines
+- canvas-design — github.com/anthropics/skills — путь: skills/canvas-design
+- claude-api — github.com/anthropics/skills — путь: skills/claude-api
+- discernment-nudge — github.com/anthropics/skills — путь: skills/discernment-nudge
+- doc-coauthoring — github.com/anthropics/skills — путь: skills/doc-coauthoring
+- docx — github.com/anthropics/skills — путь: skills/docx
+- frontend-design — github.com/anthropics/skills — путь: skills/frontend-design
+- internal-comms — github.com/anthropics/skills — путь: skills/internal-comms
+- mcp-builder — github.com/anthropics/skills — путь: skills/mcp-builder
+- pdf — github.com/anthropics/skills — путь: skills/pdf
+- pptx — github.com/anthropics/skills — путь: skills/pptx
+- skill-creator — github.com/anthropics/skills — путь: skills/skill-creator
+- slack-gif-creator — github.com/anthropics/skills — путь: skills/slack-gif-creator
+- template — github.com/anthropics/skills — путь: template
+- theme-factory — github.com/anthropics/skills — путь: skills/theme-factory
+- web-artifacts-builder — github.com/anthropics/skills — путь: skills/web-artifacts-builder
+- webapp-testing — github.com/anthropics/skills — путь: skills/webapp-testing
+- xlsx — github.com/anthropics/skills — путь: skills/xlsx
+
+## github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
+- Agent-Skills-for-Context-Engineering — github.com/muratcankoylan/Agent-Skills-for-Context-Engineering — A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and p
+
+## github.com/rmyndharis/antigravity-skills
+- antigravity-skills — github.com/rmyndharis/antigravity-skills — A curated collection of Agent Skills for Google Antigravity
+
+## github.com/samber/cc-skills-golang
+- cc-skills-golang — github.com/samber/cc-skills-golang — 🧑‍🎨 A collection of Golang agentic skills that works
+
+## github.com/softaworks/agent-toolkit
+- agent-toolkit — github.com/softaworks/agent-toolkit — A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts th
+
+## github.com/vercel-labs/agent-skills
+- agent-skills — github.com/vercel-labs/agent-skills — Vercel's official collection of agent skills
+
+## heilcheng/awesome-agent-skills
+- @haileyhmt — heilcheng/awesome-agent-skills — https://x.com/haileyhmt
+- agent-skill.co — heilcheng/awesome-agent-skills — https://agent-skill.co
+- agentrhq/authsome — heilcheng/awesome-agent-skills — https://github.com/agentrhq/authsome
+- antigravity.google — heilcheng/awesome-agent-skills — https://antigravity.google/docs/skills
+- Bria-AI/bria-ai — heilcheng/awesome-agent-skills — https://github.com/Bria-AI/bria-skill/tree/main/skills/bria-ai
+- Bria-AI/image-utils — heilcheng/awesome-agent-skills — https://github.com/Bria-AI/bria-skill/tree/main/skills/image-utils
+- Bria-AI/remove-background — heilcheng/awesome-agent-skills — https://github.com/Bria-AI/bria-skill/tree/main/skills/remove-background
+- Bria-AI/vgl — heilcheng/awesome-agent-skills — https://github.com/Bria-AI/bria-skill/tree/main/skills/vgl
+- Bria-AI/video-remove-background — heilcheng/awesome-agent-skills — https://github.com/Bria-AI/bria-skill/tree/main/skills/video-remove-background
+- cloudflare/building-ai-agent-on-cloudflare — heilcheng/awesome-agent-skills — https://github.com/cloudflare/skills
+- cloudflare/building-mcp-server-on-cloudflare — heilcheng/awesome-agent-skills — https://github.com/cloudflare/skills
+- code.claude.com/docs/en/skills — heilcheng/awesome-agent-skills — https://code.claude.com/docs/en/skills
+- code.visualstudio.com — heilcheng/awesome-agent-skills — https://code.visualstudio.com/docs/copilot/customization/agent-skills
+- Corey Haines — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31
+- coreyhaines31/ai-seo — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo
+- coreyhaines31/copywriting — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting
+- coreyhaines31/email-sequence — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills
+- coreyhaines31/page-cro — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills
+- coreyhaines31/pricing-strategy — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing
+- coreyhaines31/social-content — heilcheng/awesome-agent-skills — https://github.com/coreyhaines31/marketingskills/tree/main/skills/social
+- Dean Peters — heilcheng/awesome-agent-skills — https://github.com/deanpeters
+- deanpeters/epic-hypothesis — heilcheng/awesome-agent-skills — https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-hypothesis
+- deanpeters/opportunity-solution-tree — heilcheng/awesome-agent-skills — https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree
+- deanpeters/prd-development — heilcheng/awesome-agent-skills — https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prd-development
+- deanpeters/roadmap-planning — heilcheng/awesome-agent-skills — https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/roadmap-planning
+- developers.openai.com — heilcheng/awesome-agent-skills — https://developers.openai.com/codex/skills
+- docs.github.com — heilcheng/awesome-agent-skills — https://docs.github.com/copilot/concepts/agents/about-agent-skills
+- duckdb/attach-db — heilcheng/awesome-agent-skills — https://github.com/duckdb/duckdb-skills/tree/main/skills/attach-db
+- duckdb/duckdb-docs — heilcheng/awesome-agent-skills — https://github.com/duckdb/duckdb-skills/tree/main/skills/duckdb-docs
+- duckdb/query — heilcheng/awesome-agent-skills — https://github.com/duckdb/duckdb-skills/tree/main/skills/query
+- expo/building-native-ui — heilcheng/awesome-agent-skills — https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-native-ui
+- expo/expo-api-routes — heilcheng/awesome-agent-skills — https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-router
+- expo/expo-deployment — heilcheng/awesome-agent-skills — https://github.com/expo/skills/tree/main/plugins/expo/skills/eas-hosting
+- expo/upgrading-expo — heilcheng/awesome-agent-skills — https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-upgrade
+- expo/use-dom — heilcheng/awesome-agent-skills — https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-dom
+- fal-ai-community/fal-generate — heilcheng/awesome-agent-skills — https://github.com/fal-ai-community/skills
+- fal-ai-community/fal-realtime — heilcheng/awesome-agent-skills — https://github.com/fal-ai-community/skills
+- fal-ai-community/fal-upscale — heilcheng/awesome-agent-skills — https://github.com/fal-ai-community/skills
+- figma/figma-generate-library — heilcheng/awesome-agent-skills — https://github.com/figma/mcp-server-guide/tree/main/skills/figma-generate-library
+- figma/figma-implement-design — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design
+- figma/figma-use — heilcheng/awesome-agent-skills — https://github.com/figma/mcp-server-guide/tree/main/skills/figma-use
+- Garry Tan — heilcheng/awesome-agent-skills — https://github.com/garrytan
+- garrytan/office-hours — heilcheng/awesome-agent-skills — https://github.com/garrytan/gstack/tree/main/office-hours
+- garrytan/plan-ceo-review — heilcheng/awesome-agent-skills — https://github.com/garrytan/gstack/tree/main/plan-ceo-review
+- geminicli.com — heilcheng/awesome-agent-skills — https://geminicli.com/docs/cli/skills/
+- github.com/autohandai/code-cli — heilcheng/awesome-agent-skills — https://github.com/autohandai/code-cli
+- google-labs-code/design-md — heilcheng/awesome-agent-skills — https://github.com/google-labs-code/stitch-skills/tree/main/plugins/stitch-utilities/skills/design-m
+- google-labs-code/enhance-prompt — heilcheng/awesome-agent-skills — https://github.com/google-labs-code/stitch-skills/tree/main/plugins/stitch-utilities/skills/enhance-
+- google-labs-code/react-components — heilcheng/awesome-agent-skills — https://github.com/google-labs-code/stitch-skills/tree/main/plugins/stitch-build/skills/react-compon
+- google-labs-code/shadcn-ui — heilcheng/awesome-agent-skills — https://github.com/google-labs-code/stitch-skills/tree/main/plugins/stitch-build/skills/shadcn-ui
+- google-labs-code/stitch-loop — heilcheng/awesome-agent-skills — https://github.com/google-labs-code/stitch-skills/tree/main/plugins/stitch-utilities/skills/stitch-l
+- googleworkspace/gws-calendar — heilcheng/awesome-agent-skills — https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar
+- googleworkspace/gws-drive — heilcheng/awesome-agent-skills — https://github.com/googleworkspace/cli/tree/main/skills/gws-drive
+- googleworkspace/gws-gmail — heilcheng/awesome-agent-skills — https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail
+- googleworkspace/gws-sheets — heilcheng/awesome-agent-skills — https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets
+- googleworkspace/gws-workflow — heilcheng/awesome-agent-skills — https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow
+- greensock/gsap-core — heilcheng/awesome-agent-skills — https://github.com/greensock/gsap-skills/tree/main/skills/gsap-core
+- greensock/gsap-react — heilcheng/awesome-agent-skills — https://github.com/greensock/gsap-skills/tree/main/skills/gsap-react
+- greensock/gsap-scrolltrigger — heilcheng/awesome-agent-skills — https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger
+- Hailey Cheng (Cheng Hei Lam) — heilcheng/awesome-agent-skills — https://www.linkedin.com/in/heilcheng/
+- huggingface/hf-cli — heilcheng/awesome-agent-skills — https://github.com/huggingface/skills/tree/main/skills/hf-cli
+- huggingface/hugging-face-datasets — heilcheng/awesome-agent-skills — https://github.com/huggingface/skills/tree/main/skills/huggingface-datasets
+- huggingface/hugging-face-model-trainer — heilcheng/awesome-agent-skills — https://github.com/huggingface/skills
+- huggingface/transformers.js — heilcheng/awesome-agent-skills — https://github.com/huggingface/skills/tree/main/skills/transformers-js
+- humanpen/humanpen-skill — heilcheng/awesome-agent-skills — https://github.com/humanpen/humanpen-skill
+- Ivy Tendril — heilcheng/awesome-agent-skills — https://github.com/Ivy-Interactive/Ivy-Tendril
+- javimosch/supercli — heilcheng/awesome-agent-skills — https://github.com/javimosch/supercli
+- junie.jetbrains.com — heilcheng/awesome-agent-skills — https://junie.jetbrains.com/docs/agent-skills.html
+- kiro.dev — heilcheng/awesome-agent-skills — https://kiro.dev/docs/skills/
+- makenotion/knowledge-capture — heilcheng/awesome-agent-skills — https://github.com/makenotion/cursor-notion-plugin/tree/main/skills/knowledge-capture
+- makenotion/meeting-intelligence — heilcheng/awesome-agent-skills — https://github.com/makenotion/cursor-notion-plugin/tree/main/skills/meeting-intelligence
+- makenotion/spec-to-implementation — heilcheng/awesome-agent-skills — https://github.com/makenotion/cursor-notion-plugin/tree/main/skills/spec-to-implementation
+- markstream-angular — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-angular
+- markstream-custom-components — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-custom-components
+- markstream-install — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install
+- markstream-migration — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-migration
+- markstream-nuxt — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-nuxt
+- markstream-react — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-react
+- markstream-svelte — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-svelte
+- markstream-vue — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-vue
+- markstream-vue2 — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-vue2
+- markstream-vue2-cli — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-vue2-cli
+- markstream-vue2-vite — heilcheng/awesome-agent-skills — https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-vue2-vite
+- MiniMax-AI/frontend-dev — heilcheng/awesome-agent-skills — https://github.com/MiniMax-AI/skills/tree/main/skills/frontend-dev
+- MiniMax-AI/minimax-pdf — heilcheng/awesome-agent-skills — https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-pdf
+- ndesv21/socialclaw — heilcheng/awesome-agent-skills — https://github.com/ndesv21/socialclaw
+- netlify/netlify-ai-gateway — heilcheng/awesome-agent-skills — https://github.com/netlify/context-and-tools/tree/main/skills/netlify-ai-gateway
+- netlify/netlify-blobs — heilcheng/awesome-agent-skills — https://github.com/netlify/context-and-tools/tree/main/skills/netlify-blobs
+- netlify/netlify-db — heilcheng/awesome-agent-skills — https://github.com/netlify/context-and-tools/tree/main/skills/netlify-database
+- netlify/netlify-deploy — heilcheng/awesome-agent-skills — https://github.com/netlify/context-and-tools/tree/main/skills/netlify-deploy
+- netlify/netlify-edge-functions — heilcheng/awesome-agent-skills — https://github.com/netlify/context-and-tools/tree/main/skills/netlify-edge-functions
+- nowork-studio/google-ads — heilcheng/awesome-agent-skills — https://github.com/nowork-studio/NotFair/tree/main/google-ads
+- nowork-studio/meta-ads — heilcheng/awesome-agent-skills — https://github.com/nowork-studio/NotFair/tree/main/meta-ads
+- nowork-studio/seo — heilcheng/awesome-agent-skills — https://github.com/nowork-studio/NotFair/tree/main/seo
+- openai/cloudflare-deploy — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy
+- openai/develop-web-game — heilcheng/awesome-agent-skills — https://github.com/openai/skills
+- openai/doc — heilcheng/awesome-agent-skills — https://github.com/openai/skills
+- openai/figma — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/figma
+- openai/figma-implement-design — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design
+- openai/frontend-skill — heilcheng/awesome-agent-skills — https://github.com/openai/skills
+- openai/gh-address-comments — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments
+- openai/gh-fix-ci — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci
+- openai/imagegen — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.system/imagegen
+- openai/jupyter-notebook — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook
+- openai/linear — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/linear
+- openai/netlify-deploy — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/netlify-deploy
+- openai/notion-knowledge-capture — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture
+- openai/pdf — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/pdf
+- openai/playwright — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/playwright
+- openai/sora — heilcheng/awesome-agent-skills — https://github.com/openai/skills
+- openai/speech — heilcheng/awesome-agent-skills — https://github.com/openai/skills/tree/main/skills/.curated/speech
+- openai/spreadsheet — heilcheng/awesome-agent-skills — https://github.com/openai/skills
+- Paweł Huryn — heilcheng/awesome-agent-skills — https://github.com/phuryn
+- phuryn/create-prd — heilcheng/awesome-agent-skills — https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd
+- phuryn/market-sizing — heilcheng/awesome-agent-skills — https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing
+- phuryn/pm-skills — heilcheng/awesome-agent-skills — https://github.com/phuryn/pm-skills
+- phuryn/product-strategy — heilcheng/awesome-agent-skills — https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy
+- phuryn/user-personas — heilcheng/awesome-agent-skills — https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-personas
+- product-on-purpose/pm-skills — heilcheng/awesome-agent-skills — https://github.com/product-on-purpose/pm-skills
+- resend/email-best-practices — heilcheng/awesome-agent-skills — https://github.com/resend/resend-skills/tree/main/skills/email-best-practices
+- resend/react-email — heilcheng/awesome-agent-skills — https://github.com/resend/resend-skills/tree/main/skills/react-email
+- resend/resend — heilcheng/awesome-agent-skills — https://github.com/resend/resend-skills/tree/main/skills/resend
+- sanity-io/agent-toolkit — heilcheng/awesome-agent-skills — https://github.com/sanity-io/agent-toolkit
+- skills.sh — heilcheng/awesome-agent-skills — https://skills.sh
+- SkillsMP Marketplace — heilcheng/awesome-agent-skills — https://skillsmp.com
+- support.claude.com — heilcheng/awesome-agent-skills — https://support.claude.com/en/articles/12512180-using-skills-in-claude
+- surendranb/writing-skills — heilcheng/awesome-agent-skills — https://github.com/surendranb/writing-skills
+- vercel-labs/skills — heilcheng/awesome-agent-skills — https://github.com/vercel-labs/skills
+- WordPress/wp-block-development — heilcheng/awesome-agent-skills — https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-block-development
+- WordPress/wp-playground — heilcheng/awesome-agent-skills — https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-playground
+- WordPress/wp-plugin-development — heilcheng/awesome-agent-skills — https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-plugin-development
+
+## helloianneo/awesome-claude-code-skills
+- @ianneo_ai — helloianneo/awesome-claude-code-skills — https://x.com/ianneo_ai
+- AI Video Generation — helloianneo/awesome-claude-code-skills — https://github.com/inferen-sh/skills
+- Animation Systems — helloianneo/awesome-claude-code-skills — https://lobehub.com/skills/guilhermemarketing-gui-marketing-skills-animation-systems
+- awesomeskills.dev — helloianneo/awesome-claude-code-skills — https://awesomeskills.dev
+- Brand Guidelines — helloianneo/awesome-claude-code-skills — https://github.com/anthropics/claude-code
+- Canvas Design — helloianneo/awesome-claude-code-skills — https://github.com/anthropics/claude-code
+- claude-code-handbook — helloianneo/awesome-claude-code-skills — https://github.com/helloianneo/claude-code-handbook
+- Code Review — helloianneo/awesome-claude-code-skills — https://skills.sh/supercent-io/skills-template/code-review
+- Context7 — helloianneo/awesome-claude-code-skills — https://skills.sh/context7/skills/context7
+- Copywriting — helloianneo/awesome-claude-code-skills — https://github.com/coreyhaines31/marketingskills
+- Design.md Generator — helloianneo/awesome-claude-code-skills — https://github.com/google-labs-code/stitch-skills
+- Emil Kowalski's Skill — helloianneo/awesome-claude-code-skills — https://skills.sh/emilkowalski/skill
+- Figma Designer — helloianneo/awesome-claude-code-skills — https://github.com/anthropics/claude-code
+- Find Skills — helloianneo/awesome-claude-code-skills — https://skills.sh/vercel-labs/skills/find-skills
+- Frontend Design — helloianneo/awesome-claude-code-skills — https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design
+- GitHub — helloianneo/awesome-claude-code-skills — https://github.com/VoltAgent/awesome-agent-skills
+- helloianneo — helloianneo/awesome-claude-code-skills — https://github.com/helloianneo
+- hotkeys.design — helloianneo/awesome-claude-code-skills — https://hotkeys.design
+- ianneo.xyz — helloianneo/awesome-claude-code-skills — https://www.ianneo.xyz
+- ianneo.xyz/ib — helloianneo/awesome-claude-code-skills — https://ianneo.xyz/ib
+- Issue — helloianneo/awesome-claude-code-skills — https://github.com/helloianneo/awesome-claude-code-skills/issues
+- lobehub.com/skills — helloianneo/awesome-claude-code-skills — https://lobehub.com/skills
+- Make Interfaces Feel Better — helloianneo/awesome-claude-code-skills — https://skills.sh/jakubkrehel/make-interfaces-feel-better
+- Motion (Framer Motion) — helloianneo/awesome-claude-code-skills — https://skills.sh/jezweb/claude-skills/motion
+- Nano Banana 2 — helloianneo/awesome-claude-code-skills — https://github.com/inferen-sh/skills
+- obsidian-ai-second-brain — helloianneo/awesome-claude-code-skills — https://github.com/helloianneo/obsidian-ai-second-brain
+- Pricing Strategy — helloianneo/awesome-claude-code-skills — https://github.com/coreyhaines31/marketingskills
+- Product Marketing Context — helloianneo/awesome-claude-code-skills — https://github.com/coreyhaines31/marketingskills
+- Ralph Loop — helloianneo/awesome-claude-code-skills — https://github.com/frankbria/ralph-claude-code
+- React Best Practices — helloianneo/awesome-claude-code-skills — https://github.com/vercel-labs/agent-skills
+- Remotion — helloianneo/awesome-claude-code-skills — https://github.com/remotion-dev/skills
+- SEO Audit — helloianneo/awesome-claude-code-skills — https://github.com/coreyhaines31/marketingskills
+- SuperKit UI/UX — helloianneo/awesome-claude-code-skills — https://skillsmp.com/skills/pixel-process-ug-superkit-agents-templates-skills-ui-ux-pro-max-skill-md
+- Superpowers — helloianneo/awesome-claude-code-skills — https://github.com/obra/superpowers
+- Superpowers - Git Worktrees — helloianneo/awesome-claude-code-skills — https://github.com/obra/superpowers
+- Superpowers - Parallel Agents — helloianneo/awesome-claude-code-skills — https://github.com/obra/superpowers
+- Superpowers - Plan Mode — helloianneo/awesome-claude-code-skills — https://github.com/obra/superpowers
+- Superpowers - TDD — helloianneo/awesome-claude-code-skills — https://github.com/obra/superpowers
+- Tailwind CSS — helloianneo/awesome-claude-code-skills — https://skills.sh/hairyf/skills/tailwindcss
+- Tailwind Design System — helloianneo/awesome-claude-code-skills — https://skills.sh/wshobson/agents/tailwind-design-system
+- Theme Factory — helloianneo/awesome-claude-code-skills — https://github.com/anthropics/claude-code
+- Twitter Automation — helloianneo/awesome-claude-code-skills — https://github.com/inferen-sh/skills
+- TypeUI Design Skills — helloianneo/awesome-claude-code-skills — https://www.typeui.sh/design-skills
+- UI-UX-Pro-Max — helloianneo/awesome-claude-code-skills — https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max
+- Web Accessibility — helloianneo/awesome-claude-code-skills — https://skills.sh/supercent-io/skills-template/web-accessibility
+- Web Design Guidelines — helloianneo/awesome-claude-code-skills — https://skills.sh/vercel-labs/agent-skills/web-design-guidelines
+
+## hesreallyhim/awesome-claude-code
+- 0-AI UG — hesreallyhim/awesome-claude-code — https://github.com/0-AI-UG
+- A Field Guide to Claude Fable 5 — hesreallyhim/awesome-claude-code — https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns
+- Agent Skills — hesreallyhim/awesome-claude-code — https://github.com/anthropics/skills
+- Agent Skills for Knowledge Work — hesreallyhim/awesome-claude-code — https://github.com/tronghieu/agent-skills
+- Agent Workbench — hesreallyhim/awesome-claude-code — https://github.com/cvelasquez/agent-workbench
+- agentcairn — hesreallyhim/awesome-claude-code — https://github.com/ccf/agentcairn
+- Agentic Workflow Patterns — hesreallyhim/awesome-claude-code — https://github.com/ThibautMelen/agentic-workflow-patterns
+- Agents Can Communicate (ACC) — hesreallyhim/awesome-claude-code — https://github.com/automatis-tools/agents-can-communicate
+- Agrici Daniel — hesreallyhim/awesome-claude-code — https://github.com/AgriciDaniel
+- AI Research Skills — hesreallyhim/awesome-claude-code — https://github.com/WenyuChiou/ai-research-skills
+- Amin Dhouib (Devino Solutions) — hesreallyhim/awesome-claude-code — https://github.com/DevinoSolutions
+- andrej-karpathy-skills — hesreallyhim/awesome-claude-code — https://github.com/multica-ai/andrej-karpathy-skills
+- Anne Schuth — hesreallyhim/awesome-claude-code — https://github.com/anneschuth
+- anotifier — hesreallyhim/awesome-claude-code — https://github.com/DevinoSolutions/anotifier-for-claude-codex-cursor
+- Anthropic — hesreallyhim/awesome-claude-code — https://github.com/anthropics
+- Anthropic PBC — hesreallyhim/awesome-claude-code — https://github.com/anthropics/claude-code
+- Archify — hesreallyhim/awesome-claude-code — https://github.com/tt-a1i/archify
+- Arpan Patel — hesreallyhim/awesome-claude-code — https://arps18.github.io/
+- atelier — hesreallyhim/awesome-claude-code — https://github.com/EthanY33/atelier
+- Barnett Studios — hesreallyhim/awesome-claude-code — https://github.com/Barnett-Studios
+- bdg (Browser Debugger CLI) — hesreallyhim/awesome-claude-code — https://github.com/szymdzum/browser-debugger-cli
+- Bedrock — hesreallyhim/awesome-claude-code — https://github.com/iurykrieger/claude-bedrock
+- Beyond the Prompt: Claude Code — hesreallyhim/awesome-claude-code — https://arps18.github.io/posts/claude-code-mastery
+- Bloom — hesreallyhim/awesome-claude-code — https://github.com/Li-Evan/Bloom
+- Building Effective Agents — hesreallyhim/awesome-claude-code — https://www.anthropic.com/research/building-effective-agents
+- Cate — hesreallyhim/awesome-claude-code — https://github.com/0-AI-UG/cate
+- Cathryn Lavery — hesreallyhim/awesome-claude-code — https://github.com/cathrynlavery
+- cc-thinking-skills — hesreallyhim/awesome-claude-code — https://github.com/tjboudreaux/cc-thinking-skills
+- ccf — hesreallyhim/awesome-claude-code — https://github.com/ccf
+- CCometixLine — hesreallyhim/awesome-claude-code — https://github.com/Haleclipse/CCometixLine
+- ccstatusline — hesreallyhim/awesome-claude-code — https://github.com/sirmalloc/ccstatusline
+- Christopher Toth — hesreallyhim/awesome-claude-code — https://github.com/ctoth
+- chrome-cdp-ex — hesreallyhim/awesome-claude-code — https://github.com/EndeavorYen/chrome-cdp-ex
+- Claude CLI ↔ Telegram — hesreallyhim/awesome-claude-code — https://github.com/Imolatte/claude-cli-telegram
+- Claude Code — hesreallyhim/awesome-claude-code — https://code.claude.com/docs/
+- Claude Code Best Practices — hesreallyhim/awesome-claude-code — https://code.claude.com/docs/en/best-practices
+- Claude Code Cheatsheet — hesreallyhim/awesome-claude-code — https://support.claude.com/en/articles/14553413-claude-code-cheatsheet
+- Claude Code GitHub Action — hesreallyhim/awesome-claude-code — https://github.com/anthropics/claude-code-action
+- Claude Code Guide — hesreallyhim/awesome-claude-code — https://github.com/zebbern/claude-code-guide
+- Claude Code Handbook — hesreallyhim/awesome-claude-code — https://nikiforovall.blog/claude-code-rules/
+- Claude Code Hooks: Complete Guide — hesreallyhim/awesome-claude-code — https://hidekazu-konishi.com/entry/claude_code_hooks_complete_guide.html
+- Claude Code Local — hesreallyhim/awesome-claude-code — https://github.com/nicedreamzapp/claude-code-local
+- Claude Code Repos Index — hesreallyhim/awesome-claude-code — https://github.com/danielrosehill/Claude-Code-Repos-Index
+- Claude Code Security Review — hesreallyhim/awesome-claude-code — https://github.com/anthropics/claude-code-security-review
+- Claude Code System Prompts — hesreallyhim/awesome-claude-code — https://github.com/Piebald-AI/claude-code-system-prompts
+- Claude Code: Everything You Need to Know — hesreallyhim/awesome-claude-code — https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know
+- Claude Codex Settings — hesreallyhim/awesome-claude-code — https://github.com/fcakyon/claude-codex-settings
+- Claude HUD — hesreallyhim/awesome-claude-code — https://github.com/jarrodwatts/claude-hud
+- Claude Overlay — hesreallyhim/awesome-claude-code — https://github.com/shengyanlin/claude-overlay
+- Claude Scientific Skills — hesreallyhim/awesome-claude-code — https://github.com/K-Dense-AI/scientific-agent-skills
+- Claude Threads — hesreallyhim/awesome-claude-code — https://github.com/anneschuth/claude-threads
+- claude-carbon — hesreallyhim/awesome-claude-code — https://github.com/gwittebolle/claude-carbon
+- claude-code-android — hesreallyhim/awesome-claude-code — https://github.com/ferrumclaudepilgrim/claude-code-android
+- claude-code-docs — hesreallyhim/awesome-claude-code — https://github.com/costiash/claude-code-docs
+- claude-code-personalities — hesreallyhim/awesome-claude-code — https://github.com/kumamaki/Claude-Code-Personalities
+- claude-code-wsl2-setup — hesreallyhim/awesome-claude-code — https://github.com/congmnguyen/claude-code-wsl2-setup
+- claude-howto — hesreallyhim/awesome-claude-code — https://github.com/luongnv89/claude-howto
+- claude-obsidian — hesreallyhim/awesome-claude-code — https://github.com/AgriciDaniel/claude-obsidian
+- claude-powerline — hesreallyhim/awesome-claude-code — https://github.com/Owloops/claude-powerline
+- claude-statusbar — hesreallyhim/awesome-claude-code — https://github.com/leeguooooo/claude-code-usage-bar
+- Claudio — hesreallyhim/awesome-claude-code — https://github.com/ctoth/claudio
+- CloudCLI (Claude Code UI) — hesreallyhim/awesome-claude-code — https://github.com/siteboon/claudecodeui
+- Codebase to Course — hesreallyhim/awesome-claude-code — https://github.com/zarazhangrui/codebase-to-course
+- Codex Skill — hesreallyhim/awesome-claude-code — https://github.com/skills-directory/skill-codex
+- congmnguyen — hesreallyhim/awesome-claude-code — https://github.com/congmnguyen
+- Constantin Shafranski — hesreallyhim/awesome-claude-code — https://github.com/costiash
+- cvelasquez — hesreallyhim/awesome-claude-code — https://github.com/cvelasquez
+- cxpak — hesreallyhim/awesome-claude-code — https://github.com/Barnett-Studios/cxpak
+- César Andrés López — hesreallyhim/awesome-claude-code — https://github.com/cesarandreslopez
+- Daniel Rosehill — hesreallyhim/awesome-claude-code — https://github.com/danielrosehill
+- Dev Browser — hesreallyhim/awesome-claude-code — https://github.com/SawyerHood/dev-browser
+- Diagram Design — hesreallyhim/awesome-claude-code — https://github.com/cathrynlavery/diagram-design
+- dictate — hesreallyhim/awesome-claude-code — https://github.com/vimalk78/dictate
+- disler — hesreallyhim/awesome-claude-code — https://github.com/disler
+- Dive into Claude Code — hesreallyhim/awesome-claude-code — https://github.com/VILA-Lab/Dive-into-Claude-Code
+- Djordje Marković — hesreallyhim/awesome-claude-code — https://github.com/djolex999
+- Effective Context Engineering for AI Agents — hesreallyhim/awesome-claude-code — https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+- Eliran Tutia — hesreallyhim/awesome-claude-code — https://github.com/elirantutia
+- Encyclopedia of Agentic Coding Patterns — hesreallyhim/awesome-claude-code — https://aipatternbook.com
+- Endeavor Yen — hesreallyhim/awesome-claude-code — https://github.com/EndeavorYen
+- Erik Nielsen — hesreallyhim/awesome-claude-code — https://github.com/sorkila
+- Ethan Yucetepe — hesreallyhim/awesome-claude-code — https://github.com/EthanY33
+- explore-claude-code — hesreallyhim/awesome-claude-code — https://github.com/LukeRenton/explore-claude-code
+- fatih akyon — hesreallyhim/awesome-claude-code — https://github.com/fcakyon
+- ferrumclaudepilgrim — hesreallyhim/awesome-claude-code — https://github.com/ferrumclaudepilgrim
+- Flue — hesreallyhim/awesome-claude-code — https://github.com/SFKislev/Flue
+- FlyCrys — hesreallyhim/awesome-claude-code — https://github.com/SergKam/FlyCrys
+- Fusion Harness — hesreallyhim/awesome-claude-code — https://github.com/disler/fusion-harness
+- Gaëtan Wittebolle — hesreallyhim/awesome-claude-code — https://github.com/gwittebolle
+- geo-sleuth — hesreallyhim/awesome-claude-code — https://github.com/Oldcircle/geo-sleuth
+- geoai-skills — hesreallyhim/awesome-claude-code — https://github.com/muend/geoai-skills
+- Greg Hinkle — hesreallyhim/awesome-claude-code — https://github.com/nimbalyst
+- GrocerPublishAgent — hesreallyhim/awesome-claude-code — https://peoplesgrocers.com/en/projects
+- Haleclipse — hesreallyhim/awesome-claude-code — https://github.com/Haleclipse
+- Happy Coder — hesreallyhim/awesome-claude-code — https://github.com/slopus/happy
+- HeyRenan — hesreallyhim/awesome-claude-code — https://github.com/HeyRenan
+- Hidekazu Konishi — hesreallyhim/awesome-claude-code — https://hidekazu-konishi.com
+- Hieu T. Luu — hesreallyhim/awesome-claude-code — https://github.com/tronghieu
+- How Claude Code Works — hesreallyhim/awesome-claude-code — https://code.claude.com/docs/en/how-claude-code-works
+- How We Built Our Multi-Agent Research System — hesreallyhim/awesome-claude-code — https://www.anthropic.com/engineering/multi-agent-research-system
+- Hugo Lau — hesreallyhim/awesome-claude-code — https://github.com/hluaguo
+- HumanLayer — hesreallyhim/awesome-claude-code — https://www.humanlayer.dev
+- i18next — hesreallyhim/awesome-claude-code — https://github.com/i18next
+- i18next-localization — hesreallyhim/awesome-claude-code — https://github.com/i18next/i18next-cli
+- Imolatte — hesreallyhim/awesome-claude-code — https://github.com/Imolatte
+- Iury Krieger — hesreallyhim/awesome-claude-code — https://github.com/iurykrieger
+- Jarrod Watts — hesreallyhim/awesome-claude-code — https://github.com/jarrodwatts
+- John Costa — hesreallyhim/awesome-claude-code — https://github.com/costajohnt
+- K-Dense — hesreallyhim/awesome-claude-code — https://github.com/K-Dense-AI
+- klaudworks — hesreallyhim/awesome-claude-code — https://github.com/klaudworks
+- kumamaki — hesreallyhim/awesome-claude-code — https://github.com/kumamaki
+- Learn Claude Code — hesreallyhim/awesome-claude-code — https://github.com/shareAI-lab/learn-claude-code
+- learn-faster-kit — hesreallyhim/awesome-claude-code — https://github.com/hluaguo/learn-faster-kit
+- leeguooooo — hesreallyhim/awesome-claude-code — https://github.com/leeguooooo
+- Li-Evan — hesreallyhim/awesome-claude-code — https://github.com/Li-Evan
+- Librarian — hesreallyhim/awesome-claude-code — https://github.com/ngmeyer/librarian-mcp
+- LiveNL — hesreallyhim/awesome-claude-code — https://github.com/LiveNL
+- llm-router — hesreallyhim/awesome-claude-code — https://github.com/ypollak2/llm-router
+- Lockpaw — hesreallyhim/awesome-claude-code — https://github.com/sorkila/lockpaw
+- Logo Designer Skill — hesreallyhim/awesome-claude-code — https://github.com/neonwatty/logo-designer-skill
+- Luke Renton — hesreallyhim/awesome-claude-code — https://github.com/LukeRenton
+- luongnv89 — hesreallyhim/awesome-claude-code — https://github.com/luongnv89
+- Matt Macosko — hesreallyhim/awesome-claude-code — https://github.com/nicedreamzapp
+- MDXG Redline — hesreallyhim/awesome-claude-code — https://github.com/oubakiou/mdxg-redline
+- muend — hesreallyhim/awesome-claude-code — https://github.com/muend
+- multica-ai — hesreallyhim/awesome-claude-code — https://github.com/multica-ai
+- My Claude Code Setup — hesreallyhim/awesome-claude-code — https://github.com/pedrohcgs/claude-code-my-workflow
+- Mykola Maksymenko — hesreallyhim/awesome-claude-code — https://github.com/maksymenkoml
+- Nahum Litvin — hesreallyhim/awesome-claude-code — https://github.com/NahumLitvin
+- neonwatty — hesreallyhim/awesome-claude-code — https://github.com/neonwatty
+- Netresearch — hesreallyhim/awesome-claude-code — https://github.com/netresearch
+- Netresearch Agentic Skills — hesreallyhim/awesome-claude-code — https://github.com/netresearch/claude-code-marketplace
+- ngmeyer — hesreallyhim/awesome-claude-code — https://github.com/ngmeyer
+- nikiforovall — hesreallyhim/awesome-claude-code — https://github.com/nikiforovall
+- Nimbalyst — hesreallyhim/awesome-claude-code — https://github.com/nimbalyst/nimbalyst
+- NotebookLM MCP — hesreallyhim/awesome-claude-code — https://github.com/roomi-fields/notebooklm-mcp
+- Official Plugin Directory — hesreallyhim/awesome-claude-code — https://github.com/anthropics/claude-plugins-official
+- Oldcircle — hesreallyhim/awesome-claude-code — https://github.com/Oldcircle
+- openweb-org — hesreallyhim/awesome-claude-code — https://github.com/openweb-org
+- OSS Autopilot — hesreallyhim/awesome-claude-code — https://github.com/costajohnt/oss-autopilot
+- oubakiou — hesreallyhim/awesome-claude-code — https://github.com/oubakiou
+- Owloops — hesreallyhim/awesome-claude-code — https://github.com/Owloops
+- Pedro H. C. Sant'Anna — hesreallyhim/awesome-claude-code — https://github.com/pedrohcgs
+- Piebald AI — hesreallyhim/awesome-claude-code — https://github.com/Piebald-AI
+- Prassanna Ravishankar — hesreallyhim/awesome-claude-code — https://github.com/prassanna-ravishankar
+- prismantis — hesreallyhim/awesome-claude-code — https://github.com/NahumLitvin/prismantis
+- RAG Learning Academy — hesreallyhim/awesome-claude-code — https://github.com/TakaGoto/rag-learning-academy
+- Repowire — hesreallyhim/awesome-claude-code — https://github.com/prassanna-ravishankar/repowire
+- Review Inbox — hesreallyhim/awesome-claude-code — https://github.com/SummerRiversound/review-inbox
+- Richie Liu — hesreallyhim/awesome-claude-code — https://github.com/Rich627
+- Romain Peyrichou — hesreallyhim/awesome-claude-code — https://github.com/roomi-fields
+- S.F. Kislev — hesreallyhim/awesome-claude-code — https://github.com/SFKislev
+- Sawyer Hood — hesreallyhim/awesome-claude-code — https://github.com/SawyerHood
+- Sergii Kamenskyi — hesreallyhim/awesome-claude-code — https://github.com/SergKam
+- shareAI-lab — hesreallyhim/awesome-claude-code — https://github.com/shareAI-lab
+- shengyanlin — hesreallyhim/awesome-claude-code — https://github.com/shengyanlin
+- showreel — hesreallyhim/awesome-claude-code — https://github.com/HeyRenan/showreel
+- Sidekick for Max — hesreallyhim/awesome-claude-code — https://github.com/cesarandreslopez/sidekick-for-claude-max
+- sirmalloc — hesreallyhim/awesome-claude-code — https://github.com/sirmalloc
+- siteboon — hesreallyhim/awesome-claude-code — https://github.com/siteboon
+- Skill — hesreallyhim/awesome-claude-code — https://github.com/i18next/i18next-cli/tree/main/skills/i18next-localization
+- SPARDA — hesreallyhim/awesome-claude-code — https://github.com/zakariagharzouli/sparda
+- Steering Claude Code: Skills, Hooks, Rules, Subagents and More — hesreallyhim/awesome-claude-code — https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
+- SummerRiversound — hesreallyhim/awesome-claude-code — https://github.com/SummerRiversound
+- szymdzum — hesreallyhim/awesome-claude-code — https://github.com/szymdzum
+- Taka Goto — hesreallyhim/awesome-claude-code — https://github.com/TakaGoto
+- TermaGITchi — hesreallyhim/awesome-claude-code — https://github.com/TevvvB/termagitchi
+- TevvvB — hesreallyhim/awesome-claude-code — https://github.com/TevvvB
+- Thariq Shihipar, Anthropic — hesreallyhim/awesome-claude-code — https://github.com/ThariqS
+- ThibautMelen — hesreallyhim/awesome-claude-code — https://github.com/ThibautMelen
+- tjboudreaux — hesreallyhim/awesome-claude-code — https://github.com/tjboudreaux
+- tmux-claude-status-tabs — hesreallyhim/awesome-claude-code — https://github.com/LiveNL/tmux-claude-status-tabs
+- tt-a1i — hesreallyhim/awesome-claude-code — https://github.com/tt-a1i
+- Universal Exam Cram Coach — hesreallyhim/awesome-claude-code — https://github.com/ZeKaiNie/universal-examprep-skill
+- Vibeyard — hesreallyhim/awesome-claude-code — https://github.com/elirantutia/vibeyard
+- VILA-Lab — hesreallyhim/awesome-claude-code — https://github.com/VILA-Lab
+- Vimal Kumar — hesreallyhim/awesome-claude-code — https://github.com/vimalk78
+- vir — hesreallyhim/awesome-claude-code — https://github.com/djolex999/vir
+- Wenyu Chiou — hesreallyhim/awesome-claude-code — https://github.com/WenyuChiou
+- wesammustafa — hesreallyhim/awesome-claude-code — https://github.com/wesammustafa
+- WhatsApp Channel Plugin — hesreallyhim/awesome-claude-code — https://github.com/Rich627/whatsapp-claude-plugin
+- Wolf McNally — hesreallyhim/awesome-claude-code — https://github.com/wolfmcnally
+- Writing a Good CLAUDE.md — hesreallyhim/awesome-claude-code — https://www.humanlayer.dev/blog/writing-a-good-claude-md
+- Yali Pollak — hesreallyhim/awesome-claude-code — https://github.com/ypollak2
+- Zakaria Gharzouli (Residual Labs) — hesreallyhim/awesome-claude-code — https://github.com/zakariagharzouli
+- Zara Zhang — hesreallyhim/awesome-claude-code — https://github.com/zarazhangrui
+- zebbern — hesreallyhim/awesome-claude-code — https://github.com/zebbern
+- ZeKai Nie — hesreallyhim/awesome-claude-code — https://github.com/ZeKaiNie
+
+## karanb192/awesome-claude-skills
+- 16-eyes — karanb192/awesome-claude-skills — https://github.com/kigiela/16-eyes/tree/main/skills/16-eyes
+- 3d-logo — karanb192/awesome-claude-skills — https://github.com/hasuwini77/3d-logo-skill/tree/main/skills/3d-logo
+- a2ui-ask — karanb192/awesome-claude-skills — https://github.com/YuniqueUnic/a2ui-ask
+- aeo-check — karanb192/awesome-claude-skills — https://github.com/pchewlo/aeo-check/tree/main/.claude/skills/aeo-check
+- agent-qa-authoring — karanb192/awesome-claude-skills — https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring
+- ai-agency-os-starter — karanb192/awesome-claude-skills — https://github.com/CalebAnderson-Coder/ai-agency-os-starter
+- ai-code-review-triage — karanb192/awesome-claude-skills — https://github.com/laulauraluo/ai-code-review-triage/tree/main/skills/ai-code-review-triage
+- ai-meeting — karanb192/awesome-claude-skills — https://github.com/bin1874/ai-meeting-skill/tree/main/ai-meeting
+- ai-tell-detector — karanb192/awesome-claude-skills — https://github.com/aragossa/ai-tell-detector/tree/main/en/ai-tell-detector
+- align — karanb192/awesome-claude-skills — https://github.com/ggrigo/align/tree/main/skills/align
+- aligned-delivery — karanb192/awesome-claude-skills — https://github.com/ahnbingbing/aligned-delivery
+- anti-slop-design — karanb192/awesome-claude-skills — https://github.com/wwewtech/anti-slop-design/tree/main/skills/anti-slop-design
+- anti-ui-slop — karanb192/awesome-claude-skills — https://github.com/uizze/uizze/tree/main/skills/anti-ui-slop
+- api-designer — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/api-designer
+- apify-account-mapping — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-account-mapping/tree/main/apify-account-mapping
+- apify-linkedin-post-engagement — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-linkedin-post-engagement/tree/main/apify-linkedin-post-e
+- apify-linkedin-posts-scraper — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-linkedin-posts-scraper/tree/main/apify-linkedin-posts-sc
+- apify-remote-startup-jobs — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-remote-startup-jobs/tree/main/apify-remote-startup-jobs
+- apify-yc-startup-jobs — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-yc-startup-jobs/tree/main/apify-yc-startup-jobs
+- apify-youtube-transcript-api — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-youtube-transcript-api/tree/main/apify-youtube-transcrip
+- apify-youtube-transcripts-llm-training-data — karanb192/awesome-claude-skills — https://github.com/johnisanerd/claude-skill-youtube-transcripts-llm-training-data/tree/main/apify-yo
+- apitube-news-api — karanb192/awesome-claude-skills — https://github.com/apitube/news-api-skills/tree/main/skills/apitube-news-api
+- awesome-bug-bounty — karanb192/awesome-claude-skills — https://github.com/YangTech-gh/Awesome-Bug-Bounty/tree/main/skills/awesome-bug-bounty
+- before-you-build — karanb192/awesome-claude-skills — https://github.com/bin1874/before-you-build-skill
+- benchmark-yylo — karanb192/awesome-claude-skills — https://github.com/yylo-dev/yylo-skills/tree/main/skills/benchmark-yylo
+- berlin-job-search — karanb192/awesome-claude-skills — https://github.com/umutyesildal/berlin-job-search/tree/main/skills/berlin-job-search
+- breather — karanb192/awesome-claude-skills — https://github.com/ilandahan/breather/tree/main/skills/breather
+- brewpage-publish — karanb192/awesome-claude-skills — https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/brewpage-publish
+- brickwise — karanb192/awesome-claude-skills — https://github.com/JCPetrelli/brickwise
+- build-with-better-design — karanb192/awesome-claude-skills — https://github.com/better-designs/better-design-plugin/tree/main/skills/build-with-better-design
+- business-name-fit — karanb192/awesome-claude-skills — https://github.com/Elham-Farajnejad/business-name-fit
+- buyer-eval-skill — karanb192/awesome-claude-skills — https://github.com/salespeak-ai/buyer-eval-skill
+- call-me — karanb192/awesome-claude-skills — https://github.com/radres/call-me/tree/main/skill
+- check-blindspot — karanb192/awesome-claude-skills — https://github.com/AlexanderCato/check-blindspot
+- checkup — karanb192/awesome-claude-skills — https://github.com/agentvitals/checkup/tree/main/checkup
+- cliptude-plan — karanb192/awesome-claude-skills — https://github.com/cliptude/cliptude/tree/main/mcp_server/skills/cliptude-plan
+- clone-team — karanb192/awesome-claude-skills — https://github.com/Varalix-Digitech-Solutions/clone-team/tree/main/skills/clone-team
+- clousd — karanb192/awesome-claude-skills — https://github.com/Clousd-Android/clousd-sdk/tree/main/skills/clousd
+- clueless — karanb192/awesome-claude-skills — https://github.com/ADanMan/clueless/tree/main/skills/clueless
+- code-documenter — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/code-documenter
+- cohesivity — karanb192/awesome-claude-skills — https://github.com/cohesivity-org/cohesivity-plugin/tree/main/packages/claude/skills/cohesivity
+- collage-design — karanb192/awesome-claude-skills — https://github.com/polgarp/collage-design
+- comment-to-dm-cta — karanb192/awesome-claude-skills — https://github.com/commentkeyword/agent-toolkit/tree/main/skills/comment-to-dm-cta
+- communication-protocol-setup — karanb192/awesome-claude-skills — https://github.com/cez0060405/communication-protocol-setup
+- converly — karanb192/awesome-claude-skills — https://github.com/converlyio/converly-agent
+- cooper-email — karanb192/awesome-claude-skills — https://github.com/cooper-email/cooper-email/tree/main/skills/cooper-email
+- cra-vulnerability-obligations — karanb192/awesome-claude-skills — https://github.com/Ansvar-Systems/cra-vulnerability-obligations-skill
+- crosscheck — karanb192/awesome-claude-skills — https://github.com/moveju112/skill_verify/tree/main/skills/crosscheck
+- cue-omni-reader — karanb192/awesome-claude-skills — https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader
+- datawebot — karanb192/awesome-claude-skills — https://github.com/datawebot/datawebot-mcp/tree/main/skills/datawebot
+- deacon-install — karanb192/awesome-claude-skills — https://github.com/heydeacon/skills/tree/main/skills/deacon-install
+- debugging-wizard — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/debugging-wizard
+- deep-security-audit — karanb192/awesome-claude-skills — https://github.com/ravindrakele/claude-skills/tree/main/plugins/deep-security-audit/skills/deep-secu
+- deep-security-check — karanb192/awesome-claude-skills — https://github.com/give-jd/deep-security-check/tree/main/skills/deep-security-check
+- delegate — karanb192/awesome-claude-skills — https://github.com/aayushpokhrel1/delegation-pipeline/tree/master/skills/delegate
+- design-fidelity-verify — karanb192/awesome-claude-skills — https://github.com/jeltehomminga/figma-design-skills/tree/main/skills/design-fidelity-verify
+- devops-engineer — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/devops-engineer
+- dialog-tree — karanb192/awesome-claude-skills — https://github.com/ikotelkin/claude-skills/tree/main/skills/dialog-tree
+- diasporic-intelligence — karanb192/awesome-claude-skills — https://github.com/MinistaJazz/diasporic-intelligence/tree/main/skills/diasporic-intelligence
+- docs-to-book — karanb192/awesome-claude-skills — https://github.com/EliaTolin/docs-to-book-skills/tree/main/docs-to-book
+- dropthehassle-publish — karanb192/awesome-claude-skills — https://github.com/bosmdavid-gif/dropthehassle-skill/tree/main/skills/dropthehassle-publish
+- easy-auto-research — karanb192/awesome-claude-skills — https://github.com/wjc2830/Easy-AutoResearch-for-DeepLearning/tree/main/easy-auto-research
+- embedded-iot-mentor — karanb192/awesome-claude-skills — https://github.com/mh-mansouri/embedded-iot-mentor/tree/main/embedded-iot-mentor
+- EmblemAI Agent Wallet — karanb192/awesome-claude-skills — https://github.com/EmblemCompany/Agent-skills/tree/main/skills/emblem-ai-agent-wallet
+- enterprise-architect — karanb192/awesome-claude-skills — https://github.com/rafalr100/enterprise-architect-skill/tree/main/skills/enterprise-architect
+- equalang — karanb192/awesome-claude-skills — https://github.com/equalang/equalang-skill
+- erupt-admin — karanb192/awesome-claude-skills — https://github.com/plinian/erupt-skill
+- fabling — karanb192/awesome-claude-skills — https://github.com/gncdev/fabling/tree/main/fabling
+- fact-check-x-complete — karanb192/awesome-claude-skills — https://github.com/ASI2030/Fact-Check-X/tree/main/skills/fact-check-x-complete
+- famulor-assistants-history — karanb192/awesome-claude-skills — https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history
+- feynman-pdf — karanb192/awesome-claude-skills — https://github.com/TadTheFisherman/feynman-it
+- figma-design-extract — karanb192/awesome-claude-skills — https://github.com/jeltehomminga/figma-design-skills/tree/main/skills/figma-design-extract
+- file-itr — karanb192/awesome-claude-skills — https://github.com/shivprime94/file-itr
+- formo-analytics — karanb192/awesome-claude-skills — https://github.com/getformo/cli/tree/main/skills/formo-analytics
+- fresh-review — karanb192/awesome-claude-skills — https://github.com/roman-s8o/workflow-pack-free/tree/main/.claude/skills/fresh-review
+- furusato-nozei — karanb192/awesome-claude-skills — https://github.com/tahodev/kurashi-skill/tree/main/furusato-nozei
+- game-build-team — karanb192/awesome-claude-skills — https://github.com/Varalix-Digitech-Solutions/game-build-team-skill/tree/main/skills/game-build-team
+- gedik — karanb192/awesome-claude-skills — https://github.com/onur-kesim/gedik/tree/main/skills/gedik
+- goethecoach — karanb192/awesome-claude-skills — https://github.com/janosszaboaipm-design/goethecoach-claude-skill/tree/main/goethecoach
+- golden-frijoles — karanb192/awesome-claude-skills — https://github.com/danybgoode/golden-frijoles
+- guashuai / junshi — karanb192/awesome-claude-skills — https://github.com/DENGYUFAN0/guashuai-junshi/tree/main/adapters/claude-code/skills
+- guided-goal — karanb192/awesome-claude-skills — https://github.com/luchasarie/guided-goal/tree/main/skills/guided-goal
+- harmonic-mixing — karanb192/awesome-claude-skills — https://github.com/songfinder-dev/songfinder-skills/tree/main/skills/harmonic-mixing
+- hitpost — karanb192/awesome-claude-skills — https://github.com/Lihaila/hitpost-skill/tree/main/skills/hitpost
+- humanpen — karanb192/awesome-claude-skills — https://github.com/humanpen/humanpen-skill
+- identify-song — karanb192/awesome-claude-skills — https://github.com/songfinder-dev/songfinder-skills/tree/main/skills/identify-song
+- impresario — karanb192/awesome-claude-skills — https://github.com/Shushant17711/impresario
+- incident-reporting-navigator — karanb192/awesome-claude-skills — https://github.com/Ansvar-Systems/incident-reporting-navigator-skill
+- invoice-winning-numbers — karanb192/awesome-claude-skills — https://github.com/tahodev/baodao-skill/tree/main/invoice-winning-numbers
+- ipo-offer-document-review — karanb192/awesome-claude-skills — https://github.com/parinshahAIbuilder/ipo-offer-document-review
+- ironloop — karanb192/awesome-claude-skills — https://github.com/edouard-claude/ironloop/tree/main/skills/engineering/ironloop
+- karpathy-guidelines — karanb192/awesome-claude-skills — https://github.com/swarmclawai/andrej-karpathy-skills/tree/main/skills/karpathy-guidelines
+- kavel-image — karanb192/awesome-claude-skills — https://github.com/hanshs474/kavel-image-skill
+- keyboard-shortcuts — karanb192/awesome-claude-skills — https://github.com/nparashar150/claude-keyboard-shortcuts/tree/main/skills/keyboard-shortcuts
+- keyword-icons — karanb192/awesome-claude-skills — https://github.com/ruthless-coder-ai/keyword-icons
+- kgai knowledge-graph — karanb192/awesome-claude-skills — https://github.com/kgaidev/kgai
+- least-cost-capable — karanb192/awesome-claude-skills — https://github.com/kanibal-studio/least-cost-capable
+- legacy-modernizer — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/legacy-modernizer
+- light-cloud-deploy — karanb192/awesome-claude-skills — https://github.com/light-cloud-com/skills/tree/main/skills/light-cloud-deploy
+- linkedin-outreach — karanb192/awesome-claude-skills — https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach
+- ltx2-video — karanb192/awesome-claude-skills — https://github.com/patraxo/ltx2-vidgen-skill/tree/main/skills/ltx2-video
+- make-faceless-video — karanb192/awesome-claude-skills — https://github.com/airdropfi/autoshort-skills/tree/main/skills/make-faceless-video
+- market-mirror — karanb192/awesome-claude-skills — https://github.com/DarkWorldCoder/market-mirror/tree/main/plugin/skills/market-mirror
+- meshy-pose-rigging — karanb192/awesome-claude-skills — https://github.com/rickyworld/rigmeshy-by-ricky/tree/master/meshy-pose-rigging
+- mindpalace — karanb192/awesome-claude-skills — https://github.com/aashutosh396/mindpalace-skill
+- mubu-integration — karanb192/awesome-claude-skills — https://github.com/liuboacean/mubu-integration
+- multi-stack-mcp — karanb192/awesome-claude-skills — https://github.com/VovikP/multi-stack-mcp
+- never-again — karanb192/awesome-claude-skills — https://github.com/malaysherasia-ai/claude-never-again/tree/main/skills/never-again
+- nopekit — karanb192/awesome-claude-skills — https://github.com/neuman/nopekit/tree/main/skills/nopekit
+- octav-api — karanb192/awesome-claude-skills — https://github.com/Octav-Labs/octav-api-skill
+- okf — karanb192/awesome-claude-skills — https://github.com/mattjoyce/okf-skill/tree/master/skills/okf
+- open-finance-skills — karanb192/awesome-claude-skills — https://github.com/levelcfo/open-finance-skills
+- OrcaReplay — karanb192/awesome-claude-skills — https://github.com/Continuum-AI-Corp/OrcaReplay
+- orchestrating-subagents — karanb192/awesome-claude-skills — https://github.com/PapiScholz/symphony/tree/main/skills/orchestrating-subagents
+- pandas-pro — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/pandas-pro
+- pdp-audit — karanb192/awesome-claude-skills — https://github.com/llizell/pdp-audit
+- pit-stop — karanb192/awesome-claude-skills — https://github.com/Finn763/pit-stop
+- planning-with-files — karanb192/awesome-claude-skills — https://github.com/OthmanAdi/planning-with-files/tree/master/skills/planning-with-files
+- playwright-expert — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/playwright-expert
+- polymarket-tennis — karanb192/awesome-claude-skills — https://github.com/livetennisapi/polymarket-tennis/tree/main/skills/polymarket-tennis
+- postgres-pro — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/postgres-pro
+- pr-review — karanb192/awesome-claude-skills — https://github.com/priyank766/OpenSource-SKILL
+- pro-motion — karanb192/awesome-claude-skills — https://github.com/jack-reson8/pro-motion/tree/main/plugins/pro-motion/skills/pro-motion
+- process-builder — karanb192/awesome-claude-skills — https://github.com/Castaldo-Solutions/process-builder
+- product-decision-agent — karanb192/awesome-claude-skills — https://github.com/atdy/maoxuan-product-agent/tree/main/product-decision-agent
+- project-planning-journaling — karanb192/awesome-claude-skills — https://github.com/mh-mansouri/Project-Planning-Journaling/tree/main/project-planning-journaling
+- prove-it-ran — karanb192/awesome-claude-skills — https://github.com/agentkitco/agentkit-dev-skills/tree/main/skills/prove-it-ran
+- publishport — karanb192/awesome-claude-skills — https://github.com/karuha-m/publishport-skill/tree/main/skills/publishport
+- punchcard — karanb192/awesome-claude-skills — https://github.com/Maksim-Burtsev/punchcard/tree/master/skills/punchcard
+- puzzle-activity-planner — karanb192/awesome-claude-skills — https://github.com/fruitwyatt/puzzle-activity-planner
+- puzzlegenio — karanb192/awesome-claude-skills — https://github.com/fruitwyatt/puzzlegenio-claude-skill
+- pvr-inox-radar — karanb192/awesome-claude-skills — https://github.com/karanb192/pvr-inox-radar/tree/main/skills/pvr-inox-radar
+- readme-atlas — karanb192/awesome-claude-skills — https://github.com/chromoany/readme-atlas
+- reels-setup — karanb192/awesome-claude-skills — https://github.com/VishiATChoudhary/reels/tree/main/skills/reels-setup
+- regulatory-threat-model — karanb192/awesome-claude-skills — https://github.com/Ansvar-Systems/regulatory-threat-model-skill
+- regulex-plus — karanb192/awesome-claude-skills — https://github.com/PipeDream941/regulex-plus
+- rtl-slides — karanb192/awesome-claude-skills — https://github.com/darajoukar/reveal-rtl/tree/main/plugins/reveal-rtl/skills/rtl-slides
+- runapi-cli — karanb192/awesome-claude-skills — https://github.com/runapi-ai/cli-skill/tree/main/skills/runapi-cli
+- ruxi-skill — karanb192/awesome-claude-skills — https://github.com/swaylq/ruxi-skill
+- screenbrowser — karanb192/awesome-claude-skills — https://github.com/screenbrowser/skill/tree/main/skills/screenbrowser
+- scrollytelling-brand-site — karanb192/awesome-claude-skills — https://github.com/abdelrhman2007/scrollytelling-brand-site/tree/main/skills/scrollytelling-brand-si
+- SecHelix — karanb192/awesome-claude-skills — https://github.com/omarmohelal/SecHelix/tree/main/skills/sechelix
+- secure-code-guardian — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/secure-code-guardian
+- security-reviewer — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/security-reviewer
+- seedance-25-prompting — karanb192/awesome-claude-skills — https://github.com/gbeyrouti/seedance-prompting-claude-skill/tree/main/seedance-25-prompting
+- session-handoff — karanb192/awesome-claude-skills — https://github.com/alapha888/session-handoff-kit
+- shipreel — karanb192/awesome-claude-skills — https://github.com/theBstar/shipreel/tree/main/plugins/shipreel/skills/shipreel
+- shopify-review-triage — karanb192/awesome-claude-skills — https://github.com/alfredtech2026/shopify-app-review-brief/tree/main/docs/skills/shopify-review-tria
+- sim (interview-sim) — karanb192/awesome-claude-skills — https://github.com/chrisjacksonn/interview-sim/tree/main/skills/sim
+- simmer-tennis-live-gate — karanb192/awesome-claude-skills — https://github.com/livetennisapi/simmer-tennis-live-gate
+- simple-man — karanb192/awesome-claude-skills — https://github.com/Maksim-Burtsev/simple-man/tree/master/skills/simple-man
+- site-traffic-teardown — karanb192/awesome-claude-skills — https://github.com/zhuyansen/site-traffic-teardown/tree/main/skills/site-traffic-teardown
+- slop-post — karanb192/awesome-claude-skills — https://github.com/useslop/claude-plugins/tree/main/plugins/slop/skills/slop-post
+- SocialClaw — karanb192/awesome-claude-skills — https://github.com/ndesv21/socialclaw/tree/main/skill
+- solidping-monitoring — karanb192/awesome-claude-skills — https://github.com/fclairamb/solidping-plugin/tree/main/skills/solidping-monitoring
+- sql-pro — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/sql-pro
+- stipend — karanb192/awesome-claude-skills — https://github.com/stipend-sh/stipend
+- stock-analysis — karanb192/awesome-claude-skills — https://github.com/AlenSarangSatheesh/Indian-Stocks-Fundamental-Analysis-SKILL/tree/main/stock-analy
+- table-sheet — karanb192/awesome-claude-skills — https://github.com/netmobster/unstuck-games/tree/main/plugins/table-sheet
+- tastegate — karanb192/awesome-claude-skills — https://github.com/stas4000/tastegate/tree/main/tastegate
+- test-checklist — karanb192/awesome-claude-skills — https://github.com/Ifeanyiejindu/qarunbook/tree/main/plugins/qarunbook/skills/test-checklist
+- test-master — karanb192/awesome-claude-skills — https://github.com/jeffallan/claude-skills/tree/main/skills/test-master
+- tlgr — karanb192/awesome-claude-skills — https://github.com/tlgrcli/tlgr/tree/main/plugin/skills/tlgr
+- trace-my-code — karanb192/awesome-claude-skills — https://github.com/kgohil/trace-my-code/tree/main/skills/trace-my-code
+- translate-book — karanb192/awesome-claude-skills — https://github.com/kcy4334-lgtm/translate-book-arxiv
+- tree-ring-memory — karanb192/awesome-claude-skills — https://github.com/TerminallyLazy/tree-ring-memory-skill
+- unflat — karanb192/awesome-claude-skills — https://github.com/merturl4576/unflat
+- unpaid-intern — karanb192/awesome-claude-skills — https://github.com/kevinmmiddleton/unpaid-intern/tree/main/skills/unpaid-intern
+- unthrottled-route-check — karanb192/awesome-claude-skills — https://github.com/edtrackai/ship-ready-skills/tree/main/skills/unthrottled-route-check
+- verify-polish-company — karanb192/awesome-claude-skills — https://github.com/bartosz-kuc/skanfirmy-mcp/tree/main/skill
+- vox-director — karanb192/awesome-claude-skills — https://github.com/Alisa0808/vox-director
+- watch-igaming — karanb192/awesome-claude-skills — https://github.com/igamingsychov/watch-igaming
+- weread-trial-card-list — karanb192/awesome-claude-skills — https://github.com/C-s-salute/weread-trial-card-list
+- what-could-break — karanb192/awesome-claude-skills — https://github.com/stas4000/what-could-break/tree/main/what-could-break
+- wise-men-flash — karanb192/awesome-claude-skills — https://github.com/Ali-expandings/wise-men-flash
+- workflow-design — karanb192/awesome-claude-skills — https://github.com/ghorbanies/workflow-design
+- working-memory — karanb192/awesome-claude-skills — https://github.com/ikotelkin/claude-skills/tree/main/skills/working-memory
+- wp-security-audit — karanb192/awesome-claude-skills — https://github.com/mwstech/wp-security-audit-skill
+- wreck-it — karanb192/awesome-claude-skills — https://github.com/miyannishar/wreck-it/tree/main/skills/wreck-it
+
+## rohitg00/awesome-claude-code-toolkit
+- /cht — rohitg00/awesome-claude-code-toolkit — https://github.com/kosoukhov/cht-cli
+- ADHX — rohitg00/awesome-claude-code-toolkit — https://github.com/itsmemeworks/adhx
+- AgentLint — rohitg00/awesome-claude-code-toolkit — https://github.com/0xmariowu/AgentLint
+- agento-patronum — rohitg00/awesome-claude-code-toolkit — https://github.com/emaarco/agento-patronum
+- ashlr-plugin — rohitg00/awesome-claude-code-toolkit — https://github.com/ashlrai/ashlr-plugin
+- AuraKit — rohitg00/awesome-claude-code-toolkit — https://github.com/smorky850612/Aurakit
+- aws-cost-saver — rohitg00/awesome-claude-code-toolkit — https://github.com/prajapatimehul/aws-cost-saver
+- Axiom — rohitg00/awesome-claude-code-toolkit — https://github.com/Guipetris/axiom
+- axme-code — rohitg00/awesome-claude-code-toolkit — https://github.com/AxmeAI/axme-code
+- background-timer — rohitg00/awesome-claude-code-toolkit — https://github.com/culminationAI/background-timer
+- BeHuman — rohitg00/awesome-claude-code-toolkit — https://github.com/voidborne-d/behuman
+- Bouncer — rohitg00/awesome-claude-code-toolkit — https://github.com/buildingopen/bouncer
+- brooks-lint — rohitg00/awesome-claude-code-toolkit — https://github.com/hyhmrright/brooks-lint
+- building-multiagent-systems — rohitg00/awesome-claude-code-toolkit — https://github.com/2389-research/building-multiagent-systems
+- cc-aws-keepalive — rohitg00/awesome-claude-code-toolkit — https://github.com/GeiserX/cc-aws-keepalive
+- cc-cost — rohitg00/awesome-claude-code-toolkit — https://github.com/lob-labs/cc-cost
+- cc-inspect — rohitg00/awesome-claude-code-toolkit — https://github.com/howardpen9/cc-inspect
+- cc-safe-setup — rohitg00/awesome-claude-code-toolkit — https://github.com/yurukusa/cc-safe-setup
+- CCM — rohitg00/awesome-claude-code-toolkit — https://github.com/dr5hn/ccm
+- ccmanager — rohitg00/awesome-claude-code-toolkit — https://github.com/kbwo/ccmanager
+- ccpm — rohitg00/awesome-claude-code-toolkit — https://github.com/automazeio/ccpm
+- ccusage — rohitg00/awesome-claude-code-toolkit — https://github.com/ryoppippi/ccusage
+- chief — rohitg00/awesome-claude-code-toolkit — https://github.com/MiniCodeMonkey/chief
+- Clarvia MCP — rohitg00/awesome-claude-code-toolkit — https://github.com/clarvia-project/scanner
+- claude-ads — rohitg00/awesome-claude-code-toolkit — https://github.com/AgriciDaniel/claude-ads
+- claude-agentic-coding-playbook — rohitg00/awesome-claude-code-toolkit — https://github.com/john-wilmes/claude-agentic-coding-playbook
+- claude-blog — rohitg00/awesome-claude-code-toolkit — https://github.com/AgriciDaniel/claude-blog
+- claude-channel-instagram — rohitg00/awesome-claude-code-toolkit — https://github.com/riasistemas/claude-channel-instagram
+- claude-channel-whatsapp — rohitg00/awesome-claude-code-toolkit — https://github.com/riasistemas/claude-channel-whatsapp
+- claude-code-best-practice — rohitg00/awesome-claude-code-toolkit — https://github.com/shanraisshan/claude-code-best-practice
+- claude-code-hooks — rohitg00/awesome-claude-code-toolkit — https://github.com/yurukusa/claude-code-hooks
+- claude-code-marketing-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/cognyai/claude-code-marketing-skills
+- claude-code-mcp — rohitg00/awesome-claude-code-toolkit — https://github.com/steipete/claude-code-mcp
+- claude-code-sessions — rohitg00/awesome-claude-code-toolkit — https://github.com/apappascs/claude-code-sessions
+- claude-code-system-prompts — rohitg00/awesome-claude-code-toolkit — https://github.com/Piebald-AI/claude-code-system-prompts
+- claude-context — rohitg00/awesome-claude-code-toolkit — https://github.com/zilliztech/claude-context
+- claude-cost-optimizer — rohitg00/awesome-claude-code-toolkit — https://github.com/Sagargupta16/claude-cost-optimizer
+- claude-cybersecurity — rohitg00/awesome-claude-code-toolkit — https://github.com/AgriciDaniel/claude-cybersecurity
+- claude-forge — rohitg00/awesome-claude-code-toolkit — https://github.com/sangrokjung/claude-forge
+- claude-handoff — rohitg00/awesome-claude-code-toolkit — https://github.com/REMvisual/claude-handoff
+- claude-hooks-mastery — rohitg00/awesome-claude-code-toolkit — https://github.com/disler/claude-code-hooks-mastery
+- claude-mem — rohitg00/awesome-claude-code-toolkit — https://github.com/thedotmack/claude-mem
+- claude-notifications-go — rohitg00/awesome-claude-code-toolkit — https://github.com/777genius/claude-notifications-go
+- claude-ops — rohitg00/awesome-claude-code-toolkit — https://github.com/Lifecycle-Innovations-Limited/claude-ops
+- claude-plugins.riasistemas.com.br/instagram — rohitg00/awesome-claude-code-toolkit — https://claude-plugins.riasistemas.com.br/instagram
+- claude-plugins.riasistemas.com.br/whatsapp — rohitg00/awesome-claude-code-toolkit — https://claude-plugins.riasistemas.com.br/whatsapp
+- claude-rank — rohitg00/awesome-claude-code-toolkit — https://github.com/Houseofmvps/claude-rank
+- claude-recap — rohitg00/awesome-claude-code-toolkit — https://github.com/hatawong/claude-recap
+- claude-scaffold — rohitg00/awesome-claude-code-toolkit — https://github.com/pyramidheadshark/claude-scaffold
+- claude-seo — rohitg00/awesome-claude-code-toolkit — https://github.com/AgriciDaniel/claude-seo
+- claude-snapshot — rohitg00/awesome-claude-code-toolkit — https://github.com/adhenawer/claude-snapshot
+- claude-sounds — rohitg00/awesome-claude-code-toolkit — https://github.com/culminationAI/claude-sounds
+- claude-supermemory — rohitg00/awesome-claude-code-toolkit — https://github.com/supermemoryai/claude-supermemory
+- claude-time — rohitg00/awesome-claude-code-toolkit — https://github.com/nexusbuildsai/claude-time
+- claudebase — rohitg00/awesome-claude-code-toolkit — https://github.com/rohithzr/claudebase
+- Claudify — rohitg00/awesome-claude-code-toolkit — https://claudify.tech
+- claw-army/claude-node — rohitg00/awesome-claude-code-toolkit — https://github.com/claw-army/claude-node
+- ClawSearch — rohitg00/awesome-claude-code-toolkit — https://clawsearch.cc
+- ClawSec — rohitg00/awesome-claude-code-toolkit — https://clawsec.cc
+- clawsec.cc — rohitg00/awesome-claude-code-toolkit — https://clawsec.cc
+- clirank-mcp-server — rohitg00/awesome-claude-code-toolkit — https://github.com/alexanderclapp/clirank-mcp-server
+- CN Content Matrix — rohitg00/awesome-claude-code-toolkit — https://github.com/fullstackcrew-alpha/skill-cn-content-matrix
+- codebase-graph — rohitg00/awesome-claude-code-toolkit — https://github.com/Phoenixrr2113/codebase-graph
+- codesight — rohitg00/awesome-claude-code-toolkit — https://github.com/Houseofmvps/codesight
+- codetape — rohitg00/awesome-claude-code-toolkit — https://github.com/888wing/codetape
+- cortex — rohitg00/awesome-claude-code-toolkit — https://github.com/cdeust/Cortex
+- Cost Optimizer — rohitg00/awesome-claude-code-toolkit — https://github.com/fullstackcrew-alpha/skill-cost-optimizer
+- Coware — rohitg00/awesome-claude-code-toolkit — https://github.com/shitianfang/coware-skills
+- cozempic — rohitg00/awesome-claude-code-toolkit — https://github.com/Ruya-AI/cozempic
+- craft-statusline — rohitg00/awesome-claude-code-toolkit — https://github.com/derjochenmeyer/claude-code-craft-statusline
+- debian-packaging-agent-skill — rohitg00/awesome-claude-code-toolkit — https://github.com/cosgroveb/debian-packaging-agent-skill
+- deep-dive — rohitg00/awesome-claude-code-toolkit — https://github.com/kimsb2429/deep-dive-skill
+- deployhq-cli — rohitg00/awesome-claude-code-toolkit — https://github.com/deployhq/deployhq-cli
+- DevOps Agent — rohitg00/awesome-claude-code-toolkit — https://github.com/fullstackcrew-alpha/skill-devops-agent
+- dig2crawl — rohitg00/awesome-claude-code-toolkit — https://github.com/ZENG3LD/dig2crawl
+- discoclaw — rohitg00/awesome-claude-code-toolkit — https://github.com/DiscoClaw/discoclaw
+- dodo-agent-plugin — rohitg00/awesome-claude-code-toolkit — https://github.com/dodopayments/dodo-agent-plugin
+- Edison — rohitg00/awesome-claude-code-toolkit — https://github.com/kilnside/edison
+- ejentum-mcp — rohitg00/awesome-claude-code-toolkit — https://github.com/ejentum/ejentum-mcp
+- eliniscan — rohitg00/awesome-claude-code-toolkit — https://github.com/AlpYenigun/eliniscan
+- ESP32-AI-Agent-Skill — rohitg00/awesome-claude-code-toolkit — https://github.com/ezrover/ESP32-AI-Agent-Skill
+- faf-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/Wolfe-Jam/faf-skills
+- floom — rohitg00/awesome-claude-code-toolkit — https://github.com/floomhq/floom
+- fractal — rohitg00/awesome-claude-code-toolkit — https://github.com/rmolines/fractal
+- gate4agent — rohitg00/awesome-claude-code-toolkit — https://github.com/ZENG3LD/gate4agent
+- getburnd — rohitg00/awesome-claude-code-toolkit — https://github.com/garvitsurana271/burnd
+- Google Drive – Memyard — rohitg00/awesome-claude-code-toolkit — https://github.com/zagmoai/public-google-drive
+- gstack — rohitg00/awesome-claude-code-toolkit — https://github.com/garrytan/gstack
+- hone-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/ckorhonen/hone-skills
+- html-anything — rohitg00/awesome-claude-code-toolkit — https://github.com/clockless-org/html-anything
+- humanize-chinese — rohitg00/awesome-claude-code-toolkit — https://github.com/voidborne-d/humanize-chinese
+- humanizer-skill — rohitg00/awesome-claude-code-toolkit — https://github.com/Aboudjem/humanizer-skill
+- idle-timing — rohitg00/awesome-claude-code-toolkit — https://github.com/clankercode/claude-inject-idle-time
+- immich-photo-manager — rohitg00/awesome-claude-code-toolkit — https://github.com/drolosoft/immich-photo-manager
+- iterationlayer/skills — rohitg00/awesome-claude-code-toolkit — https://github.com/iterationlayer/skills
+- j4rk0r/claude-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/j4rk0r/claude-skills
+- jarvis — rohitg00/awesome-claude-code-toolkit — https://github.com/Ramsbaby/jarvis
+- jarvis-company-board — rohitg00/awesome-claude-code-toolkit — https://github.com/Ramsbaby/jarvis-company-board
+- knowledge-graph — rohitg00/awesome-claude-code-toolkit — https://github.com/hilyfux/knowledge-graph
+- leapfrog-mcp — rohitg00/awesome-claude-code-toolkit — https://github.com/anthonybono21-cloud/leapfrog
+- lightcms — rohitg00/awesome-claude-code-toolkit — https://github.com/jonradoff/lightcms
+- linkedin-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/sergebulaev/linkedin-skills
+- Live gallery — rohitg00/awesome-claude-code-toolkit — https://clockless-org.github.io/html-anything/examples/
+- logic-lens — rohitg00/awesome-claude-code-toolkit — https://github.com/hyhmrright/logic-lens
+- magic-cc-codex-worker — rohitg00/awesome-claude-code-toolkit — https://github.com/wenqingyu/magic-cc-codex-worker
+- manage-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/umutbozdag/agent-skills-manager/tree/main/skills/manage-skills
+- Markdown to EPUB — rohitg00/awesome-claude-code-toolkit — https://github.com/smerchek/claude-epub-skill
+- memory-bank — rohitg00/awesome-claude-code-toolkit — https://github.com/Nagendhra-web/memory-bank
+- mobile-spine — rohitg00/awesome-claude-code-toolkit — https://github.com/bentleypark/claude-code-mobile-spine
+- moyu — rohitg00/awesome-claude-code-toolkit — https://github.com/uucz/moyu
+- MUSE — rohitg00/awesome-claude-code-toolkit — https://github.com/myths-labs/muse
+- myclaude — rohitg00/awesome-claude-code-toolkit — https://github.com/stellarlinkco/myclaude
+- nexus-agents — rohitg00/awesome-claude-code-toolkit — https://github.com/williamzujkowski/nexus-agents
+- nirecom/agents — rohitg00/awesome-claude-code-toolkit — https://github.com/nirecom/agents
+- notch-so-good — rohitg00/awesome-claude-code-toolkit — https://github.com/deepshal99/notch-so-good
+- notify — rohitg00/awesome-claude-code-toolkit — https://github.com/ApurvBazari/claude-plugins
+- npm — rohitg00/awesome-claude-code-toolkit — https://www.npmjs.com/package/clirank-mcp-server
+- npx agntk — rohitg00/awesome-claude-code-toolkit — https://github.com/Phoenixrr2113/agntk
+- nv:context — rohitg00/awesome-claude-code-toolkit — https://github.com/johnnichev/nv-context
+- obey — rohitg00/awesome-claude-code-toolkit — https://github.com/Lexxes-Projects/obey
+- Obsidian Theme Designer — rohitg00/awesome-claude-code-toolkit — https://github.com/XiangyuSu611/obsidian-theme-designer
+- oh-my-claudecode — rohitg00/awesome-claude-code-toolkit — https://github.com/Yeachan-Heo/oh-my-claudecode
+- onWatch — rohitg00/awesome-claude-code-toolkit — https://github.com/onllm-dev/onwatch
+- opcode — rohitg00/awesome-claude-code-toolkit — https://github.com/winfunc/opcode
+- OpenDivination — rohitg00/awesome-claude-code-toolkit — https://github.com/amenti-labs/opendivination
+- OraClaw — rohitg00/awesome-claude-code-toolkit — https://github.com/Whatsonyourmind/oraclaw
+- ORCH — rohitg00/awesome-claude-code-toolkit — https://github.com/oxgeneral/ORCH
+- oss-autopilot — rohitg00/awesome-claude-code-toolkit — https://github.com/costajohnt/oss-autopilot
+- Overnight Worker — rohitg00/awesome-claude-code-toolkit — https://github.com/fullstackcrew-alpha/skill-overnight-worker
+- paco-framework — rohitg00/awesome-claude-code-toolkit — https://github.com/PenguinAlleyApps/paco-framework
+- peon-ping — rohitg00/awesome-claude-code-toolkit — https://github.com/PeonPing/peon-ping
+- Playwright Automation — rohitg00/awesome-claude-code-toolkit — https://github.com/lackeyjb/playwright-skill
+- PM Pilot — rohitg00/awesome-claude-code-toolkit — https://github.com/mshadmanrahman/pm-pilot
+- preflight — rohitg00/awesome-claude-code-toolkit — https://github.com/preflight-dev/preflight
+- Prism Scanner — rohitg00/awesome-claude-code-toolkit — https://github.com/aidongise-cell/prism-scanner
+- pro-workflow — rohitg00/awesome-claude-code-toolkit — https://github.com/rohitg00/pro-workflow
+- Product Manager Skills — rohitg00/awesome-claude-code-toolkit — https://github.com/Digidai/product-manager-skills
+- product-org-os — rohitg00/awesome-claude-code-toolkit — https://github.com/yohayetsion/product-org-os
+- production-grade — rohitg00/awesome-claude-code-toolkit — https://github.com/nagisanzenin/claude-code-production-grade-plugin
+- PUIUX Pilot — rohitg00/awesome-claude-code-toolkit — https://github.com/PUIUX-Cloud/puiux-pilot
+- pulse — rohitg00/awesome-claude-code-toolkit — https://github.com/chsm04/pulse
+- pulser — rohitg00/awesome-claude-code-toolkit — https://github.com/whynowlab/pulser
+- pumpclaw — rohitg00/awesome-claude-code-toolkit — https://github.com/chainstacklabs/pumpclaw
+- qa-orchestra — rohitg00/awesome-claude-code-toolkit — https://github.com/Anasss/qa-orchestra
+- readme-demo-recorder — rohitg00/awesome-claude-code-toolkit — https://github.com/cjcsecurity/readme-demo-recorder
+- Reepl - LinkedIn Content Creation — rohitg00/awesome-claude-code-toolkit — https://github.com/reepl-io/skills
+- repo-visuals — rohitg00/awesome-claude-code-toolkit — https://github.com/livlign/claude-skills/tree/main/plugins/repo-visuals
+- reporecall — rohitg00/awesome-claude-code-toolkit — https://github.com/proofofwork-agency/reporecall
+- review-squad — rohitg00/awesome-claude-code-toolkit — https://github.com/2389-research/review-squad
+- SciAgent-Skills — rohitg00/awesome-claude-code-toolkit — https://github.com/jaechang-hits/SciAgent-Skills
+- simmer — rohitg00/awesome-claude-code-toolkit — https://github.com/2389-research/simmer
+- sitemd — rohitg00/awesome-claude-code-toolkit — https://github.com/sitemd-cc/sitemd
+- SkillKit — rohitg00/awesome-claude-code-toolkit — https://agenstskills.com
+- SkillKit marketplace — rohitg00/awesome-claude-code-toolkit — https://agenstskills.com
+- SkillNav — rohitg00/awesome-claude-code-toolkit — https://github.com/skillnav-dev/skillnav-skill
+- skills-janitor — rohitg00/awesome-claude-code-toolkit — https://github.com/khendzel/skills-janitor
+- Smart PR Review — rohitg00/awesome-claude-code-toolkit — https://github.com/fullstackcrew-alpha/skill-smart-pr-review
+- sniff-qa — rohitg00/awesome-claude-code-toolkit — https://github.com/Aboudjem/sniff
+- StitchFlow — rohitg00/awesome-claude-code-toolkit — https://github.com/yshishenya/stitchflow
+- SuperSEO Skills — rohitg00/awesome-claude-code-toolkit — https://github.com/inhouseseo/superseo-skills
+- swe-skills — rohitg00/awesome-claude-code-toolkit — https://github.com/ckorhonen/swe-skills
+- tailtest — rohitg00/awesome-claude-code-toolkit — https://github.com/avansaber/tailtest
+- temporal-core — rohitg00/awesome-claude-code-toolkit — https://github.com/Evanyuan-builder/temporal-core
+- test-kitchen — rohitg00/awesome-claude-code-toolkit — https://github.com/2389-research/test-kitchen
+- the-pragmatic-pm — rohitg00/awesome-claude-code-toolkit — https://github.com/marfoerst/the-pragmatic-pm
+- toprank — rohitg00/awesome-claude-code-toolkit — https://github.com/nowork-studio/toprank
+- ui-ux-suite — rohitg00/awesome-claude-code-toolkit — https://github.com/Aboudjem/ui-ux-suite
+- unslop — rohitg00/awesome-claude-code-toolkit — https://github.com/MohamedAbdallah-14/unslop
+- US Business Data MCP — rohitg00/awesome-claude-code-toolkit — https://github.com/avabuildsdata/mcp-us-business-data
+- vibe-kanban — rohitg00/awesome-claude-code-toolkit — https://github.com/BloopAI/vibe-kanban
+- VibeGuard — rohitg00/awesome-claude-code-toolkit — https://github.com/majiayu000/vibeguard
+- weft — rohitg00/awesome-claude-code-toolkit — https://github.com/dioptx/weft
+- whatsapp-claude-plugin — rohitg00/awesome-claude-code-toolkit — https://github.com/Rich627/whatsapp-claude-plugin
+- wshobson/agents — rohitg00/awesome-claude-code-toolkit — https://github.com/wshobson/agents
+
+## rohitg00/awesome-claude-design
+- @brewmarkets — rohitg00/awesome-claude-design — https://x.com/brewmarkets/status/2045175784554283228
+- @claudeai — rohitg00/awesome-claude-design — https://x.com/claudeai/status/2045156267690213649
+- @Flomerboy — rohitg00/awesome-claude-design — https://x.com/Flomerboy/status/2045162321589252458
+- @helloitsaustin — rohitg00/awesome-claude-design — https://x.com/helloitsaustin/status/2045176910569980318
+- @jackjack_eth — rohitg00/awesome-claude-design — https://x.com/jackjack_eth
+- @jasonzhou1993 — rohitg00/awesome-claude-design — https://x.com/jasonzhou1993
+- @petergyang — rohitg00/awesome-claude-design — https://x.com/petergyang/status/2045527271650558383
+- `anthropics/claude-cookbooks` — frontend aesthetics notebook — rohitg00/awesome-claude-design — https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ip
+- `anthropics/skills` PR #210 — rohitg00/awesome-claude-design — https://github.com/anthropics/skills/pull/210
+- `anthropics/skills` — `frontend-design` SKILL.md — rohitg00/awesome-claude-design — https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+- `docs/spec.md` — rohitg00/awesome-claude-design — https://github.com/google-labs-code/design.md/blob/main/docs/spec.md
+- `frontend-design` skill — rohitg00/awesome-claude-design — https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+- `skills` PR #210 — rohitg00/awesome-claude-design — https://github.com/anthropics/skills/pull/210
+- a24films.com — rohitg00/awesome-claude-design — https://a24films.com
+- Abhi Chatterjee — rohitg00/awesome-claude-design — https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c7
+- Abhi Chatterjee — Designer's first walkthrough — rohitg00/awesome-claude-design — https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c7
+- abhishekray07/claude-md-templates — rohitg00/awesome-claude-design — https://github.com/abhishekray07/claude-md-templates
+- adplist.substack.com — rohitg00/awesome-claude-design — https://adplist.substack.com/p/how-to-become-a-10x-designer-with
+- Adweek — rohitg00/awesome-claude-design — https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-
+- Adweek — Claude Design for marketing assets, decks, and UIs — rohitg00/awesome-claude-design — https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-
+- AI for Work — rohitg00/awesome-claude-design — https://www.youtube.com/watch?v=4q2F4zblOLQ
+- airbnb.com — rohitg00/awesome-claude-design — https://airbnb.com
+- alirezarezvani/claude-skills — rohitg00/awesome-claude-design — https://github.com/alirezarezvani/claude-skills
+- Anthropic Labs — rohitg00/awesome-claude-design — https://www.anthropic.com/labs
+- Anthropic pricing doc — rohitg00/awesome-claude-design — https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing
+- Anthropic Prompt Library — rohitg00/awesome-claude-design — https://docs.anthropic.com/en/resources/prompt-library/library
+- anthropic.com — rohitg00/awesome-claude-design — https://www.anthropic.com/news/claude-design-anthropic-labs
+- apple.com — rohitg00/awesome-claude-design — https://apple.com
+- arc.net — rohitg00/awesome-claude-design — https://arc.net
+- awesomeclaude.ai — rohitg00/awesome-claude-design — https://awesomeclaude.ai
+- Banani review — rohitg00/awesome-claude-design — https://www.banani.co/blog/claude-design-review
+- BehiSecc/awesome-claude-skills — rohitg00/awesome-claude-design — https://github.com/BehiSecc/awesome-claude-skills
+- bergside/design-md-chrome — rohitg00/awesome-claude-design — https://github.com/bergside/design-md-chrome
+- bitjaru/styleseed — rohitg00/awesome-claude-design — https://github.com/bitjaru/styleseed
+- blog.google — rohitg00/awesome-claude-design — https://blog.google/technology/google-labs/
+- bmw.com — rohitg00/awesome-claude-design — https://bmw.com
+- BSWEN — Good enough for professional websites? — rohitg00/awesome-claude-design — https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/
+- bugatti.com — rohitg00/awesome-claude-design — https://bugatti.com
+- cal.com — rohitg00/awesome-claude-design — https://cal.com
+- Canva newsroom — rohitg00/awesome-claude-design — https://www.canva.com/newsroom/news/canva-claude-design/
+- Christopher Noessel — rohitg00/awesome-claude-design — https://christophernoessel.medium.com/design-was-never-the-comps-what-i-learned-when-claude-design-d
+- Chrome Web Store listing — rohitg00/awesome-claude-design — https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma
+- Claude Cookbooks — prompting_for_frontend_aesthetics.ipynb — rohitg00/awesome-claude-design — https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ip
+- Claude Design subscription usage and pricing — support.claude.com — rohitg00/awesome-claude-design — https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing
+- claude-cookbooks / prompting_for_frontend_aesthetics.ipynb — rohitg00/awesome-claude-design — https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ip
+- claude.ai/design — rohitg00/awesome-claude-design — https://claude.ai/design
+- clay.com — rohitg00/awesome-claude-design — https://clay.com
+- clickhouse.com — rohitg00/awesome-claude-design — https://clickhouse.com
+- coleam00/excalidraw-diagram-skill — rohitg00/awesome-claude-design — https://github.com/coleam00/excalidraw-diagram-skill
+- ComposioHQ/awesome-claude-skills — rohitg00/awesome-claude-design — https://github.com/ComposioHQ/awesome-claude-skills
+- ComposioHQ/awesome-claude-skills — canvas-design — rohitg00/awesome-claude-design — https://github.com/ComposioHQ/awesome-claude-skills/blob/master/canvas-design/SKILL.md
+- CopyRocket AI — rohitg00/awesome-claude-design — https://copyrocket.ai/i-tested-claude-design-on-my-real-brand
+- criterion.com — rohitg00/awesome-claude-design — https://criterion.com
+- Dammyjay93/interface-design — rohitg00/awesome-claude-design — https://github.com/Dammyjay93/interface-design
+- daymade/claude-code-skills — rohitg00/awesome-claude-design — https://github.com/daymade/claude-code-skills
+- DEV (whoffagents) — CD vs Figma: what actually changed — rohitg00/awesome-claude-design — https://dev.to/whoffagents/claude-design-tool-vs-figma-what-actually-changed-and-when-to-use-each-3g
+- dimension.dev — rohitg00/awesome-claude-design — https://dimension.dev
+- duolingo.com — rohitg00/awesome-claude-design — https://duolingo.com
+- eigent.ai — Claude Design vs Lovable, full 2026 comparison — rohitg00/awesome-claude-design — https://www.eigent.ai/blog/claude-design-vs-lovable
+- elevenlabs.io — rohitg00/awesome-claude-design — https://elevenlabs.io
+- ferrari.com — rohitg00/awesome-claude-design — https://ferrari.com
+- Figma Make — rohitg00/awesome-claude-design — https://www.figma.com/make
+- figma.com — rohitg00/awesome-claude-design — https://figma.com
+- frontend aesthetics cookbook — rohitg00/awesome-claude-design — https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ip
+- frontend-aesthetics cookbook — rohitg00/awesome-claude-design — https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ip
+- getdesign.md — rohitg00/awesome-claude-design — https://getdesign.md/
+- github.com/topics/claude-design — rohitg00/awesome-claude-design — https://github.com/topics/claude-design
+- github.com/topics/design-md — rohitg00/awesome-claude-design — https://github.com/topics/design-md
+- Google Stitch open-source announcement — rohitg00/awesome-claude-design — https://medium.com/design-bootcamp/google-makes-design-md-open-source-on-its-way-to-become-a-industr
+- google-labs-code/design.md — rohitg00/awesome-claude-design — https://github.com/google-labs-code/design.md
+- GordenSun gist — extracted Claude Design system prompt — rohitg00/awesome-claude-design — https://gist.github.com/GordenSun/b5c6316f078d694645ca466386875296
+- grafana.com — rohitg00/awesome-claude-design — https://grafana.com
+- granola.ai — rohitg00/awesome-claude-design — https://granola.ai
+- heilcheng/awesome-agent-skills — rohitg00/awesome-claude-design — https://github.com/heilcheng/awesome-agent-skills
+- hesreallyhim/awesome-claude-code — rohitg00/awesome-claude-design — https://github.com/hesreallyhim/awesome-claude-code
+- HN #47806725 — main launch thread — rohitg00/awesome-claude-design — https://news.ycombinator.com/item?id=47806725
+- HN #47818700 — "Thoughts and feelings around Claude Design" — rohitg00/awesome-claude-design — https://news.ycombinator.com/item?id=47818700
+- HN #47832366 — "Figma's woes compound with Claude Design" — rohitg00/awesome-claude-design — https://news.ycombinator.com/item?id=47832366
+- jonthebeef/superdesign-mcp-claude-code — rohitg00/awesome-claude-design — https://github.com/jonthebeef/superdesign-mcp-claude-code
+- jqueryscript/awesome-claude-code — rohitg00/awesome-claude-design — https://github.com/jqueryscript/awesome-claude-code
+- Lalindra (Pen With Paper) — rohitg00/awesome-claude-design — https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-hap
+- lamborghini.com — rohitg00/awesome-claude-design — https://lamborghini.com
+- Launch — anthropic.com/news/claude-design-anthropic-labs — rohitg00/awesome-claude-design — https://www.anthropic.com/news/claude-design-anthropic-labs
+- Leonxlnx/taste-skill — rohitg00/awesome-claude-design — https://github.com/Leonxlnx/taste-skill
+- letterboxd.com — rohitg00/awesome-claude-design — https://letterboxd.com
+- linear.app — rohitg00/awesome-claude-design — https://linear.app
+- Lovable — rohitg00/awesome-claude-design — https://lovable.dev
+- Lushbinary — Claude Design vs Figma vs Canva vs Stitch — rohitg00/awesome-claude-design — https://lushbinary.com/blog/claude-design-vs-figma-canva-google-stitch-comparison/
+- macstories.net — rohitg00/awesome-claude-design — https://www.macstories.net/stories/hands-on-with-anthropic-labs-claude-design-preview/
+- Magic Patterns — Claude Design vs Figma Make — rohitg00/awesome-claude-design — https://www.magicpatterns.com/blog/claude-design-vs-figma-make
+- mailchimp.com — rohitg00/awesome-claude-design — https://mailchimp.com
+- Malewicz — rohitg00/awesome-claude-design — https://www.youtube.com/watch?v=IkspcJdeP3U
+- Malewicz — Will Claude Design replace designers? — rohitg00/awesome-claude-design — https://michalmalewicz.medium.com/will-claude-design-replace-designers-f92623f3befe
+- Marie Claire Dean — 63 design skills — rohitg00/awesome-claude-design — https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude
+- Martin Alderson — rohitg00/awesome-claude-design — https://martinalderson.com/posts/anthropic-figma-supplier-conflict/
+- Mejba Ahmed — The visual layer Claude Code was missing — rohitg00/awesome-claude-design — https://www.mejba.me/blog/claude-design-visual-workflow-claude-code
+- midjourney.com — rohitg00/awesome-claude-design — https://midjourney.com
+- MindStudio — Claude Design vs Figma — rohitg00/awesome-claude-design — https://www.mindstudio.ai/blog/claude-design-vs-figma
+- MindStudio — What Is Design.md — rohitg00/awesome-claude-design — https://www.mindstudio.ai/blog/what-is-design-md
+- minimax.ai — rohitg00/awesome-claude-design — https://minimax.ai
+- mintlify.com — rohitg00/awesome-claude-design — https://mintlify.com
+- mongodb.com — rohitg00/awesome-claude-design — https://mongodb.com
+- Morningstar / BusinessWire — rohitg00/awesome-claude-design — https://www.morningstar.com/news/business-wire/20260410843169/canva-announces-anthropic-collaboratio
+- Muluk-m/design-distill — rohitg00/awesome-claude-design — https://github.com/Muluk-m/design-distill
+- nextlevelbuilder/ui-ux-pro-max-skill — rohitg00/awesome-claude-design — https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- NicholasSpisak — Design with Claude Code — rohitg00/awesome-claude-design — https://gist.github.com/NicholasSpisak/7cb9db221b0b7c4c4aaf9ffca21a847c
+- notion.so — rohitg00/awesome-claude-design — https://notion.so
+- nvidia.com — rohitg00/awesome-claude-design — https://nvidia.com
+- NxCode — Vibe design tools 2026: Stitch vs v0 vs Lovable vs Bolt — rohitg00/awesome-claude-design — https://www.nxcode.io/resources/news/vibe-design-tools-compared-stitch-v0-lovable-2026
+- obsidian.md — rohitg00/awesome-claude-design — https://obsidian.md
+- Ocasio Consulting — rohitg00/awesome-claude-design — https://ocasioconsulting.com/claude-design-review/
+- Ocasio Consulting — Claude Design review — rohitg00/awesome-claude-design — https://ocasioconsulting.com/claude-design-review/
+- ollama.com — rohitg00/awesome-claude-design — https://ollama.com
+- OneRedOak/claude-code-workflows — design-review — rohitg00/awesome-claude-design — https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review
+- opencode.ai — rohitg00/awesome-claude-design — https://opencode.ai
+- OSS Insight — DESIGN.md Protocol 2026 — rohitg00/awesome-claude-design — https://ossinsight.io/blog/design-md-protocol-2026
+- Owl-Listener/designer-skills — rohitg00/awesome-claude-design — https://github.com/Owl-Listener/designer-skills
+- Owl-Listener/designpowers — rohitg00/awesome-claude-design — https://github.com/Owl-Listener/designpowers
+- paradigm.xyz — rohitg00/awesome-claude-design — https://paradigm.xyz
+- Pasquale Pillitteri — rohitg00/awesome-claude-design — https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026
+- PCWorld — rohitg00/awesome-claude-design — https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out
+- philquist/awesome-claude-design-examples — rohitg00/awesome-claude-design — https://github.com/philquist/awesome-claude-design-examples
+- pitchfork.com — rohitg00/awesome-claude-design — https://pitchfork.com
+- playstation.com — rohitg00/awesome-claude-design — https://playstation.com
+- posthog.com — rohitg00/awesome-claude-design — https://posthog.com
+- Product — claude.ai/design — rohitg00/awesome-claude-design — https://claude.ai/design
+- Prompt engineering overview — rohitg00/awesome-claude-design — https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+- Prompt generator (Console) — rohitg00/awesome-claude-design — https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator
+- propublica.org — rohitg00/awesome-claude-design — https://propublica.org
+- PYMNTS — Anthropic's design tool rivals Adobe and Figma — rohitg00/awesome-claude-design — https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-design-tool-rivals-adobe-and-fi
+- Quasa.io — rohitg00/awesome-claude-design — https://quasa.io/media/claude-design-looks-great-but-it-devours-your-token-limits-here-s-how-to-use-
+- quemsah/awesome-claude-plugins — rohitg00/awesome-claude-design — https://github.com/quemsah/awesome-claude-plugins
+- r/ClaudeAI — rohitg00/awesome-claude-design — https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/
+- r/ClaudeAI launch thread — rohitg00/awesome-claude-design — https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/
+- r/ClaudeCode thread — rohitg00/awesome-claude-design — https://www.reddit.com/r/ClaudeCode/comments/1so9uta/
+- r/singularity +889 — rohitg00/awesome-claude-design — https://www.reddit.com/r/singularity/comments/1slh72j/
+- raycast.com — rohitg00/awesome-claude-design — https://raycast.com
+- Reddit — rohitg00/awesome-claude-design — https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/
+- renault.fr — rohitg00/awesome-claude-design — https://renault.fr
+- repo — rohitg00/awesome-claude-design — https://github.com/Owl-Listener/designer-skills
+- resend.com — rohitg00/awesome-claude-design — https://resend.com
+- rohitg00/awesome-claude-code-toolkit — rohitg00/awesome-claude-design — https://github.com/rohitg00/awesome-claude-code-toolkit
+- runwayml.com — rohitg00/awesome-claude-design — https://runwayml.com
+- saifyxpro/ui-ux-design-pro-skill — rohitg00/awesome-claude-design — https://github.com/saifyxpro/ui-ux-design-pro-skill
+- Sam Henri Gold — rohitg00/awesome-claude-design — https://samhenri.gold/blog/20260418-claude-design/
+- Sam Henri Gold blog post — rohitg00/awesome-claude-design — https://samhenri.gold/blog/20260418-claude-design/
+- samhenri.gold — rohitg00/awesome-claude-design — https://samhenri.gold/blog/20260418-claude-design/
+- sentry.io — rohitg00/awesome-claude-design — https://sentry.io
+- Show HN — rohitg00/awesome-claude-design — https://news.ycombinator.com/item?id=44376003
+- sickn33/antigravity-awesome-skills — rohitg00/awesome-claude-design — https://github.com/sickn33/antigravity-awesome-skills
+- smartwhale8/claude-playbook — rohitg00/awesome-claude-design — https://github.com/smartwhale8/claude-playbook
+- spotify.com — rohitg00/awesome-claude-design — https://spotify.com
+- Stitch — rohitg00/awesome-claude-design — https://stitch.withgoogle.com
+- Storyboard18 — rohitg00/awesome-claude-design — https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-sof
+- Storyboard18 — Claude Design rattles design software giants — rohitg00/awesome-claude-design — https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-sof
+- stripe.com — rohitg00/awesome-claude-design — https://stripe.com
+- substack.com — rohitg00/awesome-claude-design — https://substack.com
+- supabase.com — rohitg00/awesome-claude-design — https://supabase.com
+- superdesigndev/superdesign — rohitg00/awesome-claude-design — https://github.com/superdesigndev/superdesign
+- superhuman.com — rohitg00/awesome-claude-design — https://superhuman.com
+- System prompts release notes — rohitg00/awesome-claude-design — https://docs.anthropic.com/en/release-notes/system-prompts
+- teardown — rohitg00/awesome-claude-design — https://www.youtube.com/watch?v=IkspcJdeP3U
+- TechCrunch — rohitg00/awesome-claude-design — https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-
+- TechCrunch — Anthropic launches Claude Design — rohitg00/awesome-claude-design — https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-
+- The Neuron Daily round-up — rohitg00/awesome-claude-design — https://www.theneurondaily.com/p/anthropic-s-claude-design-launched-and-reddit-has-thoughts
+- The Register — rohitg00/awesome-claude-design — https://www.theregister.com/2026/04/17/anthropic_debuts_claude_design/
+- thesephist.com — rohitg00/awesome-claude-design — https://thesephist.com
+- theverge.com — rohitg00/awesome-claude-design — https://theverge.com
+- toss.im — rohitg00/awesome-claude-design — https://toss.im
+- travisvn/awesome-claude-skills — rohitg00/awesome-claude-design — https://github.com/travisvn/awesome-claude-skills
+- Trending Topics — Anthropic challenges Lovable and Figma — rohitg00/awesome-claude-design — https://www.trendingtopics.eu/anthropic-launches-claude-design-challenging-lovable-and-figma/
+- Tweet — rohitg00/awesome-claude-design — https://x.com/petergyang/status/2045527271650558383
+- v0 — rohitg00/awesome-claude-design — https://v0.dev
+- VentureBeat — rohitg00/awesome-claude-design — https://venturebeat.com/ai/anthropic-launches-claude-design-ai-design-tool/
+- vercel.com — rohitg00/awesome-claude-design — https://vercel.com
+- Victoria Okwuokenye — Claude Design full breakdown — rohitg00/awesome-claude-design — https://medium.com/design-bootcamp/claude-design-is-here-full-breakdown-a32767258fb9
+- VoltAgent/awesome-agent-skills — rohitg00/awesome-claude-design — https://github.com/VoltAgent/awesome-agent-skills
+- VoltAgent/awesome-claude-design — rohitg00/awesome-claude-design — https://github.com/VoltAgent/awesome-claude-design
+- VoltAgent/awesome-design-md — rohitg00/awesome-claude-design — https://github.com/VoltAgent/awesome-design-md
+- warp.dev — rohitg00/awesome-claude-design — https://warp.dev
+- Web And IT News — rohitg00/awesome-claude-design — https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-des
+- Web And IT News — Hits Figma where it hurts — rohitg00/awesome-claude-design — https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-des
+- yuvrajangadsingh/brandmd — rohitg00/awesome-claude-design — https://github.com/yuvrajangadsingh/brandmd
+
+## sickn33/agentic-awesome-skills
+- @sickn33 — sickn33/agentic-awesome-skills — https://x.com/sickn33
+- a4a-network/a4a — sickn33/agentic-awesome-skills — https://github.com/a4a-network/a4a
+- aaskills.tech — sickn33/agentic-awesome-skills — https://aaskills.tech/
+- agent-frontier/wgm — sickn33/agentic-awesome-skills — https://github.com/agent-frontier/wgm
+- Aident Loadout — sickn33/agentic-awesome-skills — https://aident.ai
+- Aident-AI/aident-skill — sickn33/agentic-awesome-skills — https://github.com/Aident-AI/aident-skill/tree/main/aident-loadout/skills/aident-loadout
+- alapha888/agent-skills-en — sickn33/agentic-awesome-skills — https://github.com/alapha888/agent-skills-en
+- alapha888/session-handoff-kit — sickn33/agentic-awesome-skills — https://github.com/alapha888/session-handoff-kit
+- alexadams6ix/imagera-skills — sickn33/agentic-awesome-skills — https://github.com/alexadams6ix/imagera-skills
+- alexyc9381/court-skill — sickn33/agentic-awesome-skills — https://github.com/alexyc9381/court-skill
+- alexyc9381/shark-skill — sickn33/agentic-awesome-skills — https://github.com/alexyc9381/shark-skill
+- AltoRank/altorank — sickn33/agentic-awesome-skills — https://github.com/AltoRank/altorank
+- anthropics/claude-cookbooks — sickn33/agentic-awesome-skills — https://github.com/anthropics/claude-cookbooks
+- anup-a/agent-artifacts — sickn33/agentic-awesome-skills — https://github.com/anup-a/agent-artifacts
+- apify/agent-skills — sickn33/agentic-awesome-skills — https://github.com/apify/agent-skills
+- arcmira/mcp — sickn33/agentic-awesome-skills — https://github.com/arcmira/mcp/tree/v0.10.6/plugins/arcmira
+- ASCIT31/darkmoon-mcp-server — sickn33/agentic-awesome-skills — https://github.com/ASCIT31/darkmoon-mcp-server
+- AshenJyy/antigravity-browser-bridge — sickn33/agentic-awesome-skills — https://github.com/AshenJyy/antigravity-browser-bridge
+- ASI2030/Fact-Check-X — sickn33/agentic-awesome-skills — https://github.com/ASI2030/Fact-Check-X
+- beatra-ai/ai-audiobook-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-audiobook-generator-skill
+- beatra-ai/ai-headshot-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-headshot-generator-skill
+- beatra-ai/ai-image-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-image-generator-skill
+- beatra-ai/ai-image-realism-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-image-realism-skill
+- beatra-ai/ai-logo-maker-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-logo-maker-skill
+- beatra-ai/ai-media-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-media-generator-skill
+- beatra-ai/ai-music-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-music-generator-skill
+- beatra-ai/ai-podcast-voiceover-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-podcast-voiceover-skill
+- beatra-ai/ai-poster-maker-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-poster-maker-skill
+- beatra-ai/ai-product-photography-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-product-photography-skill
+- beatra-ai/ai-storyboard-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-storyboard-generator-skill
+- beatra-ai/ai-voice-cloning-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-voice-cloning-skill
+- beatra-ai/ai-voiceover-generator-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ai-voiceover-generator-skill
+- beatra-ai/beatra-skills — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/beatra-skills
+- beatra-ai/ecommerce-product-images-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/ecommerce-product-images-skill
+- beatra-ai/lyrics-to-song-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/lyrics-to-song-skill
+- beatra-ai/multilingual-voiceover-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/multilingual-voiceover-skill
+- beatra-ai/photo-to-anime-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/photo-to-anime-skill
+- beatra-ai/talking-avatar-video-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/talking-avatar-video-skill
+- beatra-ai/viral-video-remake-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/viral-video-remake-skill
+- beatra-ai/wechat-article-cover-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/wechat-article-cover-skill
+- beatra-ai/xiaohongshu-copywriter-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/xiaohongshu-copywriter-skill
+- beatra-ai/xiaohongshu-cover-maker-skill — sickn33/agentic-awesome-skills — https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
+- bekservice/Famulor-Skill — sickn33/agentic-awesome-skills — https://github.com/bekservice/Famulor-Skill
+- bosmdavid-gif/dropthehassle-skill — sickn33/agentic-awesome-skills — https://github.com/bosmdavid-gif/dropthehassle-skill
+- browser-act/skills — sickn33/agentic-awesome-skills — https://github.com/browser-act/skills
+- browserbase/skills — sickn33/agentic-awesome-skills — https://github.com/browserbase/skills
+- busabase/skills — sickn33/agentic-awesome-skills — https://github.com/busabase/skills
+- Buy Me a Coffee — sickn33/agentic-awesome-skills — https://buymeacoffee.com/sickn33
+- BuyWhere/buywhere-mcp — sickn33/agentic-awesome-skills — https://github.com/BuyWhere/buywhere-mcp
+- ces107/agent-forge — sickn33/agentic-awesome-skills — https://github.com/ces107/agent-forge
+- Claude Code setup — sickn33/agentic-awesome-skills — https://aaskills.tech/docs/claude-code-skills/
+- cloudishai/skills — sickn33/agentic-awesome-skills — https://github.com/cloudishai/skills
+- Codex setup — sickn33/agentic-awesome-skills — https://aaskills.tech/docs/codex-cli-skills/
+- cohesivity-org/cohesivity-skill — sickn33/agentic-awesome-skills — https://github.com/cohesivity-org/cohesivity-skill
+- commentkeyword/agent-toolkit — sickn33/agentic-awesome-skills — https://github.com/commentkeyword/agent-toolkit
+- cooper-email/cooper-email — sickn33/agentic-awesome-skills — https://github.com/cooper-email/cooper-email
+- Core guide — sickn33/agentic-awesome-skills — https://github.com/sickn33/agentic-awesome-skills/blob/v20.10.0/docs/users/aas-core.md
+- Core setup and trust boundaries — sickn33/agentic-awesome-skills — https://github.com/sickn33/agentic-awesome-skills/blob/v20.10.0/docs/users/aas-core.md
+- CosmoBlk/email-marketing-bible — sickn33/agentic-awesome-skills — https://github.com/CosmoBlk/email-marketing-bible
+- coupler-io/skills — sickn33/agentic-awesome-skills — https://github.com/coupler-io/skills
+- CrakSEO/skills — sickn33/agentic-awesome-skills — https://github.com/CrakSEO/skills
+- dair-ai/dair-academy-plugins — sickn33/agentic-awesome-skills — https://github.com/dair-ai/dair-academy-plugins
+- datawebot/datawebot-mcp — sickn33/agentic-awesome-skills — https://github.com/datawebot/datawebot-mcp
+- Discussions — sickn33/agentic-awesome-skills — https://github.com/sickn33/agentic-awesome-skills/discussions
+- doomsday-network/doom-pay — sickn33/agentic-awesome-skills — https://github.com/doomsday-network/doom-pay
+- doomsday-network/doomsday — sickn33/agentic-awesome-skills — https://github.com/doomsday-network/doomsday
+- estevecastells/awesome-copilot — sickn33/agentic-awesome-skills — https://github.com/estevecastells/awesome-copilot
+- Explore the skill catalog — sickn33/agentic-awesome-skills — https://aaskills.tech/core/
+- expo/skills — sickn33/agentic-awesome-skills — https://github.com/expo/skills
+- f-o-x11/deed-page-skill — sickn33/agentic-awesome-skills — https://github.com/f-o-x11/deed-page-skill
+- f-o-x11/perq-skill — sickn33/agentic-awesome-skills — https://github.com/f-o-x11/perq-skill
+- faberlang/faber — sickn33/agentic-awesome-skills — https://github.com/faberlang/faber
+- fclairamb/solidping-plugin — sickn33/agentic-awesome-skills — https://github.com/fclairamb/solidping-plugin/tree/main/skills/solidping-monitoring
+- FlowLLM-AI/AxonX — sickn33/agentic-awesome-skills — https://github.com/FlowLLM-AI/AxonX
+- Follow @AASkills_ on X — sickn33/agentic-awesome-skills — https://x.com/AASkills_
+- Forward-Future/loop-library — sickn33/agentic-awesome-skills — https://github.com/Forward-Future/loop-library
+- getchordlabs/chord — sickn33/agentic-awesome-skills — https://github.com/getchordlabs/chord/tree/main/skills/chord
+- GitHub CLI — sickn33/agentic-awesome-skills — https://cli.github.com/
+- gongdear/cline-pilot — sickn33/agentic-awesome-skills — https://github.com/gongdear/cline-pilot
+- google-gemini/gemini-skills — sickn33/agentic-awesome-skills — https://github.com/google-gemini/gemini-skills
+- happy520ai/unified-ai-system — sickn33/agentic-awesome-skills — https://github.com/happy520ai/unified-ai-system
+- HasData/hasdata-cli — sickn33/agentic-awesome-skills — https://github.com/HasData/hasdata-cli
+- HEOJUNFO/ai-film-crew — sickn33/agentic-awesome-skills — https://github.com/HEOJUNFO/ai-film-crew
+- hermes-labs-ai/lintlang — sickn33/agentic-awesome-skills — https://github.com/hermes-labs-ai/lintlang
+- hosted catalog — sickn33/agentic-awesome-skills — https://aaskills.tech/
+- huggingface/skills — sickn33/agentic-awesome-skills — https://github.com/huggingface/skills
+- huyanxius/logo-to-stickers — sickn33/agentic-awesome-skills — https://github.com/huyanxius/logo-to-stickers
+- Instant-Expert/skills — sickn33/agentic-awesome-skills — https://github.com/Instant-Expert/skills
+- Issues — sickn33/agentic-awesome-skills — https://github.com/sickn33/agentic-awesome-skills/issues
+- jcaiagent7143-ui/linkdigest-mcp — sickn33/agentic-awesome-skills — https://github.com/jcaiagent7143-ui/linkdigest-mcp
+- Kadajett/cockney — sickn33/agentic-awesome-skills — https://github.com/Kadajett/cockney
+- kasovy/neverapply-mcp — sickn33/agentic-awesome-skills — https://github.com/kasovy/neverapply-mcp
+- Krexa-xyz/skills — sickn33/agentic-awesome-skills — https://github.com/Krexa-xyz/skills/tree/main/skills/krexa
+- live plugin catalog — sickn33/agentic-awesome-skills — https://aaskills.tech/plugins
+- lliu56/minicut-skills — sickn33/agentic-awesome-skills — https://github.com/lliu56/minicut-skills
+- lognorm/lognorm-mcp — sickn33/agentic-awesome-skills — https://github.com/lognorm/lognorm-mcp
+- longbridge/skills — sickn33/agentic-awesome-skills — https://github.com/longbridge/skills
+- loootai/looot-skills — sickn33/agentic-awesome-skills — https://github.com/loootai/looot-skills
+- lumifyai/sports-intelligence-skills — sickn33/agentic-awesome-skills — https://github.com/lumifyai/sports-intelligence-skills
+- makeev/alphai-claude-skills — sickn33/agentic-awesome-skills — https://github.com/makeev/alphai-claude-skills
+- masakaai/jet-browser — sickn33/agentic-awesome-skills — https://github.com/masakaai/jet-browser
+- mdagnolops/1human-reels — sickn33/agentic-awesome-skills — https://github.com/mdagnolops/1human-reels
+- mesmerlord/lurkapi-claude-plugin — sickn33/agentic-awesome-skills — https://github.com/mesmerlord/lurkapi-claude-plugin
+- metalbear-co/skills — sickn33/agentic-awesome-skills — https://github.com/metalbear-co/skills
+- microsoft/skills — sickn33/agentic-awesome-skills — https://github.com/microsoft/skills
+- MiniMax-AI/cli — sickn33/agentic-awesome-skills — https://github.com/MiniMax-AI/cli
+- mobbin/skills — sickn33/agentic-awesome-skills — https://github.com/mobbin/skills
+- Modellix/modellix-plugin — sickn33/agentic-awesome-skills — https://github.com/Modellix/modellix-plugin
+- MohammadHijjawi97/since-cutoff — sickn33/agentic-awesome-skills — https://github.com/MohammadHijjawi97/since-cutoff
+- moooai/movie-coupon — sickn33/agentic-awesome-skills — https://github.com/moooai/movie-coupon
+- moooai/obtain-coupons-all-in-one — sickn33/agentic-awesome-skills — https://github.com/moooai/obtain-coupons-all-in-one
+- moooai/parcel-coupon — sickn33/agentic-awesome-skills — https://github.com/moooai/parcel-coupon
+- moooai/takeout-coupon — sickn33/agentic-awesome-skills — https://github.com/moooai/takeout-coupon
+- moooai/trip-coupon — sickn33/agentic-awesome-skills — https://github.com/moooai/trip-coupon
+- morluto/rea — sickn33/agentic-awesome-skills — https://github.com/morluto/rea
+- Natchannnn/repository-engineering-skills — sickn33/agentic-awesome-skills — https://github.com/Natchannnn/repository-engineering-skills
+- neondatabase/agent-skills — sickn33/agentic-awesome-skills — https://github.com/neondatabase/agent-skills
+- nowork-studio/NotFair — sickn33/agentic-awesome-skills — https://github.com/nowork-studio/NotFair
+- NygenAnalytics/scarf — sickn33/agentic-awesome-skills — https://github.com/NygenAnalytics/scarf
+- openai/skills — sickn33/agentic-awesome-skills — https://github.com/openai/skills
+- opencanviz/opencanviz-skills-repo — sickn33/agentic-awesome-skills — https://github.com/opencanviz/opencanviz-skills-repo
+- openhook-dev/openhook-inbox — sickn33/agentic-awesome-skills — https://github.com/openhook-dev/openhook-inbox
+- Orkas-AI/Orkas-VideoStudio — sickn33/agentic-awesome-skills — https://github.com/Orkas-AI/Orkas-VideoStudio
+- Outreachgenie/outreachgenie-linkedin-mcp — sickn33/agentic-awesome-skills — https://github.com/Outreachgenie/outreachgenie-linkedin-mcp
+- pangolin-spg/openclaw-skills — sickn33/agentic-awesome-skills — https://github.com/pangolin-spg/openclaw-skills
+- Pazificateur69/tokenleak — sickn33/agentic-awesome-skills — https://github.com/Pazificateur69/tokenleak
+- phuryn/product-engineering — sickn33/agentic-awesome-skills — https://github.com/phuryn/product-engineering/tree/main/app-stack/skills/uptime-monitoring
+- pilot-protocol/pilotprotocol — sickn33/agentic-awesome-skills — https://github.com/pilot-protocol/pilotprotocol
+- pixeltable/pixeltable-skill — sickn33/agentic-awesome-skills — https://github.com/pixeltable/pixeltable-skill
+- prateeks367/voicemoat-skills — sickn33/agentic-awesome-skills — https://github.com/prateeks367/voicemoat-skills
+- prisma/skills — sickn33/agentic-awesome-skills — https://github.com/prisma/skills
+- qrxcodes/qrx-mcp — sickn33/agentic-awesome-skills — https://github.com/qrxcodes/qrx-mcp
+- quinnod345/ponder — sickn33/agentic-awesome-skills — https://github.com/quinnod345/ponder
+- Read the AAS Core preview guide — sickn33/agentic-awesome-skills — https://github.com/sickn33/agentic-awesome-skills/blob/v20.10.0/docs/users/aas-core.md
+- Reak-Z/mcd-secret-menu-lab — sickn33/agentic-awesome-skills — https://github.com/Reak-Z/mcd-secret-menu-lab
+- remotion-dev/skills — sickn33/agentic-awesome-skills — https://github.com/remotion-dev/skills
+- replynodes/replynodes-agent-skills — sickn33/agentic-awesome-skills — https://github.com/replynodes/replynodes-agent-skills
+- robinfaraj/postel-mcp — sickn33/agentic-awesome-skills — https://github.com/robinfaraj/postel-mcp
+- runapi-ai/cli-skill — sickn33/agentic-awesome-skills — https://github.com/runapi-ai/cli-skill
+- sandbaseai/cli — sickn33/agentic-awesome-skills — https://github.com/sandbaseai/cli
+- scopeblind/scopeblind-gateway — sickn33/agentic-awesome-skills — https://github.com/scopeblind/scopeblind-gateway
+- sendblue-api/sendblue-cli — sickn33/agentic-awesome-skills — https://github.com/sendblue-api/sendblue-cli
+- SergiuPogor/curlshot-mcp — sickn33/agentic-awesome-skills — https://github.com/SergiuPogor/curlshot-mcp/tree/main/skills/curlshot
+- sfxmint/sfxmint-mcp — sickn33/agentic-awesome-skills — https://github.com/sfxmint/sfxmint-mcp
+- sickn33/agentic-awesome-skills — sickn33/agentic-awesome-skills — https://github.com/sickn33/agentic-awesome-skills
+- Simon-He95/markstream-vue — sickn33/agentic-awesome-skills — https://github.com/Simon-He95/markstream-vue
+- Skyvern-AI/skyvern — sickn33/agentic-awesome-skills — https://github.com/Skyvern-AI/skyvern
+- Snyk — sickn33/agentic-awesome-skills — https://snyk.io/
+- soundza/soundza-mcp — sickn33/agentic-awesome-skills — https://github.com/soundza/soundza-mcp
+- Spicy-API/nsfw-ai-skill — sickn33/agentic-awesome-skills — https://github.com/Spicy-API/nsfw-ai-skill
+- stas4000/tastegate — sickn33/agentic-awesome-skills — https://github.com/stas4000/tastegate
+- stas4000/what-could-break — sickn33/agentic-awesome-skills — https://github.com/stas4000/what-could-break
+- stefanautomateed/shipvela-codex — sickn33/agentic-awesome-skills — https://github.com/stefanautomateed/shipvela-codex
+- supabase/agent-skills — sickn33/agentic-awesome-skills — https://github.com/supabase/agent-skills
+- supercorp-ai/supercov — sickn33/agentic-awesome-skills — https://github.com/supercorp-ai/supercov
+- superdesigndev/treg — sickn33/agentic-awesome-skills — https://github.com/superdesigndev/treg
+- synchronicity-labs/skills — sickn33/agentic-awesome-skills — https://github.com/synchronicity-labs/skills
+- target1m/footval-mcp — sickn33/agentic-awesome-skills — https://github.com/target1m/footval-mcp
+- target1m/traderspy-mcp — sickn33/agentic-awesome-skills — https://github.com/target1m/traderspy-mcp
+- testdriverai/testdriverai — sickn33/agentic-awesome-skills — https://github.com/testdriverai/testdriverai
+- timini/agentic-verification — sickn33/agentic-awesome-skills — https://github.com/timini/agentic-verification
+- tomelias10/mcp-drift-check — sickn33/agentic-awesome-skills — https://github.com/tomelias10/mcp-drift-check
+- tuantqse90/moltnode-mcp — sickn33/agentic-awesome-skills — https://github.com/tuantqse90/moltnode-mcp/tree/main/skills/moltnode
+- uiverify/uiverify — sickn33/agentic-awesome-skills — https://github.com/uiverify/uiverify
+- UmarSiddiqui/obsess — sickn33/agentic-awesome-skills — https://github.com/UmarSiddiqui/obsess
+- uxkin/agent — sickn33/agentic-awesome-skills — https://github.com/uxkin/agent
+- vanshyadav1408/Omentir — sickn33/agentic-awesome-skills — https://github.com/vanshyadav1408/Omentir
+- vercel-labs/agent-skills — sickn33/agentic-awesome-skills — https://github.com/vercel-labs/agent-skills
+- vostride/agent-qa — sickn33/agentic-awesome-skills — https://github.com/vostride/agent-qa
+- voygr-tech/placecall — sickn33/agentic-awesome-skills — https://github.com/voygr-tech/placecall
+- vshulcz/deja-vu — sickn33/agentic-awesome-skills — https://github.com/vshulcz/deja-vu
+- wassim-azi/agy-powerline — sickn33/agentic-awesome-skills — https://github.com/wassim-azi/agy-powerline
+- watch the video on the AAS website — sickn33/agentic-awesome-skills — https://aaskills.tech/
+- weaviate/agent-skills — sickn33/agentic-awesome-skills — https://github.com/weaviate/agent-skills
+- webly-ai/webly-plugin — sickn33/agentic-awesome-skills — https://github.com/webly-ai/webly-plugin
+- Workbench — sickn33/agentic-awesome-skills — https://aaskills.tech/workbench
+- Xquik-dev/x-twitter-scraper — sickn33/agentic-awesome-skills — https://github.com/Xquik-dev/x-twitter-scraper
+- yumaheymans/carejobs-mcp — sickn33/agentic-awesome-skills — https://github.com/yumaheymans/carejobs-mcp
+- ♥ Sponsor AAS — sickn33/agentic-awesome-skills — https://github.com/sponsors/sickn33
+
+## skills.sh
+- agent-workflows — skills.sh — topic/agent-workflows
+- amp — skills.sh — agent/amp
+- antigravity — skills.sh — agent/antigravity
+- api — skills.sh — docs/api
+- claude-code — skills.sh — agent/claude-code
+- clawdbot — skills.sh — agent/clawdbot
+- cli — skills.sh — docs/cli
+- cline — skills.sh — agent/cline
+- customize — skills.sh — docs/customize
+- databases — skills.sh — topic/databases
+- design — skills.sh — topic/design
+- droid — skills.sh — agent/droid
+- faq — skills.sh — docs/faq
+- gemini — skills.sh — agent/gemini
+- github-copilot — skills.sh — agent/github-copilot
+- goose — skills.sh — agent/goose
+- kilo — skills.sh — agent/kilo
+- kiro-cli — skills.sh — agent/kiro-cli
+- marketing — skills.sh — topic/marketing
+- mobile — skills.sh — topic/mobile
+- nextjs — skills.sh — topic/nextjs
+- nous-research — skills.sh — agent/nous-research
+- opencode — skills.sh — agent/opencode
+- react — skills.sh — topic/react
+- roo — skills.sh — agent/roo
+- testing — skills.sh — topic/testing
+- trae — skills.sh — agent/trae
+- vscode — skills.sh — agent/vscode
+- windsurf — skills.sh — agent/windsurf
+- zed — skills.sh — agent/zed
+
+## taishi-i/awesome-ChatGPT-repositories
+- agent-orchestrator — taishi-i/awesome-ChatGPT-repositories — https://github.com/untrivial-ai/agent-orchestrator
+- ai-models — taishi-i/awesome-ChatGPT-repositories — https://github.com/i-need-token/ai-models
+- ai-notes — taishi-i/awesome-ChatGPT-repositories — https://github.com/sw-yx/ai-notes
+- aish — taishi-i/awesome-ChatGPT-repositories — https://github.com/aishell-io/aish
+- AiTreasureBox — taishi-i/awesome-ChatGPT-repositories — https://github.com/superiorlu/aitreasurebox
+- ama_prompting — taishi-i/awesome-ChatGPT-repositories — https://github.com/hazyresearch/ama_prompting
+- available — taishi-i/awesome-ChatGPT-repositories — https://huggingface.co/spaces/taishi-i/awesome-ChatGPT-repositories-search
+- awesome-agentic-ai — taishi-i/awesome-ChatGPT-repositories — https://github.com/adriannoes/awesome-agentic-ai
+- awesome-ai — taishi-i/awesome-ChatGPT-repositories — https://github.com/lencx/awesome-ai
+- awesome-ai-agents — taishi-i/awesome-ChatGPT-repositories — https://github.com/e2b-dev/awesome-ai-agents
+- Awesome-AI-GPTs — taishi-i/awesome-ChatGPT-repositories — https://github.com/embraceagi/awesome-ai-gpts
+- awesome-ai-sdks — taishi-i/awesome-ChatGPT-repositories — https://github.com/e2b-dev/awesome-ai-sdks
+- awesome-ai-startups — taishi-i/awesome-ChatGPT-repositories — https://github.com/nowork-studio/awesome-ai-startups
+- awesome-ai-system-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/dontriskit/awesome-ai-system-prompts
+- awesome-ai-tools — taishi-i/awesome-ChatGPT-repositories — https://github.com/eudk/awesome-ai-tools
+- Awesome-AIGC-Tutorials — taishi-i/awesome-ChatGPT-repositories — https://github.com/luban-agi/awesome-aigc-tutorials
+- Awesome-AITools — taishi-i/awesome-ChatGPT-repositories — https://github.com/ikaijua/awesome-aitools
+- awesome-azure-openai-llm — taishi-i/awesome-ChatGPT-repositories — https://github.com/kimtth/awesome-azure-openai-llm
+- awesome-chatgpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/humanloop/awesome-chatgpt
+- Awesome-ChatGPT-AI-ZH — taishi-i/awesome-ChatGPT-repositories — https://github.com/changeyu0229/awesome-chatgpt-ai-zh
+- awesome-chatgpt-api — taishi-i/awesome-ChatGPT-repositories — https://github.com/reorx/awesome-chatgpt-api
+- awesome-chatgpt-code-interpreter-experiments — taishi-i/awesome-ChatGPT-repositories — https://github.com/skalskip/awesome-chatgpt-code-interpreter-experiments
+- awesome-chatgpt-dataset — taishi-i/awesome-ChatGPT-repositories — https://github.com/voidful/awesome-chatgpt-dataset
+- awesome-chatgpt-project — taishi-i/awesome-ChatGPT-repositories — https://github.com/xianyu110/awesome-chatgpt-project
+- awesome-chatgpt-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/f/awesome-chatgpt-prompts
+- Awesome-ChatGPT-Prompts-CN — taishi-i/awesome-ChatGPT-repositories — https://github.com/wikieden/awesome-chatgpt-prompts-cn
+- awesome-chatgpt-prompts-cybersecurity — taishi-i/awesome-ChatGPT-repositories — https://github.com/sechelper/awesome-chatgpt-prompts-cybersecurity
+- awesome-chatgpt-prompts-zh — taishi-i/awesome-ChatGPT-repositories — https://github.com/plexpt/awesome-chatgpt-prompts-zh
+- awesome-chatgpt-store — taishi-i/awesome-ChatGPT-repositories — https://github.com/devisasari/awesome-chatgpt-store
+- awesome-chatgpt-zh — taishi-i/awesome-ChatGPT-repositories — https://github.com/yzfly/awesome-chatgpt-zh
+- awesome-claude-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/langgptai/awesome-claude-prompts
+- awesome-compbio-chatgpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/csbl-br/awesome-compbio-chatgpt
+- awesome-decentralized-llm — taishi-i/awesome-ChatGPT-repositories — https://github.com/imaurer/awesome-decentralized-llm
+- awesome-free-chatgpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/lilittlecat/awesome-free-chatgpt
+- awesome-generative-ai — taishi-i/awesome-ChatGPT-repositories — https://github.com/filipecalegario/awesome-generative-ai
+- awesome-gpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/formulahendry/awesome-gpt
+- Awesome-GPT-Agents — taishi-i/awesome-ChatGPT-repositories — https://github.com/fr0gger/awesome-gpt-agents
+- awesome-gpt-image-2 — taishi-i/awesome-ChatGPT-repositories — https://github.com/youmind-openlab/awesome-gpt-image-2
+- Awesome-GPT-Image-2-API-Prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/anil-matcha/awesome-gpt-image-2-api-prompts
+- awesome-gpt-image-2-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/evolinkai/awesome-gpt-image-2-prompts
+- awesome-gpt-prompt-engineering — taishi-i/awesome-ChatGPT-repositories — https://github.com/snwfdhmp/awesome-gpt-prompt-engineering
+- awesome-gpt-security — taishi-i/awesome-ChatGPT-repositories — https://github.com/cckuailong/awesome-gpt-security
+- Awesome-GPT-Store — taishi-i/awesome-ChatGPT-repositories — https://github.com/anil-matcha/awesome-gpt-store
+- awesome-gpt4 — taishi-i/awesome-ChatGPT-repositories — https://github.com/taranjeet/awesome-gpt4
+- Awesome-GPT4-Prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/ora-sh/awesome-gpt4-prompts
+- awesome-gpt4o-images — taishi-i/awesome-ChatGPT-repositories — https://github.com/jamez-bondos/awesome-gpt4o-images
+- Awesome-GPTs — taishi-i/awesome-ChatGPT-repositories — https://github.com/ai-boost/awesome-gpts
+- awesome-gpts-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/ai-boost/awesome-gpts-prompts
+- awesome-instruction-dataset — taishi-i/awesome-ChatGPT-repositories — https://github.com/yaodongc/awesome-instruction-dataset
+- awesome-llm-and-aigc — taishi-i/awesome-ChatGPT-repositories — https://github.com/codingonion/awesome-llm-and-aigc
+- awesome-llm-apps — taishi-i/awesome-ChatGPT-repositories — https://github.com/shubhamsaboo/awesome-llm-apps
+- Awesome-LLM-Eval — taishi-i/awesome-ChatGPT-repositories — https://github.com/onejune2018/awesome-llm-eval
+- Awesome-LLM-KG — taishi-i/awesome-ChatGPT-repositories — https://github.com/rmanluo/awesome-llm-kg
+- awesome-llm-powered-agent — taishi-i/awesome-ChatGPT-repositories — https://github.com/hyp1231/awesome-llm-powered-agent
+- Awesome-LLM-Reasoning — taishi-i/awesome-ChatGPT-repositories — https://github.com/atfortes/awesome-llm-reasoning
+- awesome-LLM-resources — taishi-i/awesome-ChatGPT-repositories — https://github.com/wangrongsheng/awesome-llm-resources
+- awesome-LLM-resourses — taishi-i/awesome-ChatGPT-repositories — https://github.com/wangrongsheng/awesome-llm-resourses
+- awesome-llm-role-playing-with-persona — taishi-i/awesome-ChatGPT-repositories — https://github.com/neph0s/awesome-llm-role-playing-with-persona
+- Awesome-LLM-Strawberry — taishi-i/awesome-ChatGPT-repositories — https://github.com/hijkzzz/awesome-llm-strawberry
+- Awesome-LLM-Uncertainty-Reliability-Robustness — taishi-i/awesome-ChatGPT-repositories — https://github.com/jxzhangjhu/awesome-llm-uncertainty-reliability-robustness
+- Awesome-Machine-Generated-Text — taishi-i/awesome-ChatGPT-repositories — https://github.com/ictmcg/awesome-machine-generated-text
+- Awesome-One-Click-Deployment — taishi-i/awesome-ChatGPT-repositories — https://github.com/connectai-e/awesome-one-click-deployment
+- awesome-open-gpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/ewingyangs/awesome-open-gpt
+- awesome-openai-vision-api-experiments — taishi-i/awesome-ChatGPT-repositories — https://github.com/roboflow/awesome-openai-vision-api-experiments
+- Awesome-Prompt-Engineering — taishi-i/awesome-ChatGPT-repositories — https://github.com/promptslab/awesome-prompt-engineering
+- awesome-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/ai-boost/awesome-prompts
+- awesome-python — taishi-i/awesome-ChatGPT-repositories — https://github.com/dylanhogg/awesome-python
+- awesome-segment-anything — taishi-i/awesome-ChatGPT-repositories — https://github.com/hedlen/awesome-segment-anything
+- awesome-slash — taishi-i/awesome-ChatGPT-repositories — https://github.com/avifenesh/awesome-slash
+- awesome-totally-open-chatgpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/nichtdax/awesome-totally-open-chatgpt
+- awesome-transformer-nlp — taishi-i/awesome-ChatGPT-repositories — https://github.com/cedrickchee/awesome-transformer-nlp
+- awesome-userscripts — taishi-i/awesome-ChatGPT-repositories — https://github.com/awesome-scripts/awesome-userscripts
+- awesome-whisper — taishi-i/awesome-ChatGPT-repositories — https://github.com/sindresorhus/awesome-whisper
+- Awesome_GPT_Super_Prompting — taishi-i/awesome-ChatGPT-repositories — https://github.com/cyberalbsecop/awesome_gpt_super_prompting
+- azure-openai-llm-vector-langchain — taishi-i/awesome-ChatGPT-repositories — https://github.com/kimtth/azure-openai-llm-vector-langchain
+- bark — taishi-i/awesome-ChatGPT-repositories — https://github.com/suno-ai/bark
+- best-of-ml-python — taishi-i/awesome-ChatGPT-repositories — https://github.com/ml-tooling/best-of-ml-python
+- BlackFriday-GPTs-Prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/friuns2/blackfriday-gpts-prompts
+- blender_jarvis — taishi-i/awesome-ChatGPT-repositories — https://github.com/dene33/blender_jarvis
+- CaFo — taishi-i/awesome-ChatGPT-repositories — https://github.com/zrrskywalker/cafo
+- chain-of-thought-hub — taishi-i/awesome-ChatGPT-repositories — https://github.com/franxyao/chain-of-thought-hub
+- chat-gpt-games — taishi-i/awesome-ChatGPT-repositories — https://github.com/admtal/chat-gpt-games
+- chat-gpt-quine — taishi-i/awesome-ChatGPT-repositories — https://github.com/fullthom/chat-gpt-quine
+- chat-key — taishi-i/awesome-ChatGPT-repositories — https://github.com/overflowy/chat-key
+- chatbot-injections-exploits — taishi-i/awesome-ChatGPT-repositories — https://github.com/cranot/chatbot-injections-exploits
+- chatbox — taishi-i/awesome-ChatGPT-repositories — https://github.com/bin-huang/chatbox
+- ChatGPT — taishi-i/awesome-ChatGPT-repositories — https://openai.com/blog/chatgpt
+- ChatGPT-Admin-Web — taishi-i/awesome-ChatGPT-repositories — https://github.com/aprilnea/chatgpt-admin-web
+- ChatGPT-Adventure — taishi-i/awesome-ChatGPT-repositories — https://github.com/capnmidnight/chatgpt-adventure
+- ChatGPT-Assistant — taishi-i/awesome-ChatGPT-repositories — https://github.com/pierxuy/chatgpt-assistant
+- chatgpt-clone — taishi-i/awesome-ChatGPT-repositories — https://github.com/danny-avila/chatgpt-clone
+- chatgpt-corpus — taishi-i/awesome-ChatGPT-repositories — https://github.com/plexpt/chatgpt-corpus
+- ChatGPT-Data-Science-Prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/travistangvh/chatgpt-data-science-prompts
+- chatgpt-prompt-engineering-for-developers — taishi-i/awesome-ChatGPT-repositories — https://github.com/kevin-free/chatgpt-prompt-engineering-for-developers
+- ChatGPT-Prompt-Engineering-for-Developers-in-Chinese — taishi-i/awesome-ChatGPT-repositories — https://github.com/githubdaily/chatgpt-prompt-engineering-for-developers-in-chinese
+- ChatGPT-Prompt-Genius — taishi-i/awesome-ChatGPT-repositories — https://github.com/benf2004/chatgpt-prompt-genius
+- ChatGPT-Prompt-Sample-Japanese — taishi-i/awesome-ChatGPT-repositories — https://github.com/dahatake/chatgpt-prompt-sample-japanese
+- chatGPT-prompt-scripts — taishi-i/awesome-ChatGPT-repositories — https://github.com/wincheshe/chatgpt-prompt-scripts
+- chatgpt-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/carterleffen/chatgpt-prompts
+- chatgpt-prompts-bug-bounty — taishi-i/awesome-ChatGPT-repositories — https://github.com/taksec/chatgpt-prompts-bug-bounty
+- ChatGPT-Shortcut — taishi-i/awesome-ChatGPT-repositories — https://github.com/rockbenben/chatgpt-shortcut
+- ChatGPT-Siri — taishi-i/awesome-ChatGPT-repositories — https://github.com/yue-yang/chatgpt-siri
+- chatgpt-text-to-midjourney-image — taishi-i/awesome-ChatGPT-repositories — https://github.com/barretlee/chatgpt-text-to-midjourney-image
+- ChatGPT3-Free-Prompt-List — taishi-i/awesome-ChatGPT-repositories — https://github.com/mattnigh/chatgpt3-free-prompt-list
+- ChatGPT_DAN — taishi-i/awesome-ChatGPT-repositories — https://github.com/0xk1h0/chatgpt_dan
+- CodexPlusPlus — taishi-i/awesome-ChatGPT-repositories — https://github.com/bigpizzav3/codexplusplus
+- CWK-ChatGPT-MidJourney-Prompt-Template — taishi-i/awesome-ChatGPT-repositories — https://github.com/neobundy/cwk-chatgpt-midjourney-prompt-template
+- DemoGPT — taishi-i/awesome-ChatGPT-repositories — https://github.com/melih-unsal/demogpt
+- dev-chatgpt-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/pickleboxer/dev-chatgpt-prompts
+- docsgpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/arc53/docsgpt
+- eigent — taishi-i/awesome-ChatGPT-repositories — https://github.com/eigent-ai/eigent
+- English — taishi-i/awesome-ChatGPT-repositories — https://github.com/taishi-i/awesome-ChatGPT-repositories/blob/main/docs/README.en.md
+- FinGPT — taishi-i/awesome-ChatGPT-repositories — https://github.com/ai4finance-foundation/fingpt
+- Get-Things-Done-with-Prompt-Engineering-and-LangChain — taishi-i/awesome-ChatGPT-repositories — https://github.com/curiousily/get-things-done-with-prompt-engineering-and-langchain
+- gpt-prompt-engineer — taishi-i/awesome-ChatGPT-repositories — https://github.com/mshumer/gpt-prompt-engineer
+- GPT-Prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/jesselau76/gpt-prompts
+- gpt-repository-loader — taishi-i/awesome-ChatGPT-repositories — https://github.com/mpoon/gpt-repository-loader
+- gpt-runner — taishi-i/awesome-ChatGPT-repositories — https://github.com/nicepkg/gpt-runner
+- gpt3-interview-bot — taishi-i/awesome-ChatGPT-repositories — https://github.com/promptable/gpt3-interview-bot
+- GPTWorld — taishi-i/awesome-ChatGPT-repositories — https://github.com/srush/gptworld
+- hive — taishi-i/awesome-ChatGPT-repositories — https://github.com/adenhq/hive
+- holaOS — taishi-i/awesome-ChatGPT-repositories — https://github.com/holaboss-ai/holaos
+- InstructZero — taishi-i/awesome-ChatGPT-repositories — https://github.com/lichang-chen/instructzero
+- IntelliNode — taishi-i/awesome-ChatGPT-repositories — https://github.com/barqawiz/intellinode
+- jopilot-4-job-seekers — taishi-i/awesome-ChatGPT-repositories — https://github.com/jopilot-net/jopilot-4-job-seekers
+- langchain-and-elevenlabs-with-pdf-analysis — taishi-i/awesome-ChatGPT-repositories — https://github.com/unicornlaunching/langchain-and-elevenlabs-with-pdf-analysis
+- Leaked-GPTs — taishi-i/awesome-ChatGPT-repositories — https://github.com/friuns2/leaked-gpts
+- LearnPrompt — taishi-i/awesome-ChatGPT-repositories — https://github.com/learnprompt/learnprompt
+- LLM-Reasoning-Papers — taishi-i/awesome-ChatGPT-repositories — https://github.com/atfortes/llm-reasoning-papers
+- llm.report — taishi-i/awesome-ChatGPT-repositories — https://github.com/dillionverma/llm.report
+- LMOps — taishi-i/awesome-ChatGPT-repositories — https://github.com/microsoft/lmops
+- lobe-chat-agents — taishi-i/awesome-ChatGPT-repositories — https://github.com/lobehub/lobe-chat-agents
+- lobe-chat-plugins — taishi-i/awesome-ChatGPT-repositories — https://github.com/lobehub/lobe-chat-plugins
+- Memori — taishi-i/awesome-ChatGPT-repositories — https://github.com/memorilabs/memori
+- Mr.-Ranedeer-AI-Tutor — taishi-i/awesome-ChatGPT-repositories — https://github.com/jushbjj/mr.-ranedeer-ai-tutor
+- myGPTReader — taishi-i/awesome-ChatGPT-repositories — https://github.com/madawei2699/mygptreader
+- OmniRoute — taishi-i/awesome-ChatGPT-repositories — https://github.com/cheaper-inference/omniroute
+- openprompt.co — taishi-i/awesome-ChatGPT-repositories — https://github.com/timqian/openprompt.co
+- other agents supported by the skills CLI — taishi-i/awesome-ChatGPT-repositories — https://github.com/vercel-labs/skills#supported-agents
+- paperclip — taishi-i/awesome-ChatGPT-repositories — https://github.com/paperclipai/paperclip
+- powerplatform-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/pnp/powerplatform-prompts
+- prompt-engine — taishi-i/awesome-ChatGPT-repositories — https://github.com/microsoft/prompt-engine
+- prompt-engineering-for-developers — taishi-i/awesome-ChatGPT-repositories — https://github.com/datawhalechina/prompt-engineering-for-developers
+- prompt-engineering-for-javascript-developers — taishi-i/awesome-ChatGPT-repositories — https://github.com/dabit3/prompt-engineering-for-javascript-developers
+- Prompt-Engineering-Guide — taishi-i/awesome-ChatGPT-repositories — https://github.com/dair-ai/prompt-engineering-guide
+- Prompt-hunter — taishi-i/awesome-ChatGPT-repositories — https://github.com/op7418/prompt-hunter
+- prompt-in-context-learning — taishi-i/awesome-ChatGPT-repositories — https://github.com/egoalpha/prompt-in-context-learning
+- prompta — taishi-i/awesome-ChatGPT-repositories — https://github.com/iansinnott/prompta
+- promptable — taishi-i/awesome-ChatGPT-repositories — https://github.com/cfortuner/promptable
+- PromptCraft-Robotics — taishi-i/awesome-ChatGPT-repositories — https://github.com/microsoft/promptcraft-robotics
+- Promptify — taishi-i/awesome-ChatGPT-repositories — https://github.com/promptslab/promptify
+- promptmap — taishi-i/awesome-ChatGPT-repositories — https://github.com/utkusen/promptmap
+- promptr — taishi-i/awesome-ChatGPT-repositories — https://github.com/ferrislucas/promptr
+- prompts.chat — taishi-i/awesome-ChatGPT-repositories — https://github.com/f/prompts.chat
+- RecurrentGPT — taishi-i/awesome-ChatGPT-repositories — https://github.com/aiwaves-cn/recurrentgpt
+- ResearchChatGPT — taishi-i/awesome-ChatGPT-repositories — https://github.com/hollobit/researchchatgpt
+- SchemaGPT — taishi-i/awesome-ChatGPT-repositories — https://github.com/u-hubar/schemagpt
+- Share-to-ChatGPT-Shortcut — taishi-i/awesome-ChatGPT-repositories — https://github.com/reorx/share-to-chatgpt-shortcut
+- simple-openai — taishi-i/awesome-ChatGPT-repositories — https://github.com/sashirestela/simple-openai
+- soren — taishi-i/awesome-ChatGPT-repositories — https://github.com/jacksonmills/soren
+- squidgy-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/squidgyai/squidgy-prompts
+- t3code — taishi-i/awesome-ChatGPT-repositories — https://github.com/pingdotgg/t3code
+- TaskMatrix — taishi-i/awesome-ChatGPT-repositories — https://github.com/microsoft/taskmatrix
+- text-to-colorscheme — taishi-i/awesome-ChatGPT-repositories — https://github.com/svermeulen/text-to-colorscheme
+- The-HustleGPT-Challenge — taishi-i/awesome-ChatGPT-repositories — https://github.com/jtmuller5/the-hustlegpt-challenge
+- tree-of-thought-prompting — taishi-i/awesome-ChatGPT-repositories — https://github.com/dave1010/tree-of-thought-prompting
+- tutor-gpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/plastic-labs/tutor-gpt
+- unleashedgpt — taishi-i/awesome-ChatGPT-repositories — https://github.com/ambr0sial/unleashedgpt
+- wonderful-prompts — taishi-i/awesome-ChatGPT-repositories — https://github.com/yzfly/wonderful-prompts
+- 日本語 (Japanese) — taishi-i/awesome-ChatGPT-repositories — https://github.com/taishi-i/awesome-ChatGPT-repositories/blob/main/docs/README.ja.md
+- 简体中文 (Chinese) — taishi-i/awesome-ChatGPT-repositories — https://github.com/taishi-i/awesome-ChatGPT-repositories/blob/main/docs/README.zh-hans.md
+- 繁體中文 (Chinese) — taishi-i/awesome-ChatGPT-repositories — https://github.com/taishi-i/awesome-ChatGPT-repositories/blob/main/docs/README.zh-hant.md
+
+## travisvn/awesome-claude-skills
+- anthropics/skills — travisvn/awesome-claude-skills — https://github.com/anthropics/skills
+- Blog post about its development — travisvn/awesome-claude-skills — https://blog.fsck.com/2025/10/23/naming-claude-plugins/
+- Blog: Superpowers — travisvn/awesome-claude-skills — https://blog.fsck.com/2025/10/09/superpowers/
+- Claude Cookbooks - Skills — travisvn/awesome-claude-skills — https://github.com/anthropics/claude-cookbooks/tree/main/skills
+- Claude Developer Platform — travisvn/awesome-claude-skills — https://docs.claude.com/
+- Claude Documentation — travisvn/awesome-claude-skills — https://docs.claude.com/
+- Claude Skills Announcement — travisvn/awesome-claude-skills — https://www.anthropic.com/news/skills
+- claude-d3js-skill — travisvn/awesome-claude-skills — https://github.com/chrisvoncsefalvay/claude-d3js-skill
+- Community Discussions — travisvn/awesome-claude-skills — https://github.com/anthropics/skills/discussions
+- Equipping Agents with Skills — travisvn/awesome-claude-skills — https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- Expo Skills — travisvn/awesome-claude-skills — https://github.com/expo/skills
+- ffuf-web-fuzzing — travisvn/awesome-claude-skills — https://github.com/jthack/ffuf_claude_skill
+- frontend-slides — travisvn/awesome-claude-skills — https://github.com/zarazhangrui/frontend-slides
+- get-shit-done — travisvn/awesome-claude-skills — https://github.com/gsd-build/get-shit-done
+- How to Create Your First Claude Skill — travisvn/awesome-claude-skills — https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/
+- How to Use Skills in Claude Code — travisvn/awesome-claude-skills — https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/
+- ios-simulator-skill — travisvn/awesome-claude-skills — https://github.com/conorluddy/ios-simulator-skill
+- Issue #268 — travisvn/awesome-claude-skills — https://github.com/anthropics/claude-agent-sdk-python/issues/268
+- loki-mode — travisvn/awesome-claude-skills — https://github.com/asklokesh/claudeskill-loki-mode
+- obra/superpowers — travisvn/awesome-claude-skills — https://github.com/obra/superpowers
+- obra/superpowers-lab — travisvn/awesome-claude-skills — https://github.com/obra/superpowers-lab
+- Official Skills Repository Issues — travisvn/awesome-claude-skills — https://github.com/anthropics/skills/issues
+- playwright-skill — travisvn/awesome-claude-skills — https://github.com/lackeyjb/playwright-skill
+- Settings > Capabilities — travisvn/awesome-claude-skills — https://claude.ai/settings/capabilities
+- shadcn/ui — travisvn/awesome-claude-skills — https://ui.shadcn.com/docs/skills
+- Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP — travisvn/awesome-claude-skills — https://simonwillison.net/2025/Oct/16/claude-skills/
+- Skills API Endpoint — travisvn/awesome-claude-skills — https://platform.claude.com/docs/en/api/beta/skills
+- Skills Explained — travisvn/awesome-claude-skills — https://claude.com/blog/skills-explained
+- superpowers-skills — travisvn/awesome-claude-skills — https://github.com/obra/superpowers-skills
+- Using Skills in Claude — travisvn/awesome-claude-skills — https://support.claude.com/en/articles/12512180-using-skills-in-claude
+- Weaponizing Claude Code Skills — travisvn/awesome-claude-skills — https://medium.com/@yossifqassim/weaponizing-claude-code-skills-from-5-5-to-remote-shell-a14af2d109c
+- web-asset-generator — travisvn/awesome-claude-skills — https://github.com/alonw0/web-asset-generator
+- What are Skills? — travisvn/awesome-claude-skills — https://support.claude.com/en/articles/12512176-what-are-skills
+- yusufkaraaslan/Skill_Seekers — travisvn/awesome-claude-skills — https://github.com/yusufkaraaslan/Skill_Seekers
+
+## w95/awesome-claude-corporate-skills
+- Anthropic Skills Repo — w95/awesome-claude-corporate-skills — https://github.com/anthropics/skills
+- Claude Code Docs — w95/awesome-claude-corporate-skills — https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+
+## zhuyansen/awesome-claude-video-skills
+- 0xS4N4TG/kinetograph — zhuyansen/awesome-claude-video-skills — https://github.com/0xS4N4TG/kinetograph
+- 8533502-dev/deepseek-opus-motion-skill — zhuyansen/awesome-claude-video-skills — https://github.com/8533502-dev/deepseek-opus-motion-skill
+- Aaryan-Kapoor/video-production-skill — zhuyansen/awesome-claude-video-skills — https://github.com/Aaryan-Kapoor/video-production-skill
+- abhinavshrivastava950/Montara — zhuyansen/awesome-claude-video-skills — https://github.com/abhinavshrivastava950/Montara
+- actionow-ai/vvv — zhuyansen/awesome-claude-video-skills — https://github.com/actionow-ai/vvv
+- Agent Skills Hub (agentskillshub.top) — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top
+- AIPMAndy/Andy-Video-Skill — zhuyansen/awesome-claude-video-skills — https://github.com/AIPMAndy/Andy-Video-Skill
+- All results, prompts and scripts — zhuyansen/awesome-claude-video-skills — https://github.com/zhuyansen/agent-skills-hub/blob/main/ops/video-runs/RESULTS.md
+- argus-metis/hermes-video-editing — zhuyansen/awesome-claude-video-skills — https://github.com/argus-metis/hermes-video-editing
+- autoip/dreamfab — zhuyansen/awesome-claude-video-skills — https://github.com/autoip/dreamfab
+- bangtutorial/bang-motion — zhuyansen/awesome-claude-video-skills — https://github.com/bangtutorial/bang-motion
+- bbylw/hyperframes-cn — zhuyansen/awesome-claude-video-skills — https://github.com/bbylw/hyperframes-cn
+- CAUTION — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top/skill/OpenMontageInc/OpenMontage/
+- Changroro/code-video — zhuyansen/awesome-claude-video-skills — https://github.com/Changroro/code-video
+- chenyuxiaojin/cyxj-remotion-starter — zhuyansen/awesome-claude-video-skills — https://github.com/chenyuxiaojin/cyxj-remotion-starter
+- claude-code-video-toolkit — zhuyansen/awesome-claude-video-skills — https://github.com/digitalsamba/claude-code-video-toolkit
+- claude-motion-design — zhuyansen/awesome-claude-video-skills — https://github.com/howseen-ai/claude-motion-design
+- codepawl/creator-generalist — zhuyansen/awesome-claude-video-skills — https://github.com/codepawl/creator-generalist
+- crawfordxx/xiaoma-studio — zhuyansen/awesome-claude-video-skills — https://github.com/crawfordxx/xiaoma-studio
+- davidcervinka/vibe-editing — zhuyansen/awesome-claude-video-skills — https://github.com/davidcervinka/vibe-editing
+- dev-isaacmello/extreme-motion-design — zhuyansen/awesome-claude-video-skills — https://github.com/dev-isaacmello/extreme-motion-design
+- digitalsamba/claude-code-video-toolkit — zhuyansen/awesome-claude-video-skills — https://github.com/digitalsamba/claude-code-video-toolkit
+- diko0071/remotion-video-skills — zhuyansen/awesome-claude-video-skills — https://github.com/diko0071/remotion-video-skills
+- doublesq97-ui/su-card-to-video — zhuyansen/awesome-claude-video-skills — https://github.com/doublesq97-ui/su-card-to-video
+- edotheDev/claude-video-kit — zhuyansen/awesome-claude-video-skills — https://github.com/edotheDev/claude-video-kit
+- erduo1998-cell/vidmuse-video-creator — zhuyansen/awesome-claude-video-skills — https://github.com/erduo1998-cell/vidmuse-video-creator
+- evidence — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top/best-runs/video/vincentsch__explainroo.html
+- explainroo — zhuyansen/awesome-claude-video-skills — https://github.com/vincentsch/explainroo
+- FavioVazquez/showtime — zhuyansen/awesome-claude-video-skills — https://github.com/FavioVazquez/showtime
+- gloweaseco-leo/hyperdirector — zhuyansen/awesome-claude-video-skills — https://github.com/gloweaseco-leo/hyperdirector
+- GordenSun/react-bits-video — zhuyansen/awesome-claude-video-skills — https://github.com/GordenSun/react-bits-video
+- GTAI-1/flow-mcp — zhuyansen/awesome-claude-video-skills — https://github.com/GTAI-1/flow-mcp
+- guizang-product-video-skill — zhuyansen/awesome-claude-video-skills — https://github.com/op7418/guizang-product-video-skill
+- Hainrixz/editor-pro-max — zhuyansen/awesome-claude-video-skills — https://github.com/Hainrixz/editor-pro-max
+- heygen-com/hyperframes — zhuyansen/awesome-claude-video-skills — https://github.com/heygen-com/hyperframes
+- hildlabs/openrig-studio — zhuyansen/awesome-claude-video-skills — https://github.com/hildlabs/openrig-studio
+- hraness/slopcamera — zhuyansen/awesome-claude-video-skills — https://github.com/hraness/slopcamera
+- https://agentskillshub.top/best/claude-video-skills/ — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top/best/claude-video-skills/
+- https://agentskillshub.top/best/claude-video-skills/#test-results — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top/best/claude-video-skills/#test-results
+- Hype-yolo/claude-motion-skill — zhuyansen/awesome-claude-video-skills — https://github.com/Hype-yolo/claude-motion-skill
+- hyperframes — zhuyansen/awesome-claude-video-skills — https://github.com/heygen-com/hyperframes
+- hypit — zhuyansen/awesome-claude-video-skills — https://github.com/hypit-ai/hypit
+- hypit-ai/hypit — zhuyansen/awesome-claude-video-skills — https://github.com/hypit-ai/hypit
+- iart-ai/data-animation-skills — zhuyansen/awesome-claude-video-skills — https://github.com/iart-ai/data-animation-skills
+- iart-ai/motion-design-skills — zhuyansen/awesome-claude-video-skills — https://github.com/iart-ai/motion-design-skills
+- iart-ai/motion-skills — zhuyansen/awesome-claude-video-skills — https://github.com/iart-ai/motion-skills
+- iart-ai/text-message-video-skills — zhuyansen/awesome-claude-video-skills — https://github.com/iart-ai/text-message-video-skills
+- JDhruv14/line-art-animation — zhuyansen/awesome-claude-video-skills — https://github.com/JDhruv14/line-art-animation
+- jhartquist/claude-remotion-kickstart — zhuyansen/awesome-claude-video-skills — https://github.com/jhartquist/claude-remotion-kickstart
+- JJenglert1/remotion-claude-video — zhuyansen/awesome-claude-video-skills — https://github.com/JJenglert1/remotion-claude-video
+- JohnHeibel/ClaudeAnimationBase — zhuyansen/awesome-claude-video-skills — https://github.com/JohnHeibel/ClaudeAnimationBase
+- JohnHeibel/PDoomVideo — zhuyansen/awesome-claude-video-skills — https://github.com/JohnHeibel/PDoomVideo
+- Johnson-Jia/video-clipforge — zhuyansen/awesome-claude-video-skills — https://github.com/Johnson-Jia/video-clipforge
+- JuneYaooo/capsule-cinema — zhuyansen/awesome-claude-video-skills — https://github.com/JuneYaooo/capsule-cinema
+- kangarooking/director-skills — zhuyansen/awesome-claude-video-skills — https://github.com/kangarooking/director-skills
+- killkli/minimax-h3-colab-skill — zhuyansen/awesome-claude-video-skills — https://github.com/killkli/minimax-h3-colab-skill
+- Kimeur/motion-launch-videos — zhuyansen/awesome-claude-video-skills — https://github.com/Kimeur/motion-launch-videos
+- kmilo93sd/agent-video-editor — zhuyansen/awesome-claude-video-skills — https://github.com/kmilo93sd/agent-video-editor
+- ledbetterljoshua/functional-emotions-video — zhuyansen/awesome-claude-video-skills — https://github.com/ledbetterljoshua/functional-emotions-video
+- lemomo-ai/lemo-opuscar — zhuyansen/awesome-claude-video-skills — https://github.com/lemomo-ai/lemo-opuscar
+- leodavincs/kalem — zhuyansen/awesome-claude-video-skills — https://github.com/leodavincs/kalem
+- liaojianquan9-source/ljq-broll-video-generator — zhuyansen/awesome-claude-video-skills — https://github.com/liaojianquan9-source/ljq-broll-video-generator
+- LordVayron/video-factory — zhuyansen/awesome-claude-video-skills — https://github.com/LordVayron/video-factory
+- lottie — zhuyansen/awesome-claude-video-skills — https://github.com/diffusionstudio/lottie
+- mackswendhell/motion-code — zhuyansen/awesome-claude-video-skills — https://github.com/mackswendhell/motion-code
+- magichourhq/skills — zhuyansen/awesome-claude-video-skills — https://github.com/magichourhq/skills
+- MakeMyClip/editor — zhuyansen/awesome-claude-video-skills — https://github.com/MakeMyClip/editor
+- mileson/chaojifeng-video-design — zhuyansen/awesome-claude-video-skills — https://github.com/mileson/chaojifeng-video-design
+- Moessif/code-video-showcase — zhuyansen/awesome-claude-video-skills — https://github.com/Moessif/code-video-showcase
+- molkex/mcp-flow-google — zhuyansen/awesome-claude-video-skills — https://github.com/molkex/mcp-flow-google
+- motalim-ai/motion-starter-kit — zhuyansen/awesome-claude-video-skills — https://github.com/motalim-ai/motion-starter-kit
+- motion-graphics — zhuyansen/awesome-claude-video-skills — https://github.com/Barty-Bart/motion-graphics
+- motion-graphics-skills — zhuyansen/awesome-claude-video-skills — https://github.com/charlie947/motion-graphics-skills
+- motion-skills — zhuyansen/awesome-claude-video-skills — https://github.com/iart-ai/motion-skills
+- motion-video-kit — zhuyansen/awesome-claude-video-skills — https://github.com/echris6/motion-video-kit
+- NarratorAI-Studio/narrator-ai-cli-skill — zhuyansen/awesome-claude-video-skills — https://github.com/NarratorAI-Studio/narrator-ai-cli-skill
+- Neelshah1810/Claude-Video-Skills — zhuyansen/awesome-claude-video-skills — https://github.com/Neelshah1810/Claude-Video-Skills
+- nexu-io/openmotion — zhuyansen/awesome-claude-video-skills — https://github.com/nexu-io/openmotion
+- onetake — zhuyansen/awesome-claude-video-skills — https://github.com/feitangyuan/onetake
+- Open this type on the live page, sorted by stars → — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top/best/claude-video-skills/#type-general
+- OpenMontage — zhuyansen/awesome-claude-video-skills — https://github.com/calesthio/OpenMontage
+- OpenMontageInc/OpenMontage — zhuyansen/awesome-claude-video-skills — https://github.com/OpenMontageInc/OpenMontage
+- oxygenframe/oxframe-sdk — zhuyansen/awesome-claude-video-skills — https://github.com/oxygenframe/oxframe-sdk
+- patraxo/ltx2-vidgen-skill — zhuyansen/awesome-claude-video-skills — https://github.com/patraxo/ltx2-vidgen-skill
+- PHANTOMTONYT/motion-design-skills — zhuyansen/awesome-claude-video-skills — https://github.com/PHANTOMTONYT/motion-design-skills
+- qualixar/brief2mp4 — zhuyansen/awesome-claude-video-skills — https://github.com/qualixar/brief2mp4
+- RajaskaJanuardani/motion-craft — zhuyansen/awesome-claude-video-skills — https://github.com/RajaskaJanuardani/motion-craft
+- remotion-video-skill — zhuyansen/awesome-claude-video-skills — https://github.com/wshuyi/remotion-video-skill
+- resemble-ai/remotion-resemble-skill — zhuyansen/awesome-claude-video-skills — https://github.com/resemble-ai/remotion-resemble-skill
+- SAFE — zhuyansen/awesome-claude-video-skills — https://agentskillshub.top/skill/lemomo-ai/lemo-opuscar/
+- skills — zhuyansen/awesome-claude-video-skills — https://github.com/remotion-dev/skills
+- smwbev/framewright — zhuyansen/awesome-claude-video-skills — https://github.com/smwbev/framewright
+- squall01337/mixamo-llm-mocap — zhuyansen/awesome-claude-video-skills — https://github.com/squall01337/mixamo-llm-mocap
+- tmakersas/revid-skills — zhuyansen/awesome-claude-video-skills — https://github.com/tmakersas/revid-skills
+- VasiniDevi/motion-skills — zhuyansen/awesome-claude-video-skills — https://github.com/VasiniDevi/motion-skills
+- vawe-hq/vawe — zhuyansen/awesome-claude-video-skills — https://github.com/vawe-hq/vawe
+- vibe-motion/remotion-starter — zhuyansen/awesome-claude-video-skills — https://github.com/vibe-motion/remotion-starter
+- vibe-motion/skills — zhuyansen/awesome-claude-video-skills — https://github.com/vibe-motion/skills
+- video-db/skills — zhuyansen/awesome-claude-video-skills — https://github.com/video-db/skills
+- WhiteTowerAI/cut-as-code — zhuyansen/awesome-claude-video-skills — https://github.com/WhiteTowerAI/cut-as-code
+- YKLovePython/halfsize — zhuyansen/awesome-claude-video-skills — https://github.com/YKLovePython/halfsize
+- ZLHad/OpenVideoHarness — zhuyansen/awesome-claude-video-skills — https://github.com/ZLHad/OpenVideoHarness
+
+## Недоступные источники
+- https://raw.githubusercontent.com/GetBindu/awesome-claude-code-and-skills/HEAD/README.md — HTTPError: HTTP Error 404: Not Found

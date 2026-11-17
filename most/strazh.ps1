@@ -69,6 +69,7 @@ function Zapustit($prompt) {
     $script:lastLaunch = Get-Date
     $script:cpuSnap = $null
     $script:idleStreak = 0
+    $script:deathCounted = $false
 }
 
 # --- эшелоны каскада ---
@@ -121,6 +122,7 @@ $script:lastEshSwitch = (Get-Date).AddMinutes(-60)
 $script:cpuSnap       = $null
 $script:idleStreak    = 0
 $script:quickExits    = 0
+$script:deathCounted  = $false
 
 while ($true) {
     try {
@@ -154,6 +156,14 @@ while ($true) {
         } else {
             $script:cpuSnap = $null
             $script:idleStreak = 0
+        }
+
+        # 3b. Быстрая смерть после запуска (пустой бакет/сбой) — растим бэкофф,
+        #     чтобы не долбить по мёртвому эшелону каждые 40 минут
+        if (-not (AgentZhiv) -and -not $script:deathCounted -and ((Get-Date) - $script:lastLaunch).TotalMinutes -lt 10) {
+            $script:quickExits = [Math]::Min($script:quickExits + 1, 4)
+            $script:deathCounted = $true
+            Log ("агент умер сразу после запуска — бэкофф, следующий запуск через {0} мин" -f [Math]::Min(40 + 20 * $script:quickExits, 120))
         }
 
         # 4. Лимит: агент сам остановился (не запущен) — переключаем эшелон или ждём сброса

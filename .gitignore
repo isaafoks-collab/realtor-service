@@ -16,3 +16,17 @@ access_log.txt
 access.db
 карантин/
 listings.db*
+
+# библиотека скиллов: новая масса не в git (локально), проектные скиллы остаются
+.opencode/skills/*
+!.opencode/skills/README-BIBLIOTEKA.md
+!.opencode/skills/kandidaty.md
+!.opencode/skills/most/
+!.opencode/skills/replica/
+!.opencode/skills/proverka-plana/
+!.opencode/skills/ralph-loop-workflow/
+!.opencode/skills/ralph-tui-create-beads/
+!.opencode/skills/ralph-tui-create-json/
+!.opencode/skills/ralph-tui-prd/
+!.opencode/skills/ralph-wiggum/
+

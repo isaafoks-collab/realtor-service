@@ -1,7 +1,7 @@
 name: daily-parse
 on:
   schedule:
-    - cron: "2 4 * * *"  # 07:02 МСК
+    - cron: "3 4 * * *"  # 07:02 МСК
   workflow_dispatch:
 
 jobs:

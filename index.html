@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Свежие лоты — —</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #1a1a1a; --muted: #555; --card-bg: #f7f7f7;
+    --card-border: #e0e0e0; --accent: #0b57d0; --accent-bg: #eef4ff;
+    --owner-bg: #f0fdf4; --agent-bg: #fffbeb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212; --text: #e0e0e0; --muted: #999; --card-bg: #1e1e1e;
+      --card-border: #333; --accent: #66b3ff; --accent-bg: #1a2a44;
+      --owner-bg: #1a2e1a; --agent-bg: #2a2a1a;
+    }
+  }
+  html.dark {
+    --bg: #121212; --text: #e0e0e0; --muted: #999; --card-bg: #1e1e1e;
+    --card-border: #333; --accent: #66b3ff; --accent-bg: #1a2a44;
+    --owner-bg: #1a2e1a; --agent-bg: #2a2a1a;
+  }
+  body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    max-width: 800px; margin: 0 auto; padding: 1rem;
+    background: var(--bg); color: var(--text); font-size: 18px; line-height: 1.5;
+  }
+  h1 { font-size: 1.6rem; margin: 1rem 0 0.5rem; }
+  .updated { color: var(--muted); font-size: 1rem; margin-bottom: 1.5rem; }
+  .section { margin: 2rem 0; }
+  .section h2 {
+    font-size: 1.3rem; padding: 0.75rem 1rem; border-radius: 8px;
+    background: var(--owner-bg); margin-bottom: 1rem;
+  }
+  .section.agents h2 { background: var(--agent-bg); }
+  .card {
+    background: var(--card-bg); border: 1px solid var(--card-border);
+    border-radius: 12px; padding: 1rem; margin-bottom: 1rem;
+  }
+  .card img {
+    width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem;
+  }
+  .card .price { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+  .card .address { color: var(--muted); margin: 0.5rem 0; }
+  .card .area { font-size: 0.95rem; color: var(--muted); }
+  .card a.btn {
+    display: inline-block; margin-top: 0.75rem; padding: 0.75rem 1.5rem;
+    font-size: 1.1rem; font-weight: 600; color: #fff;
+    background: var(--accent); border-radius: 8px; text-decoration: none;
+  }
+  .card a.btn:active { opacity: 0.8; }
+  .theme-toggle {
+    position: fixed; top: 1rem; right: 1rem; padding: 0.5rem 1rem;
+    font-size: 0.9rem; background: var(--card-bg); color: var(--text);
+    border: 1px solid var(--card-border); border-radius: 8px; cursor: pointer;
+  }
+  footer { margin-top: 2rem; padding: 1rem 0; color: var(--muted); font-size: 0.9rem;
+    border-top: 1px solid var(--card-border); }
+</style>
+</head>
+<body>
+<button class="theme-toggle" onclick="toggleTheme()">🌙 / ☀️</button>
+<h1>Свежие лоты</h1>
+<div class="updated">Обновлено: —</div>
+
+<div class="section owners">
+<h2>🏠 Собственники напрямую</h2>
+<p>Пока нет данных</p>
+</div>
+
+<div class="section agents">
+<h2>📋 Через агентов</h2>
+<p>Пока нет данных</p>
+</div>
+
+<footer>
+Источник: ЦИАН, Яндекс.Недвижимость. Обновляется каждое утро в 07:02.
+</footer>
+<script>
+function toggleTheme() {
+  document.documentElement.classList.toggle('dark');
+  localStorage.setItem('dark', document.documentElement.classList.contains('dark'));
+}
+if (localStorage.getItem('dark') === 'true') {
+  document.documentElement.classList.add('dark');
+}
+</script>
+</body>
+</html>

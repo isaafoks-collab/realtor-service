@@ -16,6 +16,31 @@ owners = set(data.get("owners", []))
 print("owners в json: %d" % len(owners))
 
 conn = sqlite3.connect("listings.db")
+# Если таблицы нет — создать (для первого запуска в Actions)
+conn.execute("""
+CREATE TABLE IF NOT EXISTS listings (
+    url TEXT PRIMARY KEY,
+    city TEXT,
+    region TEXT,
+    title TEXT,
+    price REAL,
+    rooms INTEGER,
+    area REAL,
+    author_type TEXT,
+    is_owner INTEGER DEFAULT 0,
+    first_seen TEXT,
+    last_seen TEXT,
+    price_dropped INTEGER DEFAULT 0,
+    agent_risk INTEGER DEFAULT 0,
+    floor INTEGER,
+    floors_total INTEGER,
+    source TEXT,
+    published_at TEXT,
+    detected_at TEXT,
+    sent_at TEXT
+)
+""")
+conn.commit()
 cols = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
 for extra in ("floors_total", "source", "region"):
     if extra not in cols:

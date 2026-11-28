@@ -1,7 +1,7 @@
 name: daily-parse
 on:
   schedule:
-    - cron: "3 4 * * *"  # 07:02 МСК
+    - cron: "2 4 * * *"  # 07:02 МСК
   workflow_dispatch:
 
 jobs:
@@ -42,10 +42,3 @@ jobs:
           git add -f listings.db
           git diff --cached --quiet || git commit -m "daily parse"
           git push
-
-  keepalive:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: git commit --allow-empty -m "keepalive: расписание живо" && git push || true
-# v2

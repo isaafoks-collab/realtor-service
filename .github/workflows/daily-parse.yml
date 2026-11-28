@@ -48,3 +48,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: git commit --allow-empty -m "keepalive: расписание живо" && git push || true
+# v2

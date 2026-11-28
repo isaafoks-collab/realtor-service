@@ -27,18 +27,25 @@ jobs:
             fi
           done
           if [ "$ok" -eq 0 ]; then
-            echo "Не хватает секретов. Ручной ввод в Actions невозможен:"
-            echo "задайте их в Settings -> Secrets -> Actions и перезапустите workflow."
+            echo "Не хватает секретов. Задайте их в Settings -> Secrets -> Actions."
             exit 1
           fi
       - run: pip install -r requirements.txt
       - run: python parser_cian.py
+      - run: python json_to_db.py
+      - run: python vitrina_gen.py
       - name: Backup + restore drill
         run: python db_backup.py listings.db data/listings_backup.sqlite
-      - name: Commit database
+      - name: Commit database + push to gh-pages
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add -f listings.db
-          git diff --cached --quiet || git commit -m "daily parse"
+          git add -f listings.db index.html
+          git diff --cached --quiet || git commit -m "daily parse $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+          git checkout gh-pages
+          git pull
+          git checkout main -- index.html
+          git add index.html
+          git diff --cached --quiet || git commit -m "update vitrina $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
